@@ -1,0 +1,1176 @@
+
+**** 05/05/08 15:51:49 ******* PSpice 15.7.0 (July 2006) ****** ID# 31193528 *
+
+  
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+
+
+
+*.subckt mynand3 A B GND Out Vdd
+
+
+
+* MAIN CELL: Component pathname : /home/mentor/jack/jaggu
+*
+        MP391 N$441 N$442 N$443 VDD p L=2u W=6u
+        MP404 N$1177 GND N$1176 VDD p L=2u W=5u
+        MP403 N$1176 N$1179 VDD VDD p L=2u W=5u
+        MN402 RST N$770 GND GND n L=2u W=5u
+        MP402 RST N$770 VDD VDD p L=2u W=5u
+        MN401 N$770 N$446 GND GND n L=2u W=5u
+        MN400 N$770 N$767 GND GND n L=2u W=5u
+        MN399 N$770 N$432 GND GND n L=2u W=5u
+        MP401 N$770 N$446 N$769 VDD p L=2u W=5u
+        MP400 N$769 N$767 N$768 VDD p L=2u W=5u
+        MP399 N$768 N$432 VDD VDD p L=2u W=5u
+        MN323 OUT3 N$348 N$310 GND n L=2u W=5u
+        MP323 N$310 RST OUT3 VDD p L=2u W=5u
+        MP385 N$436 N$435 N$438 VDD p L=2u W=6u
+        MN385 N$438 CK N$436 GND n L=2u W=6u
+        MN384 N$436 N$437 GND GND n L=2u W=6u
+        MP384 N$436 N$437 VDD VDD p L=2u W=6u
+        MN383 N$437 N$434 GND GND n L=2u W=6u
+        MP383 N$437 N$434 VDD VDD p L=2u W=6u
+        MP382 N$434 N$435 N$436 VDD p L=2u W=6u
+        MN382 N$436 CK N$434 GND n L=2u W=6u
+        MP381 N$432 CK N$434 VDD p L=2u W=6u
+        MN381 N$434 N$435 N$432 GND n L=2u W=6u
+        MN380 N$425 CK GND GND n L=2u W=5u
+        MP380 N$425 CK VDD VDD p L=2u W=5u
+        MN379 N$433 N$431 GND GND n L=2u W=6u
+        MP379 N$433 N$431 VDD VDD p L=2u W=6u
+        MN325 OUT4 N$348 N$317 GND n L=2u W=5u
+        MP325 N$317 RST OUT4 VDD p L=2u W=5u
+        MP324 GND N$348 OUT4 VDD p L=2u W=5u
+        MN395 N$446 N$442 N$445 GND n L=2u W=6u
+        MP394 N$443 N$442 N$445 VDD p L=2u W=6u
+        MN394 N$445 CK N$443 GND n L=2u W=6u
+        MN393 N$443 N$444 GND GND n L=2u W=6u
+        MP398 N$442 CK VDD VDD p L=2u W=5u
+        MN398 N$442 CK GND GND n L=2u W=5u
+        MN397 N$447 N$445 GND GND n L=2u W=6u
+        MP397 N$447 N$445 VDD VDD p L=2u W=6u
+        MN405 N$1180 N$1177 GND GND n L=2u W=5u
+        MP405 N$1180 N$1177 VDD VDD p L=2u W=5u
+        MN404 N$1177 GND GND GND n L=2u W=5u
+        MN403 N$1177 N$1179 GND GND n L=2u W=5u
+        MP378 N$432 N$433 VDD VDD p L=2u W=6u
+        MP377 N$431 CK N$432 VDD p L=2u W=6u
+        MN377 N$432 N$425 N$431 GND n L=2u W=6u
+        MP376 N$429 N$425 N$431 VDD p L=2u W=6u
+        MN376 N$431 CK N$429 GND n L=2u W=6u
+        MN375 N$429 N$430 GND GND n L=2u W=6u
+        MP375 N$429 N$430 VDD VDD p L=2u W=6u
+        MN374 N$430 N$424 GND GND n L=2u W=6u
+        MP374 N$430 N$424 VDD VDD p L=2u W=6u
+        MP373 N$424 N$425 N$429 VDD p L=2u W=6u
+        MN373 N$429 CK N$424 GND n L=2u W=6u
+        MP372 D CK N$424 VDD p L=2u W=6u
+        MN372 N$424 N$425 D GND n L=2u W=6u
+        MN80 N$75 N$74 GND GND n L=2u W=5u
+        MP80 N$75 N$74 VDD VDD p L=2u W=5u
+        MN79 N$74 N$63 GND GND n L=2u W=5u
+        MP393 N$443 N$444 VDD VDD p L=2u W=6u
+        MN392 N$444 N$441 GND GND n L=2u W=6u
+        MP392 N$444 N$441 VDD VDD p L=2u W=6u
+        MN389 N$435 CK GND GND n L=2u W=5u
+        MP389 N$435 CK VDD VDD p L=2u W=5u
+        MN388 N$440 N$438 GND GND n L=2u W=6u
+        MP388 N$440 N$438 VDD VDD p L=2u W=6u
+        MN387 N$767 N$440 GND GND n L=2u W=6u
+        MP387 N$767 N$440 VDD VDD p L=2u W=6u
+        MP386 N$438 CK N$767 VDD p L=2u W=6u
+        MN386 N$767 N$435 N$438 GND n L=2u W=6u
+        MP56 GND N$421 N$61 VDD p L=2u W=6u
+        MN56 GND N$419 N$61 GND n L=2u W=6u
+        MN55 N$25 N$421 N$61 GND n L=2u W=6u
+        MP70 N$65 N$56 N$64 VDD p L=2u W=5u
+        MP69 N$64 N$53 VDD VDD p L=2u W=5u
+        MP60 GND N$421 N$63 VDD p L=2u W=6u
+        MN60 GND N$419 N$63 GND n L=2u W=6u
+        MN59 N$46 N$421 N$63 GND n L=2u W=6u
+        MP59 N$46 N$419 N$63 VDD p L=2u W=6u
+        MP73 N$68 N$59 N$67 VDD p L=2u W=5u
+        MP72 N$67 N$58 VDD VDD p L=2u W=5u
+        MN71 N$66 N$65 GND GND n L=2u W=5u
+        MP71 N$66 N$65 VDD VDD p L=2u W=5u
+        MN70 N$65 N$56 GND GND n L=2u W=5u
+        MN69 N$65 N$53 GND GND n L=2u W=5u
+        MP76 N$71 N$61 N$70 VDD p L=2u W=5u
+        MP75 N$70 N$60 VDD VDD p L=2u W=5u
+        MN396 N$446 N$447 GND GND n L=2u W=6u
+        MP396 N$446 N$447 VDD VDD p L=2u W=6u
+        MP395 N$445 CK N$446 VDD p L=2u W=6u
+        MN72 N$68 N$58 GND GND n L=2u W=5u
+        MN78 N$74 N$62 GND GND n L=2u W=5u
+        MP79 N$74 N$63 N$73 VDD p L=2u W=5u
+        MP78 N$73 N$62 VDD VDD p L=2u W=5u
+        MN77 N$72 N$71 GND GND n L=2u W=5u
+        MP77 N$72 N$71 VDD VDD p L=2u W=5u
+        MN76 N$71 N$61 GND GND n L=2u W=5u
+        MN75 N$71 N$60 GND GND n L=2u W=5u
+        MN378 N$432 N$433 GND GND n L=2u W=6u
+        MP41 N$28 A6 VDD VDD p L=2u W=6u
+        MN40 H_A_COUT N$37 GND GND n L=2u W=6u
+        MN46 GND N$417 N$53 GND n L=2u W=6u
+        MN45 A5 N$420 N$53 GND n L=2u W=6u
+        MP45 A5 N$417 N$53 VDD p L=2u W=6u
+        MN44 N$16 A7 GND GND n L=2u W=6u
+        MP44 N$16 A7 VDD VDD p L=2u W=6u
+        MN43 N$3 A5 GND GND n L=2u W=6u
+        MP49 A6 N$417 N$58 VDD p L=2u W=6u
+        MP48 GND N$421 N$56 VDD p L=2u W=6u
+        MN48 GND N$419 N$56 GND n L=2u W=6u
+        MN47 N$13 N$421 N$56 GND n L=2u W=6u
+        MP47 N$13 N$419 N$56 VDD p L=2u W=6u
+        MP46 GND N$420 N$53 VDD p L=2u W=6u
+        MP52 GND N$421 N$59 VDD p L=2u W=6u
+        MN52 GND N$419 N$59 GND n L=2u W=6u
+        MN51 N$36 N$421 N$59 GND n L=2u W=6u
+        MP51 N$36 N$419 N$59 VDD p L=2u W=6u
+        MN391 N$443 CK N$441 GND n L=2u W=6u
+        MP390 N$767 CK N$441 VDD p L=2u W=6u
+        MN390 N$441 N$442 N$767 GND n L=2u W=6u
+        MP55 N$25 N$419 N$61 VDD p L=2u W=6u
+        MP54 GND N$420 N$60 VDD p L=2u W=6u
+        MN54 GND N$417 N$60 GND n L=2u W=6u
+        MN53 A7 N$420 N$60 GND n L=2u W=6u
+        MP53 A7 N$417 N$60 VDD p L=2u W=6u
+        MP58 GND N$420 N$62 VDD p L=2u W=6u
+        MN58 GND N$417 N$62 GND n L=2u W=6u
+        MN57 A8 N$420 N$62 GND n L=2u W=6u
+        MP57 A8 N$417 N$62 VDD p L=2u W=6u
+        MN23 N$31 N$32 N$34 GND n L=2u W=6u
+        MP26 N$31 N$14 N$30 VDD p L=2u W=6u
+        MN30 N$17 N$27 GND GND n L=2u W=6u
+        MP30 N$17 N$27 VDD VDD p L=2u W=6u
+        MN29 N$36 N$31 GND GND n L=2u W=6u
+        MP29 N$36 N$31 VDD VDD p L=2u W=6u
+        MN28 N$33 N$14 GND GND n L=2u W=6u
+        MP28 N$33 N$14 VDD VDD p L=2u W=6u
+        MP34 N$41 N$42 N$40 VDD p L=2u W=6u
+        MP33 N$40 N$38 VDD VDD p L=2u W=6u
+        MN32 N$39 N$38 GND GND n L=2u W=6u
+        MN31 N$37 N$26 N$39 GND n L=2u W=6u
+        MP32 N$37 N$26 VDD VDD p L=2u W=6u
+        MP31 N$37 N$38 VDD VDD p L=2u W=6u
+        MP37 N$42 N$38 VDD VDD p L=2u W=6u
+        MN36 N$45 N$43 GND GND n L=2u W=6u
+        MN35 N$41 N$38 N$45 GND n L=2u W=6u
+        MN34 N$44 N$26 GND GND n L=2u W=6u
+        MN33 N$41 N$42 N$44 GND n L=2u W=6u
+        MP36 N$41 N$26 N$40 VDD p L=2u W=6u
+        MN74 N$415 N$68 GND GND n L=2u W=5u
+        MP74 N$415 N$68 VDD VDD p L=2u W=5u
+        MN73 N$68 N$59 GND GND n L=2u W=5u
+        MP39 N$46 N$41 VDD VDD p L=2u W=6u
+        MN38 N$43 N$26 GND GND n L=2u W=6u
+        MP38 N$43 N$26 VDD VDD p L=2u W=6u
+        MN37 N$42 N$38 GND GND n L=2u W=6u
+        MP43 N$3 A5 VDD VDD p L=2u W=6u
+        MN42 N$38 A8 GND GND n L=2u W=6u
+        MP42 N$38 A8 VDD VDD p L=2u W=6u
+        MN41 N$28 A6 GND GND n L=2u W=6u
+        MN338 N$372 RST N$296 GND n L=2u W=5u
+        MP16 N$20 N$17 N$19 VDD p L=2u W=6u
+        MP15 N$19 N$22 VDD VDD p L=2u W=6u
+        MP14 N$20 N$21 N$19 VDD p L=2u W=6u
+        MP13 N$19 N$16 VDD VDD p L=2u W=6u
+        MN12 N$18 N$16 GND GND n L=2u W=6u
+        MN11 N$15 N$17 N$18 GND n L=2u W=6u
+        MP18 N$22 N$17 VDD VDD p L=2u W=6u
+        MN17 N$21 N$16 GND GND n L=2u W=6u
+        MP17 N$21 N$16 VDD VDD p L=2u W=6u
+        MN16 N$24 N$22 GND GND n L=2u W=6u
+        MN15 N$20 N$16 N$24 GND n L=2u W=6u
+        MN14 N$23 N$17 GND GND n L=2u W=6u
+        MN13 N$20 N$21 N$23 GND n L=2u W=6u
+        MP21 N$27 N$28 VDD VDD p L=2u W=6u
+        MN20 N$26 N$15 GND GND n L=2u W=6u
+        MP20 N$26 N$15 VDD VDD p L=2u W=6u
+        MN19 N$25 N$20 GND GND n L=2u W=6u
+        MP19 N$25 N$20 VDD VDD p L=2u W=6u
+        MN18 N$22 N$17 GND GND n L=2u W=6u
+        MP50 GND N$420 N$58 VDD p L=2u W=6u
+        MN50 GND N$417 N$58 GND n L=2u W=6u
+        MN49 A6 N$420 N$58 GND n L=2u W=6u
+        MP23 N$30 N$28 VDD VDD p L=2u W=6u
+        MN22 N$29 N$28 GND GND n L=2u W=6u
+        MN21 N$27 N$14 N$29 GND n L=2u W=6u
+        MP22 N$27 N$14 VDD VDD p L=2u W=6u
+        MN27 N$32 N$28 GND GND n L=2u W=6u
+        MP27 N$32 N$28 VDD VDD p L=2u W=6u
+        MN26 N$35 N$33 GND GND n L=2u W=6u
+        MN25 N$31 N$28 N$35 GND n L=2u W=6u
+        MN24 N$34 N$14 GND GND n L=2u W=6u
+        MN2 N$6 N$3 GND GND n L=2u W=6u
+        MP85 N$81 GND N$80 VDD p L=2u W=3u
+        MP84 N$81 GND N$77 VDD p L=2u W=3u
+        MP83 N$80 N$385 N$77 VDD p L=2u W=3u
+        MP82 N$77 N$385 VDD VDD p L=2u W=3u
+        MP81 N$77 GND VDD VDD p L=2u W=3u
+        MN83 N$81 GND N$85 GND n L=2u W=3u
+        MN82 N$85 GND GND GND n L=2u W=3u
+        MN81 N$84 N$81 GND GND n L=2u W=3u
+        MN1 N$2 ADD_ONE N$6 GND n L=2u W=6u
+        MP2 N$2 ADD_ONE VDD VDD p L=2u W=6u
+        MP1 N$2 N$3 VDD VDD p L=2u W=6u
+        MP338 N$296 N$382 N$372 VDD p L=2u W=5u
+        MN337 N$372 N$382 GND GND n L=2u W=5u
+        MP337 GND RST N$372 VDD p L=2u W=5u
+        MN336 N$382 RST GND GND n L=2u W=5u
+        MP336 N$382 RST VDD VDD p L=2u W=5u
+        MN335 N$398 RST N$361 GND n L=2u W=5u
+        MP335 N$361 N$382 N$398 VDD p L=2u W=5u
+        MP35 N$40 N$43 VDD VDD p L=2u W=6u
+        MP40 H_A_COUT N$37 VDD VDD p L=2u W=6u
+        MN39 N$46 N$41 GND GND n L=2u W=6u
+        MN342 N$374 RST N$310 GND n L=2u W=5u
+        MP342 N$310 N$382 N$374 VDD p L=2u W=5u
+        MN341 N$374 N$382 GND GND n L=2u W=5u
+        MP341 GND RST N$374 VDD p L=2u W=5u
+        MN340 N$410 RST N$384 GND n L=2u W=5u
+        MP340 N$384 N$382 N$410 VDD p L=2u W=5u
+        MN339 N$410 N$382 GND GND n L=2u W=5u
+        MP339 GND RST N$410 VDD p L=2u W=5u
+        MP358 P2 N$409 N$387 VDD p L=2u W=5u
+        MN358 N$387 RST1 P2 GND n L=2u W=5u
+        MP355 N$409 RST1 VDD VDD p L=2u W=5u
+        MN355 N$409 RST1 GND GND n L=2u W=5u
+        MP356 P1 N$409 N$386 VDD p L=2u W=5u
+        MN8 N$10 ADD_ONE GND GND n L=2u W=6u
+        MP8 N$10 ADD_ONE VDD VDD p L=2u W=6u
+        MN7 N$9 N$3 GND GND n L=2u W=6u
+        MP7 N$9 N$3 VDD VDD p L=2u W=6u
+        MN6 N$12 N$10 GND GND n L=2u W=6u
+        MN5 N$8 N$3 N$12 GND n L=2u W=6u
+        MN4 N$11 ADD_ONE GND GND n L=2u W=6u
+        MN3 N$8 N$9 N$11 GND n L=2u W=6u
+        MP6 N$8 ADD_ONE N$7 VDD p L=2u W=6u
+        MN97 N$100 N$84 N$103 GND n L=2u W=3u
+        MN96 N$103 GND GND GND n L=2u W=3u
+        MP25 N$30 N$33 VDD VDD p L=2u W=6u
+        MP24 N$31 N$32 N$30 VDD p L=2u W=6u
+        MP353 GND N$409 N$385 VDD p L=2u W=5u
+        MP359 N$410 RST1 N$387 VDD p L=2u W=5u
+        MN359 N$387 N$409 N$410 GND n L=2u W=5u
+        MP360 P3 N$409 N$388 VDD p L=2u W=5u
+        MN360 N$388 RST1 P3 GND n L=2u W=5u
+        MP361 N$374 RST1 N$388 VDD p L=2u W=5u
+        MN356 N$386 RST1 P1 GND n L=2u W=5u
+        MP357 N$372 RST1 N$386 VDD p L=2u W=5u
+        MN357 N$386 N$409 N$372 GND n L=2u W=5u
+        MN161 N$182 N$390 GND GND n L=2u W=3u
+        MN160 N$181 N$66 N$182 GND n L=2u W=3u
+        MN159 N$180 N$156 GND GND n L=2u W=3u
+        MN158 N$180 N$390 GND GND n L=2u W=3u
+        MN157 N$180 N$66 GND GND n L=2u W=3u
+        MP163 N$179 N$171 N$176 VDD p L=2u W=3u
+        MP162 N$179 N$156 N$178 VDD p L=2u W=3u
+        MP161 N$178 N$390 N$177 VDD p L=2u W=3u
+        MP160 N$177 N$66 N$176 VDD p L=2u W=3u
+        MP159 N$176 N$390 VDD VDD p L=2u W=3u
+        MP158 N$176 N$66 VDD VDD p L=2u W=3u
+        MP157 N$176 N$156 VDD VDD p L=2u W=3u
+        MP186 N$210 N$72 VDD VDD p L=2u W=3u
+        MP185 N$210 N$190 VDD VDD p L=2u W=3u
+        MP184 N$207 N$205 VDD VDD p L=2u W=3u
+        MN184 N$205 N$72 N$209 GND n L=2u W=3u
+        MN183 N$208 N$394 GND GND n L=2u W=3u
+        MN182 N$209 N$394 GND GND n L=2u W=3u
+        MN181 N$205 N$190 N$208 GND n L=2u W=3u
+        MN180 N$208 N$72 GND GND n L=2u W=3u
+        MN95 N$102 N$100 GND GND n L=2u W=3u
+        MP99 N$100 GND N$99 VDD p L=2u W=3u
+        MP98 N$100 N$84 N$96 VDD p L=2u W=3u
+        MP330 N$331 RST OUT6 VDD p L=2u W=5u
+        MN333 OUT8 N$348 N$345 GND n L=2u W=5u
+        MP314 N$341 CK VDD VDD p L=2u W=5u
+        MN313 N$346 N$344 GND GND n L=2u W=6u
+        MP313 N$346 N$344 VDD VDD p L=2u W=6u
+        MN312 N$345 N$346 GND GND n L=2u W=6u
+        MP312 N$345 N$346 VDD VDD p L=2u W=6u
+        MP311 N$344 CK N$345 VDD p L=2u W=6u
+        MN311 N$345 N$341 N$344 GND n L=2u W=6u
+        MP310 N$342 N$341 N$344 VDD p L=2u W=6u
+        MN310 N$344 CK N$342 GND n L=2u W=6u
+        MN309 N$342 N$343 GND GND n L=2u W=6u
+        MN315 OUT0 RST GND GND n L=2u W=5u
+        MP315 GND N$348 OUT0 VDD p L=2u W=5u
+        MP295 N$332 N$330 VDD VDD p L=2u W=6u
+        MN294 N$331 N$332 GND GND n L=2u W=6u
+        MP294 N$331 N$332 VDD VDD p L=2u W=6u
+        MP293 N$330 CK N$331 VDD p L=2u W=6u
+        MN293 N$331 N$327 N$330 GND n L=2u W=6u
+        MP292 N$328 N$327 N$330 VDD p L=2u W=6u
+        MN292 N$330 CK N$328 GND n L=2u W=6u
+        MN291 N$328 N$329 GND GND n L=2u W=6u
+        MP345 GND RST N$376 VDD p L=2u W=5u
+        MN344 N$411 RST N$317 GND n L=2u W=5u
+        MP344 N$317 N$382 N$411 VDD p L=2u W=5u
+        MP289 N$326 N$327 N$328 VDD p L=2u W=6u
+        MN289 N$328 CK N$326 GND n L=2u W=6u
+        MP288 N$258 CK N$326 VDD p L=2u W=6u
+        MP298 N$333 N$334 N$335 VDD p L=2u W=6u
+        MN298 N$335 CK N$333 GND n L=2u W=6u
+        MP297 N$262 CK N$333 VDD p L=2u W=6u
+        MN297 N$333 N$334 N$262 GND n L=2u W=6u
+        MN296 N$327 CK GND GND n L=2u W=5u
+        MP296 N$327 CK VDD VDD p L=2u W=5u
+        MN84 N$86 N$385 GND GND n L=2u W=3u
+        MN112 N$122 N$387 GND GND n L=2u W=3u
+        MN111 N$118 N$102 N$121 GND n L=2u W=3u
+        MN110 N$121 GND GND GND n L=2u W=3u
+        MN109 N$120 N$118 GND GND n L=2u W=3u
+        MP113 N$118 GND N$117 VDD p L=2u W=3u
+        MP112 N$118 N$102 N$114 VDD p L=2u W=3u
+        MP111 N$117 N$387 N$114 VDD p L=2u W=3u
+        MP110 N$114 N$387 VDD VDD p L=2u W=3u
+        MP109 N$114 GND VDD VDD p L=2u W=3u
+        MN319 OUT1 N$348 N$296 GND n L=2u W=5u
+        MP319 N$296 RST OUT1 VDD p L=2u W=5u
+        MN318 OUT1 RST GND GND n L=2u W=5u
+        MP318 GND N$348 OUT1 VDD p L=2u W=5u
+        MN317 N$348 RST GND GND n L=2u W=5u
+        MP317 N$348 RST VDD VDD p L=2u W=5u
+        MN316 OUT0 N$348 N$361 GND n L=2u W=5u
+        MN331 OUT7 RST GND GND n L=2u W=5u
+        MP331 GND N$348 OUT7 VDD p L=2u W=5u
+        MN330 OUT6 N$348 N$331 GND n L=2u W=5u
+        MP92 N$90 GND N$89 VDD p L=2u W=3u
+        MP91 N$89 N$385 N$88 VDD p L=2u W=3u
+        MP90 N$88 GND N$87 VDD p L=2u W=3u
+        MP89 N$87 N$385 VDD VDD p L=2u W=3u
+        MP88 N$87 GND VDD VDD p L=2u W=3u
+        MP87 N$87 GND VDD VDD p L=2u W=3u
+        MP86 N$84 N$81 VDD VDD p L=2u W=3u
+        MN86 N$81 GND N$86 GND n L=2u W=3u
+        MN85 N$85 N$385 GND GND n L=2u W=3u
+        MN113 N$121 N$387 GND GND n L=2u W=3u
+        MN142 N$154 GND N$158 GND n L=2u W=3u
+        MN141 N$157 N$389 GND GND n L=2u W=3u
+        MN140 N$158 N$389 GND GND n L=2u W=3u
+        MN139 N$154 N$138 N$157 GND n L=2u W=3u
+        MN138 N$157 GND GND GND n L=2u W=3u
+        MN137 N$156 N$154 GND GND n L=2u W=3u
+        MP141 N$154 GND N$153 VDD p L=2u W=3u
+        MP140 N$154 N$138 N$150 VDD p L=2u W=3u
+        MP139 N$153 N$389 N$150 VDD p L=2u W=3u
+        MP138 N$150 N$389 VDD VDD p L=2u W=3u
+        MP137 N$150 GND VDD VDD p L=2u W=3u
+        MN108 N$112 N$108 GND GND n L=2u W=3u
+        MP108 N$112 N$108 VDD VDD p L=2u W=3u
+        MN107 N$108 N$84 N$110 GND n L=2u W=3u
+        MN106 N$108 N$100 N$109 GND n L=2u W=3u
+        MN105 N$111 N$386 GND GND n L=2u W=3u
+        MN104 N$110 GND N$111 GND n L=2u W=3u
+        MN103 N$109 N$84 GND GND n L=2u W=3u
+        MP316 N$361 RST OUT0 VDD p L=2u W=5u
+        MP309 N$342 N$343 VDD VDD p L=2u W=6u
+        MN308 N$343 N$340 GND GND n L=2u W=6u
+        MP106 N$108 N$84 N$107 VDD p L=2u W=3u
+        MP105 N$107 N$386 N$106 VDD p L=2u W=3u
+        MP104 N$106 GND N$105 VDD p L=2u W=3u
+        MP103 N$105 N$386 VDD VDD p L=2u W=3u
+        MP102 N$105 GND VDD VDD p L=2u W=3u
+        MP101 N$105 N$84 VDD VDD p L=2u W=3u
+        MP100 N$102 N$100 VDD VDD p L=2u W=3u
+        MN100 N$100 GND N$104 GND n L=2u W=3u
+        MN99 N$103 N$386 GND GND n L=2u W=3u
+        MN128 N$136 GND N$140 GND n L=2u W=3u
+        MP156 N$173 N$171 VDD VDD p L=2u W=3u
+        MN156 N$171 N$66 N$175 GND n L=2u W=3u
+        MN155 N$174 N$390 GND GND n L=2u W=3u
+        MN154 N$175 N$390 GND GND n L=2u W=3u
+        MN153 N$171 N$156 N$174 GND n L=2u W=3u
+        MN152 N$174 N$66 GND GND n L=2u W=3u
+        MN151 N$173 N$171 GND GND n L=2u W=3u
+        MP155 N$171 N$66 N$170 VDD p L=2u W=3u
+        MP154 N$171 N$156 N$168 VDD p L=2u W=3u
+        MP153 N$170 N$390 N$168 VDD p L=2u W=3u
+        MP152 N$168 N$390 VDD VDD p L=2u W=3u
+        MN122 N$130 N$126 GND GND n L=2u W=3u
+        MP122 N$130 N$126 VDD VDD p L=2u W=3u
+        MN121 N$126 N$102 N$128 GND n L=2u W=3u
+        MN120 N$126 N$118 N$127 GND n L=2u W=3u
+        MN119 N$129 N$387 GND GND n L=2u W=3u
+        MN118 N$128 GND N$129 GND n L=2u W=3u
+        MN88 N$91 N$385 GND GND n L=2u W=3u
+        MN87 N$91 GND GND GND n L=2u W=3u
+        MP93 N$90 N$81 N$87 VDD p L=2u W=3u
+        MP121 N$126 N$118 N$123 VDD p L=2u W=3u
+        MP120 N$126 N$102 N$125 VDD p L=2u W=3u
+        MP119 N$125 N$387 N$124 VDD p L=2u W=3u
+        MP118 N$124 GND N$123 VDD p L=2u W=3u
+        MP117 N$123 N$387 VDD VDD p L=2u W=3u
+        MP116 N$123 GND VDD VDD p L=2u W=3u
+        MP115 N$123 N$102 VDD VDD p L=2u W=3u
+        MP114 N$120 N$118 VDD VDD p L=2u W=3u
+        MN114 N$118 GND N$122 GND n L=2u W=3u
+        MP142 N$156 N$154 VDD VDD p L=2u W=3u
+        MP171 N$193 N$173 VDD VDD p L=2u W=3u
+        MP170 N$190 N$188 VDD VDD p L=2u W=3u
+        MN170 N$188 N$415 N$192 GND n L=2u W=3u
+        MN169 N$191 N$392 GND GND n L=2u W=3u
+        MN168 N$192 N$392 GND GND n L=2u W=3u
+        MN167 N$188 N$173 N$191 GND n L=2u W=3u
+        MN166 N$191 N$415 GND GND n L=2u W=3u
+        MN165 N$190 N$188 GND GND n L=2u W=3u
+        MP169 N$188 N$415 N$187 VDD p L=2u W=3u
+        MP168 N$188 N$173 N$185 VDD p L=2u W=3u
+        MP167 N$187 N$392 N$185 VDD p L=2u W=3u
+        MN136 N$148 N$144 GND GND n L=2u W=3u
+        MP136 N$148 N$144 VDD VDD p L=2u W=3u
+        MN135 N$144 N$120 N$146 GND n L=2u W=3u
+        MN134 N$144 N$136 N$145 GND n L=2u W=3u
+        MN133 N$147 N$388 GND GND n L=2u W=3u
+        MN102 N$109 N$386 GND GND n L=2u W=3u
+        MN101 N$109 GND GND GND n L=2u W=3u
+        MP107 N$108 N$100 N$105 VDD p L=2u W=3u
+        MP245 N$294 N$291 VDD VDD p L=2u W=6u
+        MP244 N$291 N$292 N$293 VDD p L=2u W=6u
+        MN244 N$293 CK N$291 GND n L=2u W=6u
+        MP243 N$237 CK N$291 VDD p L=2u W=6u
+        MN243 N$291 N$292 N$237 GND n L=2u W=6u
+        MN242 N$283 CK GND GND n L=2u W=5u
+        MP242 N$283 CK VDD VDD p L=2u W=5u
+        MN68 N$290 N$288 GND GND n L=2u W=6u
+        MP68 N$290 N$288 VDD VDD p L=2u W=6u
+        MN272 N$315 N$312 GND GND n L=2u W=6u
+        MP304 N$339 N$337 VDD VDD p L=2u W=6u
+        MN303 N$338 N$339 GND GND n L=2u W=6u
+        MP303 N$338 N$339 VDD VDD p L=2u W=6u
+        MP302 N$337 CK N$338 VDD p L=2u W=6u
+        MN302 N$338 N$334 N$337 GND n L=2u W=6u
+        MP301 N$335 N$334 N$337 VDD p L=2u W=6u
+        MN301 N$337 CK N$335 GND n L=2u W=6u
+        MN300 N$335 N$336 GND GND n L=2u W=6u
+        MP300 N$335 N$336 VDD VDD p L=2u W=6u
+        MN299 N$336 N$333 GND GND n L=2u W=6u
+        MP299 N$336 N$333 VDD VDD p L=2u W=6u
+        MP266 N$309 CK N$310 VDD p L=2u W=6u
+        MN266 N$310 N$306 N$309 GND n L=2u W=6u
+        MP265 N$307 N$306 N$309 VDD p L=2u W=6u
+        MN265 N$309 CK N$307 GND n L=2u W=6u
+        MN264 N$307 N$308 GND GND n L=2u W=6u
+        MP264 N$307 N$308 VDD VDD p L=2u W=6u
+        MN263 N$308 N$305 GND GND n L=2u W=6u
+        MP263 N$308 N$305 VDD VDD p L=2u W=6u
+        MN240 N$417 N$420 GND GND n L=2u W=6u
+        MP240 N$417 N$420 VDD VDD p L=2u W=6u
+        MN261 N$305 N$306 N$246 GND n L=2u W=6u
+        MN260 N$299 CK GND GND n L=2u W=5u
+        MP260 N$299 CK VDD VDD p L=2u W=5u
+        MN259 N$304 N$302 GND GND n L=2u W=6u
+        MP259 N$304 N$302 VDD VDD p L=2u W=6u
+        MN258 N$384 N$304 GND GND n L=2u W=6u
+        MP258 N$384 N$304 VDD VDD p L=2u W=6u
+        MP257 N$302 CK N$384 VDD p L=2u W=6u
+        MN257 N$384 N$299 N$302 GND n L=2u W=6u
+        MN282 N$321 N$322 GND GND n L=2u W=6u
+        MP282 N$321 N$322 VDD VDD p L=2u W=6u
+        MN281 N$322 N$319 GND GND n L=2u W=6u
+        MP281 N$322 N$319 VDD VDD p L=2u W=6u
+        MP280 N$319 N$320 N$321 VDD p L=2u W=6u
+        MN280 N$321 CK N$319 GND n L=2u W=6u
+        MP279 N$254 CK N$319 VDD p L=2u W=6u
+        MN279 N$319 N$320 N$254 GND n L=2u W=6u
+        MN278 N$313 CK GND GND n L=2u W=5u
+        MP278 N$313 CK VDD VDD p L=2u W=5u
+        MN277 N$318 N$316 GND GND n L=2u W=6u
+        MP277 N$318 N$316 VDD VDD p L=2u W=6u
+        MN276 N$317 N$318 GND GND n L=2u W=6u
+        MP276 N$317 N$318 VDD VDD p L=2u W=6u
+        MP275 N$316 CK N$317 VDD p L=2u W=6u
+        MN275 N$317 N$313 N$316 GND n L=2u W=6u
+        MP274 N$314 N$313 N$316 VDD p L=2u W=6u
+        MN274 N$316 CK N$314 GND n L=2u W=6u
+        MN273 N$314 N$315 GND GND n L=2u W=6u
+        MP273 N$314 N$315 VDD VDD p L=2u W=6u
+        MN246 N$293 N$294 GND GND n L=2u W=6u
+        MP246 N$293 N$294 VDD VDD p L=2u W=6u
+        MN245 N$294 N$291 GND GND n L=2u W=6u
+        MP262 N$305 N$306 N$307 VDD p L=2u W=6u
+        MN262 N$307 CK N$305 GND n L=2u W=6u
+        MP261 N$246 CK N$305 VDD p L=2u W=6u
+        MP307 N$340 N$341 N$342 VDD p L=2u W=6u
+        MN307 N$342 CK N$340 GND n L=2u W=6u
+        MP306 N$266 CK N$340 VDD p L=2u W=6u
+        MN306 N$340 N$341 N$266 GND n L=2u W=6u
+        MN305 N$334 CK GND GND n L=2u W=5u
+        MP305 N$334 CK VDD VDD p L=2u W=5u
+        MN304 N$339 N$337 GND GND n L=2u W=6u
+        MN314 N$341 CK GND GND n L=2u W=5u
+        MN98 N$104 N$386 GND GND n L=2u W=3u
+        MN127 N$139 N$388 GND GND n L=2u W=3u
+        MN126 N$140 N$388 GND GND n L=2u W=3u
+        MN125 N$136 N$120 N$139 GND n L=2u W=3u
+        MN124 N$139 GND GND GND n L=2u W=3u
+        MN123 N$138 N$136 GND GND n L=2u W=3u
+        MP127 N$136 GND N$135 VDD p L=2u W=3u
+        MP126 N$136 N$120 N$132 VDD p L=2u W=3u
+        MP125 N$135 N$388 N$132 VDD p L=2u W=3u
+        MP124 N$132 N$388 VDD VDD p L=2u W=3u
+        MP123 N$132 GND VDD VDD p L=2u W=3u
+        MP308 N$343 N$340 VDD VDD p L=2u W=6u
+        MN94 N$94 N$90 GND GND n L=2u W=3u
+        MP94 N$94 N$90 VDD VDD p L=2u W=3u
+        MN93 N$90 GND N$92 GND n L=2u W=3u
+        MN92 N$90 N$81 N$91 GND n L=2u W=3u
+        MN91 N$93 N$385 GND GND n L=2u W=3u
+        MN90 N$92 GND N$93 GND n L=2u W=3u
+        MN89 N$91 GND GND GND n L=2u W=3u
+        MP291 N$328 N$329 VDD VDD p L=2u W=6u
+        MN290 N$329 N$326 GND GND n L=2u W=6u
+        MP290 N$329 N$326 VDD VDD p L=2u W=6u
+        MN10 N$14 N$2 GND GND n L=2u W=6u
+        MP11 N$15 N$16 VDD VDD p L=2u W=6u
+        MN371 N$395 N$409 N$396 GND n L=2u W=5u
+        MP371 N$396 RST1 N$395 VDD p L=2u W=5u
+        MN370 N$395 RST1 GND GND n L=2u W=5u
+        MP370 GND N$409 N$395 VDD p L=2u W=5u
+        MN369 N$394 N$409 N$397 GND n L=2u W=5u
+        MP333 N$345 RST OUT8 VDD p L=2u W=5u
+        MN326 OUT8 RST GND GND n L=2u W=5u
+        MP12 N$15 N$17 VDD VDD p L=2u W=6u
+        MN348 N$412 RST N$331 GND n L=2u W=5u
+        MP334 GND RST N$398 VDD p L=2u W=5u
+        MN352 N$396 RST N$345 GND n L=2u W=5u
+        MP352 N$345 N$382 N$396 VDD p L=2u W=5u
+        MN351 N$396 N$382 GND GND n L=2u W=5u
+        MP351 GND RST N$396 VDD p L=2u W=5u
+        MN350 N$397 RST N$338 GND n L=2u W=5u
+        MP350 N$338 N$382 N$397 VDD p L=2u W=5u
+        MN349 N$397 N$382 GND GND n L=2u W=5u
+        MP349 GND RST N$397 VDD p L=2u W=5u
+        MP348 N$331 N$382 N$412 VDD p L=2u W=5u
+        MN347 N$412 N$382 GND GND n L=2u W=5u
+        MP347 GND RST N$412 VDD p L=2u W=5u
+        MN346 N$376 RST N$324 GND n L=2u W=5u
+        MP346 N$324 N$382 N$376 VDD p L=2u W=5u
+        MN345 N$376 N$382 GND GND n L=2u W=5u
+        MN354 N$385 N$409 N$398 GND n L=2u W=5u
+        MP354 N$398 RST1 N$385 VDD p L=2u W=5u
+        MN353 N$385 RST1 GND GND n L=2u W=5u
+        MP96 N$96 N$386 VDD VDD p L=2u W=3u
+        MP95 N$96 GND VDD VDD p L=2u W=3u
+        MP97 N$99 N$386 N$96 VDD p L=2u W=3u
+        MP5 N$7 N$10 VDD VDD p L=2u W=6u
+        MP4 N$8 N$9 N$7 VDD p L=2u W=6u
+        MP3 N$7 N$3 VDD VDD p L=2u W=6u
+        MP369 N$397 RST1 N$394 VDD p L=2u W=5u
+        MN368 N$394 RST1 GND GND n L=2u W=5u
+        MP368 GND N$409 N$394 VDD p L=2u W=5u
+        MN367 N$392 N$409 N$412 GND n L=2u W=5u
+        MP367 N$412 RST1 N$392 VDD p L=2u W=5u
+        MN366 N$392 RST1 GND GND n L=2u W=5u
+        MP366 GND N$409 N$392 VDD p L=2u W=5u
+        MN365 N$390 N$409 N$376 GND n L=2u W=5u
+        MP365 N$376 RST1 N$390 VDD p L=2u W=5u
+        MN364 N$390 RST1 GND GND n L=2u W=5u
+        MP364 GND N$409 N$390 VDD p L=2u W=5u
+        MN363 N$389 N$409 N$411 GND n L=2u W=5u
+        MP363 N$411 RST1 N$389 VDD p L=2u W=5u
+        MN362 N$389 RST1 P4 GND n L=2u W=5u
+        MP362 P4 N$409 N$389 VDD p L=2u W=5u
+        MN361 N$388 N$409 N$374 GND n L=2u W=5u
+        MP10 N$14 N$2 VDD VDD p L=2u W=6u
+        MN9 N$13 N$8 GND GND n L=2u W=6u
+        MP9 N$13 N$8 VDD VDD p L=2u W=6u
+        MN334 N$398 N$382 GND GND n L=2u W=5u
+        MP343 GND RST N$411 VDD p L=2u W=5u
+        MP135 N$144 N$136 N$141 VDD p L=2u W=3u
+        MP134 N$144 N$120 N$143 VDD p L=2u W=3u
+        MP133 N$143 N$388 N$142 VDD p L=2u W=3u
+        MP132 N$142 GND N$141 VDD p L=2u W=3u
+        MP131 N$141 N$388 VDD VDD p L=2u W=3u
+        MP130 N$141 GND VDD VDD p L=2u W=3u
+        MP129 N$141 N$120 VDD VDD p L=2u W=3u
+        MP128 N$138 N$136 VDD VDD p L=2u W=3u
+        MP172 N$193 N$415 VDD VDD p L=2u W=3u
+        MP201 N$227 N$395 VDD VDD p L=2u W=3u
+        MP200 N$227 N$75 VDD VDD p L=2u W=3u
+        MP199 N$227 N$207 VDD VDD p L=2u W=3u
+        MP198 COUT N$222 VDD VDD p L=2u W=3u
+        MN198 N$222 N$75 N$226 GND n L=2u W=3u
+        MN197 N$225 N$395 GND GND n L=2u W=3u
+        MN196 N$226 N$395 GND GND n L=2u W=3u
+        MN195 N$222 N$207 N$225 GND n L=2u W=3u
+        MN194 N$225 N$75 GND GND n L=2u W=3u
+        MN193 COUT N$222 GND GND n L=2u W=3u
+        MP197 N$222 N$75 N$221 VDD p L=2u W=3u
+        MP151 N$168 N$66 VDD VDD p L=2u W=3u
+        MN129 N$145 GND GND GND n L=2u W=3u
+        MN150 N$166 N$162 GND GND n L=2u W=3u
+        MP150 N$166 N$162 VDD VDD p L=2u W=3u
+        MN149 N$162 N$138 N$164 GND n L=2u W=3u
+        MN148 N$162 N$154 N$163 GND n L=2u W=3u
+        MN117 N$127 N$102 GND GND n L=2u W=3u
+        MN116 N$127 N$387 GND GND n L=2u W=3u
+        MN115 N$127 GND GND GND n L=2u W=3u
+        MP165 N$185 N$415 VDD VDD p L=2u W=3u
+        MP166 N$185 N$392 VDD VDD p L=2u W=3u
+        MN164 N$183 N$179 GND GND n L=2u W=3u
+        MP164 N$183 N$179 VDD VDD p L=2u W=3u
+        MN163 N$179 N$156 N$181 GND n L=2u W=3u
+        MN162 N$179 N$171 N$180 GND n L=2u W=3u
+        MN295 N$332 N$330 GND GND n L=2u W=6u
+        MN343 N$411 N$382 GND GND n L=2u W=5u
+        MN322 OUT3 RST GND GND n L=2u W=5u
+        MP322 GND N$348 OUT3 VDD p L=2u W=5u
+        MN321 OUT2 N$348 N$384 GND n L=2u W=5u
+        MP321 N$384 RST OUT2 VDD p L=2u W=5u
+        MN320 OUT2 RST GND GND n L=2u W=5u
+        MP320 GND N$348 OUT2 VDD p L=2u W=5u
+        MN329 OUT6 RST GND GND n L=2u W=5u
+        MP329 GND N$348 OUT6 VDD p L=2u W=5u
+        MN328 OUT5 N$348 N$324 GND n L=2u W=5u
+        MP328 N$324 RST OUT5 VDD p L=2u W=5u
+        MN327 OUT5 RST GND GND n L=2u W=5u
+        MP327 GND N$348 OUT5 VDD p L=2u W=5u
+        MP326 GND N$348 OUT8 VDD p L=2u W=5u
+        MN332 OUT7 N$348 N$338 GND n L=2u W=5u
+        MP332 N$338 RST OUT7 VDD p L=2u W=5u
+        MN179 N$207 N$205 GND GND n L=2u W=3u
+        MP183 N$205 N$72 N$204 VDD p L=2u W=3u
+        MP182 N$205 N$190 N$202 VDD p L=2u W=3u
+        MN239 N$420 N$279 GND GND n L=2u W=6u
+        MN238 N$420 N$386 GND GND n L=2u W=6u
+        MP239 N$420 N$386 N$278 VDD p L=2u W=6u
+        MP238 N$278 N$279 VDD VDD p L=2u W=6u
+        MN237 N$275 N$386 GND GND n L=2u W=6u
+        MP237 N$275 N$386 VDD VDD p L=2u W=6u
+        MN236 N$419 N$421 GND GND n L=2u W=6u
+        MP236 N$419 N$421 VDD VDD p L=2u W=6u
+        MP256 N$300 N$299 N$302 VDD p L=2u W=6u
+        MN288 N$326 N$327 N$258 GND n L=2u W=6u
+        MN287 N$320 CK GND GND n L=2u W=5u
+        MP287 N$320 CK VDD VDD p L=2u W=5u
+        MN286 N$325 N$323 GND GND n L=2u W=6u
+        MP286 N$325 N$323 VDD VDD p L=2u W=6u
+        MN285 N$324 N$325 GND GND n L=2u W=6u
+        MP285 N$324 N$325 VDD VDD p L=2u W=6u
+        MP284 N$323 CK N$324 VDD p L=2u W=6u
+        MN284 N$324 N$320 N$323 GND n L=2u W=6u
+        MP283 N$321 N$320 N$323 VDD p L=2u W=6u
+        MN283 N$323 CK N$321 GND n L=2u W=6u
+        MN250 N$297 N$295 GND GND n L=2u W=6u
+        MP250 N$297 N$295 VDD VDD p L=2u W=6u
+        MN249 N$296 N$297 GND GND n L=2u W=6u
+        MP249 N$296 N$297 VDD VDD p L=2u W=6u
+        MP248 N$295 CK N$296 VDD p L=2u W=6u
+        MN248 N$296 N$292 N$295 GND n L=2u W=6u
+        MP247 N$293 N$292 N$295 VDD p L=2u W=6u
+        MN247 N$295 CK N$293 GND n L=2u W=6u
+        MN217 N$250 N$265 N$183 GND n L=2u W=5u
+        MP217 N$183 S0 N$250 VDD p L=2u W=5u
+        MP228 N$1179 N$265 N$266 VDD p L=2u W=5u
+        MN226 N$262 N$265 N$1179 GND n L=2u W=5u
+        MP226 N$1179 S0 N$262 VDD p L=2u W=5u
+        MN225 N$262 S0 N$217 GND n L=2u W=5u
+        MN67 N$361 N$290 GND GND n L=2u W=6u
+        MP272 N$315 N$312 VDD VDD p L=2u W=6u
+        MP271 N$312 N$313 N$314 VDD p L=2u W=6u
+        MN271 N$314 CK N$312 GND n L=2u W=6u
+        MP270 N$250 CK N$312 VDD p L=2u W=6u
+        MN270 N$312 N$313 N$250 GND n L=2u W=6u
+        MN269 N$306 CK GND GND n L=2u W=5u
+        MP269 N$306 CK VDD VDD p L=2u W=5u
+        MN268 N$311 N$309 GND GND n L=2u W=6u
+        MP268 N$311 N$309 VDD VDD p L=2u W=6u
+        MN267 N$310 N$311 GND GND n L=2u W=6u
+        MP267 N$310 N$311 VDD VDD p L=2u W=6u
+        MP61 N$271 CK N$282 VDD p L=2u W=6u
+        MN61 N$282 N$283 N$271 GND n L=2u W=6u
+        MN228 N$266 S0 N$1179 GND n L=2u W=5u
+        MP229 N$1180 S0 N$266 VDD p L=2u W=5u
+        MN324 OUT4 RST GND GND n L=2u W=5u
+        MN229 N$266 N$265 N$1180 GND n L=2u W=5u
+        MN241 N$279 N$385 GND GND n L=2u W=6u
+        MP241 N$279 N$385 VDD VDD p L=2u W=6u
+        MP173 N$193 N$392 VDD VDD p L=2u W=3u
+        MP202 N$228 N$75 N$227 VDD p L=2u W=3u
+        MP176 N$196 N$173 N$195 VDD p L=2u W=3u
+        MP177 N$196 N$188 N$193 VDD p L=2u W=3u
+        MN171 N$197 N$415 GND GND n L=2u W=3u
+        MN172 N$197 N$392 GND GND n L=2u W=3u
+        MN223 N$258 N$265 N$217 GND n L=2u W=5u
+        MP223 N$217 S0 N$258 VDD p L=2u W=5u
+        MN222 N$258 S0 N$200 GND n L=2u W=5u
+        MP222 N$200 N$265 N$258 VDD p L=2u W=5u
+        MP174 N$194 N$415 N$193 VDD p L=2u W=3u
+        MP175 N$195 N$392 N$194 VDD p L=2u W=3u
+        MN173 N$197 N$173 GND GND n L=2u W=3u
+        MP196 N$222 N$207 N$219 VDD p L=2u W=3u
+        MP195 N$221 N$395 N$219 VDD p L=2u W=3u
+        MP194 N$219 N$395 VDD VDD p L=2u W=3u
+        MP193 N$219 N$75 VDD VDD p L=2u W=3u
+        MN174 N$198 N$415 N$199 GND n L=2u W=3u
+        MN192 N$217 N$213 GND GND n L=2u W=3u
+        MN147 N$165 N$389 GND GND n L=2u W=3u
+        MN146 N$164 GND N$165 GND n L=2u W=3u
+        MN145 N$163 N$138 GND GND n L=2u W=3u
+        MN200 N$231 N$395 GND GND n L=2u W=3u
+        MN199 N$231 N$75 GND GND n L=2u W=3u
+        MP205 N$230 N$222 N$227 VDD p L=2u W=3u
+        MP204 N$230 N$207 N$229 VDD p L=2u W=3u
+        MP203 N$229 N$395 N$228 VDD p L=2u W=3u
+        MP225 N$217 N$265 N$262 VDD p L=2u W=5u
+        MP67 N$361 N$290 VDD VDD p L=2u W=6u
+        MP66 N$288 CK N$361 VDD p L=2u W=6u
+        MN66 N$361 N$283 N$288 GND n L=2u W=6u
+        MP65 N$286 N$283 N$288 VDD p L=2u W=6u
+        MN65 N$288 CK N$286 GND n L=2u W=6u
+        MN64 N$286 N$287 GND GND n L=2u W=6u
+        MP64 N$286 N$287 VDD VDD p L=2u W=6u
+        MN63 N$287 N$282 GND GND n L=2u W=6u
+        MP63 N$287 N$282 VDD VDD p L=2u W=6u
+        MP62 N$282 N$283 N$286 VDD p L=2u W=6u
+        MN62 N$286 CK N$282 GND n L=2u W=6u
+        MN203 N$233 N$395 GND GND n L=2u W=3u
+        MN220 N$254 N$265 N$200 GND n L=2u W=5u
+        MP220 N$200 S0 N$254 VDD p L=2u W=5u
+        MN219 N$254 S0 N$183 GND n L=2u W=5u
+        MP219 N$183 N$265 N$254 VDD p L=2u W=5u
+        MN201 N$231 N$207 GND GND n L=2u W=3u
+        MN202 N$232 N$75 N$233 GND n L=2u W=3u
+        MN204 N$230 N$222 N$231 GND n L=2u W=3u
+        MP192 N$217 N$213 VDD VDD p L=2u W=3u
+        MN191 N$213 N$190 N$215 GND n L=2u W=3u
+        MN190 N$213 N$205 N$214 GND n L=2u W=3u
+        MP214 N$166 S0 N$246 VDD p L=2u W=5u
+        MN213 N$246 S0 N$148 GND n L=2u W=5u
+        MN256 N$302 CK N$300 GND n L=2u W=6u
+        MN255 N$300 N$301 GND GND n L=2u W=6u
+        MP255 N$300 N$301 VDD VDD p L=2u W=6u
+        MN254 N$301 N$298 GND GND n L=2u W=6u
+        MP254 N$301 N$298 VDD VDD p L=2u W=6u
+        MP253 N$298 N$299 N$300 VDD p L=2u W=6u
+        MN253 N$300 CK N$298 GND n L=2u W=6u
+        MP252 N$242 CK N$298 VDD p L=2u W=6u
+        MN252 N$298 N$299 N$242 GND n L=2u W=6u
+        MN251 N$292 CK GND GND n L=2u W=5u
+        MP251 N$292 CK VDD VDD p L=2u W=5u
+        MN232 N$271 N$265 N$112 GND n L=2u W=5u
+        MP232 N$112 S0 N$271 VDD p L=2u W=5u
+        MN231 N$271 S0 N$94 GND n L=2u W=5u
+        MP231 N$94 N$265 N$271 VDD p L=2u W=5u
+        MP216 N$166 N$265 N$250 VDD p L=2u W=5u
+        MN216 N$250 S0 N$166 GND n L=2u W=5u
+        MN214 N$246 N$265 N$166 GND n L=2u W=5u
+        MN206 N$1179 N$230 GND GND n L=2u W=3u
+        MP206 N$1179 N$230 VDD VDD p L=2u W=3u
+        MN205 N$230 N$207 N$232 GND n L=2u W=3u
+        MP143 N$159 N$138 VDD VDD p L=2u W=3u
+        MP187 N$210 N$394 VDD VDD p L=2u W=3u
+        MP146 N$160 GND N$159 VDD p L=2u W=3u
+        MP147 N$161 N$389 N$160 VDD p L=2u W=3u
+        MP148 N$162 N$138 N$161 VDD p L=2u W=3u
+        MP149 N$162 N$154 N$159 VDD p L=2u W=3u
+        MN211 N$242 N$265 N$148 GND n L=2u W=5u
+        MP211 N$148 S0 N$242 VDD p L=2u W=5u
+        MN210 N$242 S0 N$130 GND n L=2u W=5u
+        MP210 N$130 N$265 N$242 VDD p L=2u W=5u
+        MP144 N$159 GND VDD VDD p L=2u W=3u
+        MP145 N$159 N$389 VDD VDD p L=2u W=3u
+        MN143 N$163 GND GND GND n L=2u W=3u
+        MP181 N$204 N$394 N$202 VDD p L=2u W=3u
+        MP180 N$202 N$394 VDD VDD p L=2u W=3u
+        MP179 N$202 N$72 VDD VDD p L=2u W=3u
+        MN144 N$163 N$389 GND GND n L=2u W=3u
+        MN178 N$200 N$196 GND GND n L=2u W=3u
+        MP178 N$200 N$196 VDD VDD p L=2u W=3u
+        MN132 N$146 GND N$147 GND n L=2u W=3u
+        MN131 N$145 N$120 GND GND n L=2u W=3u
+        MN130 N$145 N$388 GND GND n L=2u W=3u
+        MN186 N$214 N$394 GND GND n L=2u W=3u
+        MN185 N$214 N$72 GND GND n L=2u W=3u
+        MP191 N$213 N$205 N$210 VDD p L=2u W=3u
+        MP190 N$213 N$190 N$212 VDD p L=2u W=3u
+        MP189 N$212 N$394 N$211 VDD p L=2u W=3u
+        MP188 N$211 N$72 N$210 VDD p L=2u W=3u
+        MP213 N$148 N$265 N$246 VDD p L=2u W=5u
+        MN235 N$421 N$275 GND GND n L=2u W=6u
+        MN234 N$421 N$385 GND GND n L=2u W=6u
+        MP235 N$421 N$385 N$274 VDD p L=2u W=6u
+        MP234 N$274 N$275 VDD VDD p L=2u W=6u
+        MN187 N$214 N$190 GND GND n L=2u W=3u
+        MN233 N$265 S0 GND GND n L=2u W=5u
+        MP233 N$265 S0 VDD VDD p L=2u W=5u
+        MN188 N$215 N$72 N$216 GND n L=2u W=3u
+        MN208 N$237 N$265 N$130 GND n L=2u W=5u
+        MP208 N$130 S0 N$237 VDD p L=2u W=5u
+        MN207 N$237 S0 N$112 GND n L=2u W=5u
+        MP207 N$112 N$265 N$237 VDD p L=2u W=5u
+        MN189 N$216 N$394 GND GND n L=2u W=3u
+        MN177 N$196 N$173 N$198 GND n L=2u W=3u
+        MN176 N$196 N$188 N$197 GND n L=2u W=3u
+        MN175 N$199 N$392 GND GND n L=2u W=3u
+*.ends mynand3
+
+* Auxiliary circuit for power analysis
+Cp Pav 0 100p
+Rp Pav 0 100k
+Fp 0 Pav Vtstp 0.003125
+*Output load capacitance if you have any
+
+*Cload1 out GND 200fF
+.MODEL n NMOS LEVEL = 3
++ TOX = 200E-10 NSUB = 1E17 GAMMA = 0.5
++ PHI = 0.7 VTO = 0.8 DELTA = 3.0
++ UO = 650 ETA = 3.0E-6 THETA = 0.1
++ KP = 120E-6 VMAX = 1E5 KAPPA = 0.3
++ RSH = 0 NFS = 1E12 TPG = 1
++ XJ = 500E-9 LD = 100E-9
++ CGDO = 200E-12 CGSO = 200E-12 CGBO = 1E-10
++ CJ = 400E-6 PB = 1 MJ = 0.5
++ CJSW = 300E-12 MJSW = 0.5
+
+.MODEL p PMOS LEVEL = 3
++ TOX = 200E-10 NSUB = 1E17 GAMMA = 0.6
++ PHI = 0.7 VTO = -0.9 DELTA = 0.1
++ UO = 250 ETA = 0 THETA = 0.1
++ KP = 40E-6 VMAX = 5E4 KAPPA = 1
++ RSH = 0 NFS = 1E12 TPG = -1
++ XJ = 500E-9 LD = 100E-9
++ CGDO = 200E-12 CGSO = 200E-12 CGBO = 1E-10
++ CJ = 400E-6 PB = 1 MJ = 0.5
++ CJSW = 300E-12 MJSW = 0.5
+
+*Define power rails
+Vddt top 0 5
+Vtstp top Vdd 0
+Vss GND 0 0
+
+* Define input voltages of A and B
+Vd D 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Vck CK 0 PWL(0 5 20N 5 20.1N 0 40N 0 40.1N 5 60N 5 60.1N 0 80N 0 80.1N 5
++ 100N 5 100.1N 0 120N 0 120.1N 5 140N 5 140.1N 0 160N 0 160.1N 5 180N 5 180.1N 0 200N 0)
+Va5 A5 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 5 60N 5 60.1N 5 80N 5 80.1N 5
++ 100N 5 100.1N 5 120N 5 120.1N 5 140N 5 140.1N 5 160N 5 160.1N 5 180N 5 180.1N 5 200N 5)
+Va6 A6 0 PWL(0 0 20N 0 20.1N 0 40N 0 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Va7 A7 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 5 60N 5 60.1N 5 80N 5 80.1N 5
++ 100N 5 100.1N 5 120N 5 120.1N 5 140N 5 140.1N 5 160N 5 160.1N 5 180N 5 180.1N 5 200N 5)
+Va8 A8 0 PWL(0 0 20N 0 20.1N 0 40N 0 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Vadd_one add_one 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 5 60N 5 60.1N 5 80N 5 80.1N 5
++ 100N 5 100.1N 5 120N 5 120.1N 5 140N 5 140.1N 5 160N 5 160.1N 5 180N 5 180.1N 5 200N 5)
+Vrst1 RST1 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Vp1 P1 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 5 60N 5 60.1N 5 80N 5 80.1N 5
++ 100N 5 100.1N 5 120N 5 120.1N 5 140N 5 140.1N 5 160N 5 160.1N 5 180N 5 180.1N 5 200N 5)
+Vp2 P2 0 PWL(0 0 20N 0 20.1N 0 40N 0 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Vp3 P3 0 PWL(0 5 20N 5 20.1N 5 40N 5 40.1N 5 60N 5 60.1N 5 80N 5 80.1N 5
++ 100N 5 100.1N 5 120N 5 120.1N 5 140N 5 140.1N 5 160N 5 160.1N 5 180N 5 180.1N 5 200N 5)
+Vp4 P4 0 PWL(0 0 20N 0 20.1N 0 40N 0 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+Vs0 S0 0 PWL(0 0 20N 0 20.1N 0 40N 0 40.1N 0 60N 0 60.1N 0 80N 0 80.1N 0
++ 100N 0 100.1N 0 120N 0 120.1N 0 140N 0 140.1N 0 160N 0 160.1N 0 180N 0 180.1N 0 200N 0)
+
+
+
+*Define transient simulation and probe voltage/current signals
+.TRAN 20N 200N
+.PROBE V(*) I(*)
+.end
+
+**** 05/05/08 15:51:49 ******* PSpice 15.7.0 (July 2006) ****** ID# 31193528 *
+
+  
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               n               p               
+               NMOS            PMOS            
+       LEVEL    3               3            
+         TPG                   -1            
+           L  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06 
+          LD  100.000000E-09  100.000000E-09 
+         VTO     .8             -.9          
+          KP  120.000000E-06   40.000000E-06 
+       GAMMA     .5              .6          
+         PHI     .7              .7          
+      LAMBDA    0               0            
+          IS   10.000000E-15   10.000000E-15 
+          JS    0               0            
+          PB    1               1            
+        PBSW    1               1            
+          CJ  400.000000E-06  400.000000E-06 
+        CJSW  300.000000E-12  300.000000E-12 
+        MJSW     .5              .5          
+        CGSO  200.000000E-12  200.000000E-12 
+        CGDO  200.000000E-12  200.000000E-12 
+        CGBO  100.000000E-12  100.000000E-12 
+        NSUB  100.000000E+15  100.000000E+15 
+         NFS    1.000000E+12    1.000000E+12 
+         TOX   20.000000E-09   20.000000E-09 
+          XJ  500.000000E-09  500.000000E-09 
+          UO  650             250            
+       UCRIT   10.000000E+03   10.000000E+03 
+        VMAX  100.000000E+03   50.000000E+03 
+       DELTA    3                .1          
+       THETA     .1              .1          
+         ETA    3.000000E-06    0            
+       KAPPA     .3             1            
+      DIOMOD    1               1            
+         VFB    0               0            
+        LETA    0               0            
+        WETA    0               0            
+          U0    0               0            
+        TEMP    0               0            
+         VDD    0               0            
+       XPART    0               0            
+
+
+**** 05/05/08 15:51:49 ******* PSpice 15.7.0 (July 2006) ****** ID# 31193528 *
+
+  
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(    D)    5.0000  (   A5)    5.0000  (   A6)    0.0000  (   A7)    5.0000      
+
+(   A8)    0.0000  (   CK)    5.0000  (   P1)    5.0000  (   P2)    0.0000      
+
+(   P3)    5.0000  (   P4)    0.0000  (   S0)    0.0000  (  GND)    0.0000      
+
+(  N$2)    5.0000  (  N$3) 4.262E-09  (  N$6)    3.9755  (  N$7)    5.0000      
+
+(  N$8) 17.05E-09  (  N$9)    5.0000  (  Pav)    1.2290  (  RST)    5.0000      
+
+(  top)    5.0000  (  VDD)    5.0000  ( COUT) 8.550E-09  ( N$10) 4.262E-09      
+
+( N$11) 8.524E-09  ( N$12) 7.118E-09  ( N$13)    5.0000  ( N$14) 4.262E-09      
+
+( N$15)    5.0000  ( N$16) 4.262E-09  ( N$17) 4.262E-09  ( N$18)     .0143      
+
+( N$19)    5.0000  ( N$20)    5.0000  ( N$21)    5.0000  ( N$22)    5.0000      
+
+( N$23)    3.9755  ( N$24) 145.8E-12  ( N$25) 16.98E-09  ( N$26) 4.262E-09      
+
+( N$27)    5.0000  ( N$28)    5.0000  ( N$29) 145.8E-12  ( N$30)    1.0694      
+
+( N$31) 43.73E-09  ( N$32) 4.262E-09  ( N$33)    5.0000  ( N$34) 18.26E-09      
+
+( N$35) 21.87E-09  ( N$36)    5.0000  ( N$37)    5.0000  ( N$38)    5.0000      
+
+( N$39) 145.8E-12  ( N$40)    1.0694  ( N$41) 43.73E-09  ( N$42) 4.262E-09      
+
+( N$43)    5.0000  ( N$44) 18.26E-09  ( N$45) 21.87E-09  ( N$46)    5.0000      
+
+( N$53) 8.649E-09  ( N$56)    5.0000  ( N$58) 8.482E-09  ( N$59)    5.0000      
+
+( N$60) 8.649E-09  ( N$61) 25.47E-09  ( N$62) 8.482E-09  ( N$63)    5.0000      
+
+( N$64)    5.0000  ( N$65) 5.116E-09  ( N$66)    5.0000  ( N$67)    5.0000      
+
+( N$68) 5.116E-09  ( N$70)    5.0000  ( N$71)    5.0000  ( N$72) 5.116E-09      
+
+( N$73)    5.0000  ( N$74) 5.116E-09  ( N$75)    5.0000  ( N$77)    5.0000      
+
+( N$80)    5.0000  ( N$81)    5.0000  ( N$84) 8.550E-09  ( N$85)     .0057      
+
+( N$86)     .0093  ( N$87)    5.0000  ( N$88)    5.0000  ( N$89)    5.0000      
+
+( N$90)    5.0000  ( N$91)    3.7355  ( N$92)     .0106  ( N$93)     .0030      
+
+( N$94) 17.34E-09  ( N$96)    5.0000  ( N$99)    5.0000  ( OUT0) 10.32E-09      
+
+( OUT1) 10.32E-09  ( OUT2) 10.32E-09  ( OUT3) 10.32E-09  ( OUT4) 10.19E-09      
+
+( OUT5) 10.19E-09  ( OUT6) 10.34E-09  ( OUT7) 10.19E-09  ( OUT8) 10.19E-09      
+
+( RST1)    5.0000  (N$100)    5.0000  (N$102) 8.550E-09  (N$103) 94.72E-12      
+
+(N$104) 94.72E-12  (N$105)    5.0000  (N$106)    5.0000  (N$107)    1.1082      
+
+(N$108) 60.77E-09  (N$109) 30.38E-09  (N$110) 19.05E-09  (N$111) 75.68E-18      
+
+(N$112)    5.0000  (N$114)    5.0000  (N$117)    5.0000  (N$118)    5.0000      
+
+(N$120) 8.550E-09  (N$121)     .0057  (N$122)     .0093  (N$123)    5.0000      
+
+(N$124)    5.0000  (N$125)    5.0000  (N$126)    5.0000  (N$127)    3.7355      
+
+(N$128)     .0106  (N$129)     .0030  (N$130) 52.00E-09  (N$132)    5.0000      
+
+(N$135)    5.0000  (N$136)    5.0000  (N$138) 8.550E-09  (N$139) 94.72E-12      
+
+(N$140) 94.72E-12  (N$141)    5.0000  (N$142)    5.0000  (N$143)    1.1082      
+
+(N$144) 60.77E-09  (N$145) 30.38E-09  (N$146) 19.05E-09  (N$147) 75.69E-18      
+
+(N$148)    5.0000  (N$150)    5.0000  (N$153)    5.0000  (N$154)    5.0000      
+
+(N$156) 8.550E-09  (N$157)     .0057  (N$158)     .0093  (N$159)    5.0000      
+
+(N$160)    5.0000  (N$161)    5.0000  (N$162)    5.0000  (N$163)    3.7355      
+
+(N$164)     .0106  (N$165)     .0030  (N$166) 52.00E-09  (N$168)    5.0000      
+
+(N$170)    5.0000  (N$171)    5.0000  (N$173) 8.550E-09  (N$174) 94.72E-12      
+
+(N$175)    3.7666  (N$176)    5.0000  (N$177)    1.1516  (N$178)    1.1406      
+
+(N$179) 86.82E-09  (N$180) 43.41E-09  (N$181) 19.83E-09  (N$182) 19.83E-09      
+
+(N$183)    5.0000  (N$185)    5.0000  (N$187)    5.0000  (N$188)    5.0000      
+
+(N$190) 8.550E-09  (N$191) 94.72E-12  (N$192)    3.7666  (N$193)    5.0000      
+
+(N$194)    1.1516  (N$195)    1.1406  (N$196) 86.82E-09  (N$197) 43.41E-09      
+
+(N$198) 19.83E-09  (N$199) 19.83E-09  (N$200)    5.0000  (N$202)    5.0000      
+
+(N$204)    5.0000  (N$205)    5.0000  (N$207) 8.550E-09  (N$208)     .0057      
+
+(N$209)     .0093  (N$210)    5.0000  (N$211)    5.0000  (N$212)    5.0000      
+
+(N$213)    5.0000  (N$214)    3.7355  (N$215)     .0106  (N$216)     .0030      
+
+(N$217) 52.05E-09  (N$219)    5.0000  (N$221)    5.0000  (N$222)    5.0000      
+
+(N$225) 94.72E-12  (N$226)    3.7666  (N$227)    5.0000  (N$228)    1.1516      
+
+(N$229)    1.1406  (N$230) 86.82E-09  (N$231) 43.41E-09  (N$232) 19.83E-09      
+
+(N$233) 19.83E-09  (N$237) 67.61E-09  (N$242)    5.0000  (N$246) 67.61E-09      
+
+(N$250)    5.0000  (N$254)    5.0000  (N$258) 67.69E-09  (N$262)    5.0000      
+
+(N$265)    5.0000  (N$266)    5.0000  (N$271)    5.0000  (N$274)    5.0000      
+
+(N$275) 4.262E-09  (N$278)    4.9940  (N$279)    5.0000  (N$282)    1.9802      
+
+(N$283) 5.116E-09  (N$286)    1.9802  (N$287)    1.9802  (N$288)    1.9802      
+
+(N$290)    1.9802  (N$291)    1.9802  (N$292) 5.116E-09  (N$293)    1.9802      
+
+(N$294)    1.9802  (N$295)    1.9802  (N$296)    1.9802  (N$297)    1.9802      
+
+(N$298)    1.9802  (N$299) 5.116E-09  (N$300)    1.9802  (N$301)    1.9802      
+
+(N$302)    1.9802  (N$304)    1.9802  (N$305)    1.9802  (N$306) 5.116E-09      
+
+(N$307)    1.9802  (N$308)    1.9802  (N$309)    1.9802  (N$310)    1.9802      
+
+(N$311)    1.9802  (N$312) 38.52E-09  (N$313) 5.116E-09  (N$314) 29.87E-09      
+
+(N$315)    5.0000  (N$316) 38.36E-09  (N$317) 29.71E-09  (N$318)    5.0000      
+
+(N$319) 38.52E-09  (N$320) 5.116E-09  (N$321) 29.87E-09  (N$322)    5.0000      
+
+(N$323) 38.36E-09  (N$324) 29.71E-09  (N$325)    5.0000  (N$326)    5.0000      
+
+(N$327) 5.116E-09  (N$328)    5.0000  (N$329) 4.262E-09  (N$330)    5.0000      
+
+(N$331)    5.0000  (N$332) 4.262E-09  (N$333) 38.52E-09  (N$334) 5.116E-09      
+
+(N$335) 29.87E-09  (N$336)    5.0000  (N$337) 38.36E-09  (N$338) 29.71E-09      
+
+(N$339)    5.0000  (N$340) 38.52E-09  (N$341) 5.116E-09  (N$342) 29.87E-09      
+
+(N$343)    5.0000  (N$344) 38.36E-09  (N$345) 29.71E-09  (N$346)    5.0000      
+
+(N$348) 5.116E-09  (N$361)    1.9802  (N$372)    1.9802  (N$374)    1.9802      
+
+(N$376) 44.99E-09  (N$382) 5.116E-09  (N$384)    1.9802  (N$385) 10.32E-09      
+
+(N$386)    5.0000  (N$387) 10.32E-09  (N$388)    5.0000  (N$389) 10.19E-09      
+
+(N$390) 10.19E-09  (N$392) 10.34E-09  (N$394) 10.19E-09  (N$395) 10.19E-09      
+
+(N$396) 44.99E-09  (N$397) 44.99E-09  (N$398)    1.9802  (N$409) 5.116E-09      
+
+(N$410)    1.9802  (N$411) 44.99E-09  (N$412)    5.0000  (N$415)    5.0000      
+
+(N$417)    5.0000  (N$419) 4.262E-09  (N$420) 2.130E-09  (N$421)    5.0000      
+
+(N$424)    5.0000  (N$425) 5.116E-09  (N$429)    5.0000  (N$430) 4.262E-09      
+
+(N$431)    5.0000  (N$432)    5.0000  (N$433) 4.262E-09  (N$434)    1.9802      
+
+(N$435) 5.116E-09  (N$436)    1.9802  (N$437)    1.9802  (N$438)    1.9802      
+
+(N$440)    1.9802  (N$441)    1.9802  (N$442) 5.116E-09  (N$443)    1.9802      
+
+(N$444)    1.9802  (N$445)    1.9802  (N$446)    1.9802  (N$447)    1.9802      
+
+(N$767)    1.9802  (N$768)    2.8407  (N$769)    2.8296  (N$770) 8.177E-09      
+
+(N$1176)    1.0792 (N$1177) 13.11E-09 (N$1179)    5.0000 (N$1180)    5.0000     
+
+(ADD_ONE)    5.0000                   (H_A_COUT) 4.262E-09                  
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    Vddt        -3.933E-03
+    Vtstp        3.933E-03
+    Vss          3.933E-03
+    Vd          -5.010E-12
+    Vck          0.000E+00
+    Va5         -5.207E-12
+    Va6          5.010E-12
+    Va7         -5.207E-12
+    Va8          5.010E-12
+    Vadd_one     0.000E+00
+    Vrst1        0.000E+00
+    Vp1         -1.505E-11
+    Vp2          1.516E-11
+    Vp3         -1.505E-11
+    Vp4          1.503E-11
+    Vs0          0.000E+00
+
+    TOTAL POWER DISSIPATION   1.97E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 05/05/08 15:51:49 ******* PSpice 15.7.0 (July 2006) ****** ID# 31193528 *
+
+  
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       13.11
+
