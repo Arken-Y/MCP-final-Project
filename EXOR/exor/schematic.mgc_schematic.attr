@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 47debe5c8672.03.7f.00.00.01.00.38.47 8 2 1 0
+V v 6 1 47e2b51b3a7a.03.7f.00.00.01.00.1e.17
+F o 0 ""
+V v 7 1 47e2b70e3a78.03.7f.00.00.01.00.45.4d
+F o 0 ""
+V v 8 1 47e2b7602efe.03.7f.00.00.01.00.45.4d
+F o 0 ""
+O 8
+R cspuv 0 "/home/mentor/EXOR/exor/schematic/sheet1" 7 mgc_sheet 47e2b7602ede.03.7f.00.00.01.00.45.4d 47debe5c86f7.03.7f.00.00.01.00.38.47
+O 7
+R cspuv 0 "/home/mentor/EXOR/exor/schematic/sheet1" 6 mgc_sheet 47e2b70e3a5c.03.7f.00.00.01.00.45.4d 47debe5c86f7.03.7f.00.00.01.00.38.47
+O 6
+R cspuv 0 "/home/mentor/EXOR/exor/schematic/sheet1" 5 mgc_sheet 47e2b51b3a5e.03.7f.00.00.01.00.1e.17 47debe5c86f7.03.7f.00.00.01.00.38.47

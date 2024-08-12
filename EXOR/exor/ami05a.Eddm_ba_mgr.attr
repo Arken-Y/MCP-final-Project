@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47dec0a8a21a.03.7f.00.00.01.00.38.47 1 2 1 0
+V v 1 1 47dec0a8a21a.03.7f.00.00.01.01.38.47
+F f 1 "ami05a.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/ami05a" 1 Eddm_design_viewpoint 47dec0a8a154.03.7f.00.00.01.01.38.47 47dec0a8a154.03.7f.00.00.01.00.38.47

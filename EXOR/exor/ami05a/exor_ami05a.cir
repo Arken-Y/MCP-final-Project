@@ -1,0 +1,7 @@
+* Component: /home/mentor/EXOR/exor  Viewpoint: ami05a
+.INCLUDE exor_ami05a.spi
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

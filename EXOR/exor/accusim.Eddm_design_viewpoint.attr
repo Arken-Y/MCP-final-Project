@@ -1,0 +1,34 @@
+A 5 u Eddm_design_viewpoint 47dec0caa4fc.03.7f.00.00.01.00.38.c9 4 2 3 0
+V v 2 4 47defe55b50e.03.7f.00.00.01.00.44.e0
+F f 2 "accusim.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 47e2a986cd88.03.7f.00.00.01.00.1c.33
+F f 3 "accusim.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 4 4 47e2b52bc17b.03.7f.00.00.01.00.43.69
+F f 4 "accusim.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 1 mgc_schematic 47debe5c8672.03.7f.00.00.01.01.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/EXOR/exor/sdl" 1 Eddm_ba_mgr 47dec0caa90f.03.7f.00.00.01.00.38.c9 47dec0caa90e.03.7f.00.00.01.00.38.c9
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 1 mgc_schematic 47debe5c8672.03.7f.00.00.01.01.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/EXOR/exor/sdl" 1 Eddm_ba_mgr 47dec0caa90f.03.7f.00.00.01.00.38.c9 47dec0caa90e.03.7f.00.00.01.00.38.c9
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 1 mgc_schematic 47debe5c8672.03.7f.00.00.01.01.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/EXOR/exor/sdl" 1 Eddm_ba_mgr 47dec0caa90f.03.7f.00.00.01.00.38.c9 47dec0caa90e.03.7f.00.00.01.00.38.c9

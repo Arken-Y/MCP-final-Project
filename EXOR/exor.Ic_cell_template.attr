@@ -1,0 +1,16 @@
+A 5 u Ic_cell_template 47dedcaf7a40.03.7f.00.00.01.00.44.27 3 4 3 0
+V v 1 1 47defeded079.03.7f.00.00.01.00.44.27
+F f 1 "exor.iccel_1"
+V v 2 1 47e2b57b97c1.03.7f.00.00.01.00.1b.cc
+F f 2 "exor.iccel_2"
+V v 3 1 47e2b57e8d55.03.7f.00.00.01.00.1b.cc
+F f 3 "exor.iccel_3"
+O 3
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa
+O 2
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa
+O 1
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa

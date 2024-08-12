@@ -1,0 +1,143 @@
+Design:  /home/mentor/EXOR/exor
+* LIBRARY FILES.
+.lib /usr/local/mentor/shared/external/adk3_1/technology/accusim/ami05.mod 
+* end of LIBRARY FILES listing.
+*
+.options  tnom=27
+.temp 27
+V_Dcinit___VDD VDD 0 DC 5
+V_vforce_0 A 0 PWL 0 0 2e-08 0 2.01e-08 5 4e-08 5 4.01e-08 0 6e-08 0 6.01e-08 5 8e-08 5 8.01e-08 0 1e-07 0
+V_vforce_1 B 0 PWL 0 0 2e-08 0 2.01e-08 0 4e-08 0 4.01e-08 5 6e-08 5 6.01e-08 5 8e-08 5 8.01e-08 0 1e-07 0
+M_MN7 OUT N$3 B B n l=2e-06 w=6e-06
+M_MN6 N$11 B 0 0 n l=2e-06 w=6e-06
+M_MN5 N$5 A 0 0 n l=2e-06 w=6e-06
+M_MN4 N$8 N$11 0 0 n l=2e-06 w=6e-06
+M_MN3 N$3 A N$8 0 n l=2e-06 w=6e-06
+M_MN2 N$6 B 0 0 n l=2e-06 w=6e-06
+M_MN1 N$3 N$5 N$6 0 n l=2e-06 w=6e-06
+M_MP7 OUT N$3 VDD VDD p l=2e-06 w=6e-06
+M_MP6 N$11 B VDD VDD p l=2e-06 w=6e-06
+M_MP5 N$5 A VDD VDD p l=2e-06 w=6e-06
+M_MP4 N$3 B N$4 VDD p l=2e-06 w=6e-06
+M_MP3 N$4 N$11 VDD VDD p l=2e-06 w=6e-06
+M_MP2 N$3 N$5 N$4 VDD p l=2e-06 w=6e-06
+M_MP1 N$4 A VDD VDD p l=2e-06 w=6e-06
+.tran 1e-09 1e-07 0 
+.op  NO_SMALL_SIGNAL
+*
+* Beginning of translation table for device INSTANCE names
+*  Netlist Name       Schematic Name
+*
+*  V_Dcinit___VDD     Dcinit_//VDD
+*  V_vforce_0         vforce_0
+*  V_vforce_1         vforce_1
+*  M_MN1              /MN1
+*  M_MN2              /MN2
+*  M_MN3              /MN3
+*  M_MN4              /MN4
+*  M_MN5              /MN5
+*  M_MN6              /MN6
+*  M_MN7              /MN7
+*  M_MP1              /MP1
+*  M_MP2              /MP2
+*  M_MP3              /MP3
+*  M_MP4              /MP4
+*  M_MP5              /MP5
+*  M_MP6              /MP6
+*  M_MP7              /MP7
+* End of translation table for device INSTANCE names
+*
+* Beginning of translation table for device MODEL names
+*  Netlist Name       Schematic Name
+*
+*  n                  n
+*  p                  p
+* End of translation table for device MODEL names
+*
+* Beginning of translation table for NODE names
+*  Netlist Name       Schematic Name
+*
+*  0                  //GND
+*  B                  /B
+*  VDD                //VDD
+*  OUT                /OUT
+*  N$11               /N$11
+*  A                  /A
+*  N$8                /N$8
+*  N$6                /N$6
+*  N$5                /N$5
+*  N$3                /N$3
+*  N$4                /N$4
+* End of translation table for NODE names
+* >KEEP
+.VIEW ALL
+.VIEW W
+.VIEW V(N$4)
+.VIEW V(VDD)
+.VIEW V(B)
+.VIEW V(N$8)
+.VIEW V(N$5)
+.VIEW V(OUT)
+.VIEW V(N$11)
+.VIEW V(N$6)
+.VIEW V(0)
+.VIEW V(N$3)
+.VIEW V(A)
+.VIEW I(M_MP7/S)
+.VIEW I(M_MN2/S)
+.VIEW I(M_MN6/D)
+.VIEW I(M_MP2/S)
+.VIEW I(M_MN3/G)
+.VIEW I(M_MN5/S)
+.VIEW I(M_MP6/D)
+.VIEW I(M_MP3/G)
+.VIEW I(M_MN3/B)
+.VIEW I(M_MP5/S)
+.VIEW I(M_MP3/B)
+.VIEW I(M_MN1/G)
+.VIEW I(M_MN4/D)
+.VIEW I(M_MP1/G)
+.VIEW I(M_MP4/D)
+.VIEW I(M_MN1/B)
+.VIEW I(M_MN6/S)
+.VIEW I(M_MP1/B)
+.VIEW I(M_MP6/S)
+.VIEW I(M_MN7/G)
+.VIEW I(M_MP7/G)
+.VIEW I(M_MN7/B)
+.VIEW I(M_MN2/G)
+.VIEW I(M_MN4/S)
+.VIEW I(M_MP7/B)
+.VIEW I(M_MP2/G)
+.VIEW I(M_MP4/S)
+.VIEW I(M_MN2/B)
+.VIEW I(M_MN5/G)
+.VIEW I(M_MP2/B)
+.VIEW I(M_MP5/G)
+.VIEW I(M_MN3/D)
+.VIEW I(M_MN5/B)
+.VIEW I(M_MP3/D)
+.VIEW I(M_MP5/B)
+.VIEW I(M_MN1/D)
+.VIEW I(M_MN6/G)
+.VIEW I(M_MP1/D)
+.VIEW I(M_MP6/G)
+.VIEW I(M_MN6/B)
+.VIEW I(M_MN3/S)
+.VIEW I(M_MP6/B)
+.VIEW I(M_MN7/D)
+.VIEW I(M_MP3/S)
+.VIEW I(M_MN4/G)
+.VIEW I(M_MP7/D)
+.VIEW I(M_MP4/G)
+.VIEW I(M_MN2/D)
+.VIEW I(M_MN4/B)
+.VIEW I(M_MN1/S)
+.VIEW I(M_MP2/D)
+.VIEW I(M_MP4/B)
+.VIEW I(M_MP1/S)
+.VIEW I(M_MN5/D)
+.VIEW I(M_MP5/D)
+.VIEW I(M_MN7/S)
+* >ENDKEEP
+.END

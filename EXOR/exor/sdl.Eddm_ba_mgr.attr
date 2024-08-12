@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47dec0caa90e.03.7f.00.00.01.00.38.c9 1 2 1 0
+V v 1 1 47dec0caa90f.03.7f.00.00.01.00.38.c9
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/accusim" 1 Eddm_design_viewpoint 47dec0caa4fc.03.7f.00.00.01.01.38.c9 47dec0caa4fc.03.7f.00.00.01.00.38.c9

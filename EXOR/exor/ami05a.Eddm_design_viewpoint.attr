@@ -1,0 +1,36 @@
+A 5 u Eddm_design_viewpoint 47dec0a8a154.03.7f.00.00.01.00.38.47 3 2 17 0
+V v 1 4 47dec0a8a154.03.7f.00.00.01.01.38.47
+F f 1 "ami05a.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 47dec0a8e38e.03.7f.00.00.01.00.38.47
+F f 2 "ami05a.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+V v 3 4 47dec0b2312b.03.7f.00.00.01.00.38.47
+F f 3 "ami05a.dvpt_3"
+F o 0 
+F o 0 
+F o 0 
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 2 mgc_schematic 47dec0852323.03.7f.00.00.01.00.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+R cspuv 2 "/home/mentor/EXOR/exor/ami05a" 1 Eddm_ba_mgr 47dec0a8a21a.03.7f.00.00.01.01.38.47 47dec0a8a21a.03.7f.00.00.01.00.38.47
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 2 mgc_schematic 47dec0852323.03.7f.00.00.01.00.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+R cspuv 2 "/home/mentor/EXOR/exor/ami05a" 1 Eddm_ba_mgr 47dec0a8a21a.03.7f.00.00.01.01.38.47 47dec0a8a21a.03.7f.00.00.01.00.38.47
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/EXOR/exor/part" 1 Eddm_part 47dec08521a6.03.7f.00.00.01.01.38.47 47dec08521a6.03.7f.00.00.01.00.38.47
+R cspuv 1 "/home/mentor/EXOR/exor/schematic" 1 mgc_schematic 47debe5c8672.03.7f.00.00.01.01.38.47 47debe5c8672.03.7f.00.00.01.00.38.47
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/EXOR/exor/ami05a" 1 Eddm_ba_mgr 47dec0a8a21a.03.7f.00.00.01.01.38.47 47dec0a8a21a.03.7f.00.00.01.00.38.47
