@@ -1,0 +1,36 @@
+A 5 u Eddm_design_viewpoint 474347c29eca.03.7f.00.00.01.00.17.92 3 2 17 0
+V v 1 4 474347c29eca.03.7f.00.00.01.01.17.92
+F f 1 "ami05a.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+V v 2 4 474347c39e5d.03.7f.00.00.01.00.17.92
+F f 2 "ami05a.dvpt_2"
+F o 0 
+F o 0 
+F o 0 
+V v 3 4 474347cbeb29.03.7f.00.00.01.00.17.92
+F f 3 "ami05a.dvpt_3"
+F o 0 
+F o 0 
+F o 0 
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Full_add/Full_add/part" 1 Eddm_part 473b954a4a62.03.7f.00.00.01.01.22.7b 473b954a4a62.03.7f.00.00.01.00.22.7b
+R cspuv 1 "/home/mentor/Full_add/Full_add/schematic" 49 mgc_schematic 474264a56f25.03.7f.00.00.01.00.16.a9 473b8892df4b.03.7f.00.00.01.00.22.7b
+R cspuv 2 "/home/mentor/Full_add/Full_add/ami05a" 1 Eddm_ba_mgr 474347c2a6f6.03.7f.00.00.01.01.17.92 474347c2a6f6.03.7f.00.00.01.00.17.92
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Full_add/Full_add/part" 1 Eddm_part 473b954a4a62.03.7f.00.00.01.01.22.7b 473b954a4a62.03.7f.00.00.01.00.22.7b
+R cspuv 1 "/home/mentor/Full_add/Full_add/schematic" 49 mgc_schematic 474264a56f25.03.7f.00.00.01.00.16.a9 473b8892df4b.03.7f.00.00.01.00.22.7b
+R cspuv 2 "/home/mentor/Full_add/Full_add/ami05a" 1 Eddm_ba_mgr 474347c2a6f6.03.7f.00.00.01.01.17.92 474347c2a6f6.03.7f.00.00.01.00.17.92
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Full_add/Full_add/part" 1 Eddm_part 473b954a4a62.03.7f.00.00.01.01.22.7b 473b954a4a62.03.7f.00.00.01.00.22.7b
+R cspuv 1 "/home/mentor/Full_add/Full_add/schematic" 1 mgc_schematic 473b8892df4b.03.7f.00.00.01.01.22.7b 473b8892df4b.03.7f.00.00.01.00.22.7b
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/Full_add/Full_add/ami05a" 1 Eddm_ba_mgr 474347c2a6f6.03.7f.00.00.01.01.17.92 474347c2a6f6.03.7f.00.00.01.00.17.92

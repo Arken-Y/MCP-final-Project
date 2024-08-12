@@ -1,0 +1,7 @@
+* Component: /home/mentor/Full_add/Full_add  Viewpoint: ami05a
+.INCLUDE Full_add_ami05a.spi
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
