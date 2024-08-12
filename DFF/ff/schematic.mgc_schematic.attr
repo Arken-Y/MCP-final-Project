@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 472f61cb2231.03.7f.00.00.01.00.17.8d 9 2 1 0
+V v 7 1 474372969e1e.03.7f.00.00.01.00.18.c1
+F o 0 ""
+V v 8 1 4743734c0583.03.7f.00.00.01.00.18.c1
+F o 0 ""
+V v 9 1 474376d41cf7.03.7f.00.00.01.00.18.c1
+F o 0 ""
+O 9
+R cspuv 0 "/home/mentor/DFF/ff/schematic/sheet1" 8 mgc_sheet 474376d41cd9.03.7f.00.00.01.00.18.c1 472f61cb22b9.03.7f.00.00.01.00.17.8d
+O 8
+R cspuv 0 "/home/mentor/DFF/ff/schematic/sheet1" 7 mgc_sheet 4743734c0564.03.7f.00.00.01.00.18.c1 472f61cb22b9.03.7f.00.00.01.00.17.8d
+O 7
+R cspuv 0 "/home/mentor/DFF/ff/schematic/sheet1" 6 mgc_sheet 474372969e03.03.7f.00.00.01.00.18.c1 472f61cb22b9.03.7f.00.00.01.00.17.8d

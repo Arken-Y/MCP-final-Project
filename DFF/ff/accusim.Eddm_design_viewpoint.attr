@@ -1,0 +1,23 @@
+A 5 u Eddm_design_viewpoint 472f684f3ddf.03.7f.00.00.01.00.17.f4 2 2 3 0
+V v 1 4 472f684f3de0.03.7f.00.00.01.00.17.f4
+F f 1 "accusim.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 47436eb22342.03.7f.00.00.01.00.16.dd
+F f 2 "accusim.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/DFF/ff/part" 1 Eddm_part 472f683588c0.03.7f.00.00.01.00.17.8d 472f683588bf.03.7f.00.00.01.00.17.8d
+R cspuv 1 "/home/mentor/DFF/ff/schematic" 1 mgc_schematic 472f61cb2232.03.7f.00.00.01.00.17.8d 472f61cb2231.03.7f.00.00.01.00.17.8d
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/DFF/ff/sdl" 1 Eddm_ba_mgr 472f684f436d.03.7f.00.00.01.01.17.f4 472f684f436d.03.7f.00.00.01.00.17.f4
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/DFF/ff/part" 1 Eddm_part 472f683588c0.03.7f.00.00.01.00.17.8d 472f683588bf.03.7f.00.00.01.00.17.8d
+R cspuv 1 "/home/mentor/DFF/ff/schematic" 1 mgc_schematic 472f61cb2232.03.7f.00.00.01.00.17.8d 472f61cb2231.03.7f.00.00.01.00.17.8d
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/DFF/ff/sdl" 1 Eddm_ba_mgr 472f684f436d.03.7f.00.00.01.01.17.f4 472f684f436d.03.7f.00.00.01.00.17.f4

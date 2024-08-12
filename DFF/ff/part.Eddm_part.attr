@@ -1,0 +1,6 @@
+A 5 u Eddm_part 472f683588bf.03.7f.00.00.01.00.17.8d 1 2 1 0
+V v 1 1 472f683588c0.03.7f.00.00.01.00.17.8d
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/DFF/ff/schematic" 1 mgc_schematic 472f61cb2232.03.7f.00.00.01.00.17.8d 472f61cb2231.03.7f.00.00.01.00.17.8d
