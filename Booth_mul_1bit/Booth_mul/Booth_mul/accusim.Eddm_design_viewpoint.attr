@@ -1,0 +1,34 @@
+A 5 u Eddm_design_viewpoint 47e2c2d8e483.03.7f.00.00.01.00.42.4f 3 2 3 0
+V v 1 4 47e2c2d8e484.03.7f.00.00.01.00.42.4f
+F f 1 "accusim.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 47e2d2041cb3.03.7f.00.00.01.00.49.7f
+F f 2 "accusim.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 47e2e62e8e68.03.7f.00.00.01.00.16.f3
+F f 3 "accusim.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/Booth_mul/Booth_mul/sdl" 1 Eddm_ba_mgr 47e2c2d8e9fb.03.7f.00.00.01.01.42.4f 47e2c2d8e9fb.03.7f.00.00.01.00.42.4f
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/Booth_mul/Booth_mul/sdl" 1 Eddm_ba_mgr 47e2c2d8e9fb.03.7f.00.00.01.01.42.4f 47e2c2d8e9fb.03.7f.00.00.01.00.42.4f
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/Booth_mul/Booth_mul/sdl" 1 Eddm_ba_mgr 47e2c2d8e9fb.03.7f.00.00.01.01.42.4f 47e2c2d8e9fb.03.7f.00.00.01.00.42.4f

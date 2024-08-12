@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47e2c02c71ee.03.7f.00.00.01.00.3f.78 1 2 1 0
+V v 1 1 47e2c02c71ee.03.7f.00.00.01.01.3f.78
+F f 1 "ami05a.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/ami05a" 1 Eddm_design_viewpoint 47e2c02c6de8.03.7f.00.00.01.01.3f.78 47e2c02c6de8.03.7f.00.00.01.00.3f.78

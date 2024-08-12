@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47e2c2d8e9fb.03.7f.00.00.01.00.42.4f 1 2 1 0
+V v 1 1 47e2c2d8e9fb.03.7f.00.00.01.01.42.4f
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/accusim" 1 Eddm_design_viewpoint 47e2c2d8e484.03.7f.00.00.01.00.42.4f 47e2c2d8e483.03.7f.00.00.01.00.42.4f

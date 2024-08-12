@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 47e2b8614079.03.7f.00.00.01.00.3f.78 18 2 1 0
+V v 16 1 47e2d47d14f2.03.7f.00.00.01.00.4b.63
+F o 0 ""
+V v 17 1 47e2d47d3c13.03.7f.00.00.01.00.4b.63
+F o 0 ""
+V v 18 1 47e2de72bc39.03.7f.00.00.01.00.4b.63
+F o 0 ""
+O 18
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/schematic/sheet1" 17 mgc_sheet 47e2de72bc19.03.7f.00.00.01.00.4b.63 47e2b8614106.03.7f.00.00.01.00.3f.78
+O 17
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/schematic/sheet1" 16 mgc_sheet 47e2d47d3bf4.03.7f.00.00.01.00.4b.63 47e2b8614106.03.7f.00.00.01.00.3f.78
+O 16
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/schematic/sheet1" 15 mgc_sheet 47e2d47d14d3.03.7f.00.00.01.00.4b.63 47e2b8614106.03.7f.00.00.01.00.3f.78
