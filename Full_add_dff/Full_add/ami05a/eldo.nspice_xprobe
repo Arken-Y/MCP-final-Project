@@ -1,0 +1,455 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Globals
+   VDD vdd
+   GND gnd
+End Globals
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell #top#
+   Pin Cout cout
+   Pin SUM sum
+   Pin SUM1 sum1
+   Pin SUM2 sum2
+   Pin SUM3 sum3
+   Pin SUM4 sum4
+   Pin SUM5 sum5
+   Pin SUM6 sum6
+   Pin SUM7 sum7
+   Pin SUM8 sum8
+   Pin A a
+   Pin A1 a1
+   Pin A2 a2
+   Pin A3 a3
+   Pin A4 a4
+   Pin A5 a5
+   Pin A6 a6
+   Pin A7 a7
+   Pin A8 a8
+   Pin B b
+   Pin B1 b1
+   Pin B2 b2
+   Pin B3 b3
+   Pin B4 b4
+   Pin B5 b5
+   Pin B6 b6
+   Pin B7 b7
+   Pin B8 b8
+   Pin C c
+   Net N$2218 n$2218
+   Net N$2217 n$2217
+   Net N$2216 n$2216
+   Net N$2215 n$2215
+   Net N$2214 n$2214
+   Net N$2213 n$2213
+   Net N$2212 n$2212
+   Net N$2211 n$2211
+   Net N$2210 n$2210
+   Net N$2207 n$2207
+   Net N$2206 n$2206
+   Net N$2203 n$2203
+   Net N$1489 n$1489
+   Net N$1797 n$1797
+   Net N$1796 n$1796
+   Net N$1795 n$1795
+   Net N$1794 n$1794
+   Net N$1793 n$1793
+   Net N$1792 n$1792
+   Net N$1791 n$1791
+   Net N$1790 n$1790
+   Net N$1789 n$1789
+   Net N$1788 n$1788
+   Net N$1786 n$1786
+   Net N$1785 n$1785
+   Net N$1782 n$1782
+   Net N$1779 n$1779
+   Net N$1778 n$1778
+   Net N$1777 n$1777
+   Net N$1776 n$1776
+   Net N$1775 n$1775
+   Net N$1774 n$1774
+   Net N$1773 n$1773
+   Net N$1772 n$1772
+   Net N$1771 n$1771
+   Net N$1770 n$1770
+   Net N$1768 n$1768
+   Net N$1767 n$1767
+   Net N$1764 n$1764
+   Net N$1761 n$1761
+   Net N$1760 n$1760
+   Net N$1759 n$1759
+   Net N$1758 n$1758
+   Net N$1757 n$1757
+   Net N$1756 n$1756
+   Net N$1755 n$1755
+   Net N$1754 n$1754
+   Net N$1753 n$1753
+   Net N$1752 n$1752
+   Net N$1750 n$1750
+   Net N$1749 n$1749
+   Net N$1746 n$1746
+   Net N$1743 n$1743
+   Net N$1742 n$1742
+   Net N$1741 n$1741
+   Net N$1740 n$1740
+   Net N$1739 n$1739
+   Net N$1738 n$1738
+   Net N$1737 n$1737
+   Net N$1736 n$1736
+   Net N$1735 n$1735
+   Net N$1734 n$1734
+   Net N$1732 n$1732
+   Net N$1731 n$1731
+   Net N$1728 n$1728
+   Net N$1276 n$1276
+   Net N$1725 n$1725
+   Net N$1724 n$1724
+   Net N$1723 n$1723
+   Net N$1722 n$1722
+   Net N$1721 n$1721
+   Net N$1720 n$1720
+   Net N$1719 n$1719
+   Net N$1718 n$1718
+   Net N$1717 n$1717
+   Net N$1715 n$1715
+   Net N$1714 n$1714
+   Net N$1711 n$1711
+   Net N$1708 n$1708
+   Net N$1707 n$1707
+   Net N$1706 n$1706
+   Net N$1705 n$1705
+   Net N$1704 n$1704
+   Net N$1703 n$1703
+   Net N$1702 n$1702
+   Net N$1701 n$1701
+   Net N$1700 n$1700
+   Net N$1699 n$1699
+   Net N$1697 n$1697
+   Net N$1696 n$1696
+   Net N$1693 n$1693
+   Net N$1285 n$1285
+   Net N$1284 n$1284
+   Net N$1283 n$1283
+   Net N$1282 n$1282
+   Net N$1281 n$1281
+   Net N$1280 n$1280
+   Net N$1279 n$1279
+   Net N$1278 n$1278
+   Net N$1277 n$1277
+   Net N$1274 n$1274
+   Net N$1273 n$1273
+   Net N$1270 n$1270
+   Net N$855 n$855
+   Net N$245 n$245
+   Net N$209 n$209
+   Net N$212 n$212
+   Net N$5 n$5
+   Net N$241 n$241
+   Net N$239 n$239
+   Net N$236 n$236
+   Net N$231 n$231
+   Net N$228 n$228
+   Net N$226 n$226
+   Net N$222 n$222
+   Net N$218 n$218
+   Net B b
+   Net A a
+   Net C c
+   Net SUM sum
+   Net A1 a1
+   Net B1 b1
+   Net SUM1 sum1
+   Net A2 a2
+   Net B2 b2
+   Net SUM2 sum2
+   Net A3 a3
+   Net B3 b3
+   Net SUM3 sum3
+   Net A4 a4
+   Net B4 b4
+   Net SUM4 sum4
+   Net A5 a5
+   Net B5 b5
+   Net SUM5 sum5
+   Net A6 a6
+   Net B6 b6
+   Net SUM6 sum6
+   Net A7 a7
+   Net B7 b7
+   Net SUM7 sum7
+   Net A8 a8
+   Net B8 b8
+   Net Cout cout
+   Net SUM8 sum8
+   Global VDD vdd
+   Global GND gnd
+   Inst MN8 mn8 nmos4
+   Inst MN7 mn7 nmos4
+   Inst MP13 mp13 pmos4
+   Inst MP12 mp12 pmos4
+   Inst MP11 mp11 pmos4
+   Inst MP10 mp10 pmos4
+   Inst MP9 mp9 pmos4
+   Inst MP8 mp8 pmos4
+   Inst MP7 mp7 pmos4
+   Inst MN13 mn13 nmos4
+   Inst MN5 mn5 nmos4
+   Inst MN4 mn4 nmos4
+   Inst MN3 mn3 nmos4
+   Inst MN2 mn2 nmos4
+   Inst MN12 mn12 nmos4
+   Inst MN6 mn6 nmos4
+   Inst MN9 mn9 nmos4
+   Inst MN10 mn10 nmos4
+   Inst MN11 mn11 nmos4
+   Inst MN1 mn1 nmos4
+   Inst MP6 mp6 pmos4
+   Inst MN14 mn14 nmos4
+   Inst MP14 mp14 pmos4
+   Inst MP1 mp1 pmos4
+   Inst MP5 mp5 pmos4
+   Inst MP4 mp4 pmos4
+   Inst MP3 mp3 pmos4
+   Inst MN42 mn42 nmos4
+   Inst MP42 mp42 pmos4
+   Inst MN41 mn41 nmos4
+   Inst MN40 mn40 nmos4
+   Inst MN39 mn39 nmos4
+   Inst MN38 mn38 nmos4
+   Inst MN37 mn37 nmos4
+   Inst MN36 mn36 nmos4
+   Inst MN35 mn35 nmos4
+   Inst MP41 mp41 pmos4
+   Inst MP40 mp40 pmos4
+   Inst MP39 mp39 pmos4
+   Inst MP38 mp38 pmos4
+   Inst MP37 mp37 pmos4
+   Inst MP36 mp36 pmos4
+   Inst MP35 mp35 pmos4
+   Inst MP34 mp34 pmos4
+   Inst MN34 mn34 nmos4
+   Inst MN33 mn33 nmos4
+   Inst MN32 mn32 nmos4
+   Inst MN31 mn31 nmos4
+   Inst MN30 mn30 nmos4
+   Inst MN29 mn29 nmos4
+   Inst MP33 mp33 pmos4
+   Inst MP32 mp32 pmos4
+   Inst MP31 mp31 pmos4
+   Inst MP30 mp30 pmos4
+   Inst MP29 mp29 pmos4
+   Inst MN28 mn28 nmos4
+   Inst MP28 mp28 pmos4
+   Inst MN27 mn27 nmos4
+   Inst MP58 mp58 pmos4
+   Inst MN54 mn54 nmos4
+   Inst MN53 mn53 nmos4
+   Inst MN52 mn52 nmos4
+   Inst MN51 mn51 nmos4
+   Inst MN50 mn50 nmos4
+   Inst MN49 mn49 nmos4
+   Inst MP55 mp55 pmos4
+   Inst MP54 mp54 pmos4
+   Inst MP53 mp53 pmos4
+   Inst MP52 mp52 pmos4
+   Inst MP51 mp51 pmos4
+   Inst MP50 mp50 pmos4
+   Inst MP49 mp49 pmos4
+   Inst MP48 mp48 pmos4
+   Inst MN48 mn48 nmos4
+   Inst MN47 mn47 nmos4
+   Inst MN46 mn46 nmos4
+   Inst MN45 mn45 nmos4
+   Inst MN44 mn44 nmos4
+   Inst MN43 mn43 nmos4
+   Inst MP47 mp47 pmos4
+   Inst MP46 mp46 pmos4
+   Inst MP45 mp45 pmos4
+   Inst MP44 mp44 pmos4
+   Inst MP43 mp43 pmos4
+   Inst MN55 mn55 nmos4
+   Inst MP57 mp57 pmos4
+   Inst MN25 mn25 nmos4
+   Inst MN24 mn24 nmos4
+   Inst MN23 mn23 nmos4
+   Inst MN22 mn22 nmos4
+   Inst MN21 mn21 nmos4
+   Inst MP27 mp27 pmos4
+   Inst MP26 mp26 pmos4
+   Inst MP25 mp25 pmos4
+   Inst MP24 mp24 pmos4
+   Inst MP23 mp23 pmos4
+   Inst MP22 mp22 pmos4
+   Inst MP21 mp21 pmos4
+   Inst MP20 mp20 pmos4
+   Inst MN20 mn20 nmos4
+   Inst MN19 mn19 nmos4
+   Inst MN18 mn18 nmos4
+   Inst MN17 mn17 nmos4
+   Inst MN16 mn16 nmos4
+   Inst MN15 mn15 nmos4
+   Inst MP19 mp19 pmos4
+   Inst MP18 mp18 pmos4
+   Inst MP17 mp17 pmos4
+   Inst MP16 mp16 pmos4
+   Inst MP15 mp15 pmos4
+   Inst MP2 mp2 pmos4
+   Inst MN26 mn26 nmos4
+   Inst MN94 mn94 nmos4
+   Inst MN93 mn93 nmos4
+   Inst MN92 mn92 nmos4
+   Inst MN91 mn91 nmos4
+   Inst MP97 mp97 pmos4
+   Inst MP96 mp96 pmos4
+   Inst MP95 mp95 pmos4
+   Inst MP94 mp94 pmos4
+   Inst MP93 mp93 pmos4
+   Inst MP92 mp92 pmos4
+   Inst MP91 mp91 pmos4
+   Inst MP90 mp90 pmos4
+   Inst MN90 mn90 nmos4
+   Inst MN89 mn89 nmos4
+   Inst MN88 mn88 nmos4
+   Inst MN87 mn87 nmos4
+   Inst MN86 mn86 nmos4
+   Inst MN85 mn85 nmos4
+   Inst MP89 mp89 pmos4
+   Inst MP88 mp88 pmos4
+   Inst MP87 mp87 pmos4
+   Inst MP86 mp86 pmos4
+   Inst MP85 mp85 pmos4
+   Inst MN84 mn84 nmos4
+   Inst MP84 mp84 pmos4
+   Inst MN83 mn83 nmos4
+   Inst MN82 mn82 nmos4
+   Inst MN107 mn107 nmos4
+   Inst MN106 mn106 nmos4
+   Inst MN105 mn105 nmos4
+   Inst MP111 mp111 pmos4
+   Inst MP110 mp110 pmos4
+   Inst MP109 mp109 pmos4
+   Inst MP108 mp108 pmos4
+   Inst MP107 mp107 pmos4
+   Inst MP106 mp106 pmos4
+   Inst MP105 mp105 pmos4
+   Inst MP104 mp104 pmos4
+   Inst MN104 mn104 nmos4
+   Inst MN103 mn103 nmos4
+   Inst MN102 mn102 nmos4
+   Inst MN101 mn101 nmos4
+   Inst MN100 mn100 nmos4
+   Inst MN99 mn99 nmos4
+   Inst MP103 mp103 pmos4
+   Inst MP102 mp102 pmos4
+   Inst MP101 mp101 pmos4
+   Inst MP100 mp100 pmos4
+   Inst MP99 mp99 pmos4
+   Inst MN98 mn98 nmos4
+   Inst MP98 mp98 pmos4
+   Inst MN97 mn97 nmos4
+   Inst MN96 mn96 nmos4
+   Inst MN95 mn95 nmos4
+   Inst MP114 mp114 pmos4
+   Inst MN68 mn68 nmos4
+   Inst MN67 mn67 nmos4
+   Inst MN66 mn66 nmos4
+   Inst MN65 mn65 nmos4
+   Inst MN64 mn64 nmos4
+   Inst MN63 mn63 nmos4
+   Inst MP69 mp69 pmos4
+   Inst MP68 mp68 pmos4
+   Inst MP67 mp67 pmos4
+   Inst MP66 mp66 pmos4
+   Inst MP65 mp65 pmos4
+   Inst MP64 mp64 pmos4
+   Inst MP63 mp63 pmos4
+   Inst MP62 mp62 pmos4
+   Inst MN62 mn62 nmos4
+   Inst MN61 mn61 nmos4
+   Inst MN60 mn60 nmos4
+   Inst MN59 mn59 nmos4
+   Inst MN58 mn58 nmos4
+   Inst MN57 mn57 nmos4
+   Inst MP61 mp61 pmos4
+   Inst MP60 mp60 pmos4
+   Inst MP59 mp59 pmos4
+   Inst MN69 mn69 nmos4
+   Inst MN56 mn56 nmos4
+   Inst MP56 mp56 pmos4
+   Inst MP113 mp113 pmos4
+   Inst MN80 mn80 nmos4
+   Inst MN79 mn79 nmos4
+   Inst MN78 mn78 nmos4
+   Inst MN77 mn77 nmos4
+   Inst MP83 mp83 pmos4
+   Inst MP82 mp82 pmos4
+   Inst MP81 mp81 pmos4
+   Inst MP80 mp80 pmos4
+   Inst MP79 mp79 pmos4
+   Inst MP78 mp78 pmos4
+   Inst MP77 mp77 pmos4
+   Inst MP76 mp76 pmos4
+   Inst MN76 mn76 nmos4
+   Inst MN75 mn75 nmos4
+   Inst MN74 mn74 nmos4
+   Inst MN73 mn73 nmos4
+   Inst MN72 mn72 nmos4
+   Inst MN71 mn71 nmos4
+   Inst MP75 mp75 pmos4
+   Inst MP74 mp74 pmos4
+   Inst MP73 mp73 pmos4
+   Inst MP72 mp72 pmos4
+   Inst MP71 mp71 pmos4
+   Inst MN81 mn81 nmos4
+   Inst MN70 mn70 nmos4
+   Inst MP70 mp70 pmos4
+   Inst MN126 mn126 nmos4
+   Inst MP126 mp126 pmos4
+   Inst MN125 mn125 nmos4
+   Inst MN124 mn124 nmos4
+   Inst MN123 mn123 nmos4
+   Inst MN122 mn122 nmos4
+   Inst MN120 mn120 nmos4
+   Inst MN119 mn119 nmos4
+   Inst MP125 mp125 pmos4
+   Inst MP124 mp124 pmos4
+   Inst MP123 mp123 pmos4
+   Inst MP122 mp122 pmos4
+   Inst MP121 mp121 pmos4
+   Inst MP120 mp120 pmos4
+   Inst MP119 mp119 pmos4
+   Inst MP118 mp118 pmos4
+   Inst MN118 mn118 nmos4
+   Inst MN117 mn117 nmos4
+   Inst MN116 mn116 nmos4
+   Inst MN115 mn115 nmos4
+   Inst MN114 mn114 nmos4
+   Inst MN113 mn113 nmos4
+   Inst MP117 mp117 pmos4
+   Inst MP116 mp116 pmos4
+   Inst MP115 mp115 pmos4
+   Inst MN121 mn121 nmos4
+   Inst MN112 mn112 nmos4
+   Inst MP112 mp112 pmos4
+   Inst MN111 mn111 nmos4
+   Inst MN110 mn110 nmos4
+   Inst MN109 mn109 nmos4
+   Inst MN108 mn108 nmos4
+End Cell
+

@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 473ce353f20d.03.7f.00.00.01.00.34.cf 1 2 1 0
+V v 1 1 473ce353f20d.03.7f.00.00.01.01.34.cf
+F f 1 "eldonet.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Full_add/Full_add/eldonet" 1 Eddm_design_viewpoint 473ce353f11f.03.7f.00.00.01.01.34.cf 473ce353f11f.03.7f.00.00.01.00.34.cf
