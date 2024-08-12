@@ -1,0 +1,7 @@
+* Component: /home/mentor/Booth_mul/Booth_mul  Viewpoint: ami05a
+.INCLUDE Booth_mul_ami05a.spi
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX

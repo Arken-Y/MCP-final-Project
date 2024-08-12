@@ -1,0 +1,26 @@
+A 5 u Eddm_design_viewpoint 474483e1598b.03.7f.00.00.01.00.1f.48 1 2 16 0
+V v 1 4 474483e2b574.03.7f.00.00.01.00.1f.48
+F f 1 "default.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/barrel_shifter/barrel_shifter/part" 1 Eddm_part 474481dbc628.03.7f.00.00.01.00.1e.5b 474481dbc627.03.7f.00.00.01.00.1e.5b
+R cspuv 1 "/home/mentor/barrel_shifter/barrel_shifter/schematic" 4 mgc_schematic 474482d34667.03.7f.00.00.01.00.1e.5b 47447c1284e6.03.7f.00.00.01.00.1e.5b
+R cspuv 2 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/nmos3" 1 mgc_symbol 40edb84b1ae0.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.02.02.fa
+R cspuv 5 "$ADK/technology/ic/symbols/nmos4/schematic" 1 mgc_schematic 77263be31b3b.02.80.fc.a8.96.00.00.00 43349f1b0dfe.03.93.22.46.d8.03.02.fa
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 6 "$ADK/technology/ic/symbols/pmos4/pmos3" 1 mgc_symbol 40edb88c705a.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.06.02.fa
+R cspuv 7 "$ADK/technology/ic/symbols/pmos4/schematic" 1 mgc_schematic 77263cf09b81.02.80.fc.a8.96.00.00.00 43349f1b0e00.03.93.22.46.d8.04.02.fa
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 8 "$ADK/technology/ic/symbols/vdd/part" 1 Eddm_part 41477fd3a3a1.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.04.02.fa
+R cspuv 9 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R cspuv 10 "$ADK/technology/ic/symbols/gnd/part" 1 Eddm_part 41477fef2e46.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.01.02.fa
+R cspuv 11 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R cspuv 12 "$ADK/technology/ic/symbols/vdd/vdd" 1 mgc_symbol 41477fd3a361.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.03.02.fa
+R cspuv 13 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R cspuv 14 "$ADK/technology/ic/symbols/gnd/gnd" 1 mgc_symbol 41477fef2e0e.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.02.02.fa
+R cspuv 15 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa

@@ -1,0 +1,31 @@
+A 5 u Eddm_design_viewpoint 47e2c2d90847.03.7f.00.00.01.00.42.4f 6 2 2 0
+V v 4 4 47e400d1401c.03.7f.00.00.01.00.26.38
+F f 4 "layout.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 5 4 47e42d10aa2c.03.7f.00.00.01.00.2c.b1
+F f 5 "layout.dvpt_5"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 6 4 47e81723aa0c.03.7f.00.00.01.00.17.b4
+F f 6 "layout.dvpt_6"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 6
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Booth_mul/Booth_mul/part" 1 Eddm_part 47e2c02c6877.03.7f.00.00.01.01.3f.78 47e2c02c6877.03.7f.00.00.01.00.3f.78
+R cspuv 1 "/home/mentor/Booth_mul/Booth_mul/schematic" 1 mgc_schematic 47e2b8614079.03.7f.00.00.01.01.3f.78 47e2b8614079.03.7f.00.00.01.00.3f.78
+P "eddm__refer_state" "eddm__refer_floating"

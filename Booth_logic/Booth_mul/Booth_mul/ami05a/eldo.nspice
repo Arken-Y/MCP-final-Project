@@ -1,0 +1,16 @@
+* ELDO netlist generated with ICnet by 'mentor' on Thu Mar 20 2008 at 15:51:09
+
+*
+* Globals.
+*
+.global vdd gnd
+
+*
+* MAIN CELL: Component pathname : /home/mentor/Booth_mul/Booth_mul
+*
+        mn2 n$215 a gnd gnd n L=2u W=6u
+        mn1 cout b n$215 gnd n L=2u W=6u
+        mp2 cout b vdd vdd p L=2u W=6u
+        mp1 cout a vdd vdd p L=2u W=6u
+*
+.end

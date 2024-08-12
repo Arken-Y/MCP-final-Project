@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 4744836e82e7.03.7f.00.00.01.00.1e.d6 1 2 1 0
+V v 1 1 4744836e82e8.03.7f.00.00.01.00.1e.d6
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/barrel_shifter/barrel_shifter/accusim" 1 Eddm_design_viewpoint 4744836e7ec9.03.7f.00.00.01.01.1e.d6 4744836e7ec9.03.7f.00.00.01.00.1e.d6

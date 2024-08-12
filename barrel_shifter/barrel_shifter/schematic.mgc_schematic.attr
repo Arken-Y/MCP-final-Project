@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 47447c1284e6.03.7f.00.00.01.00.1e.5b 15 2 1 0
+V v 13 1 4744904e6b8c.03.7f.00.00.01.00.21.32
+F o 0 ""
+V v 14 1 47449986b357.03.7f.00.00.01.00.21.32
+F o 0 ""
+V v 15 1 4744a1bd826a.03.7f.00.00.01.00.21.32
+F o 0 ""
+O 15
+R cspuv 0 "/home/mentor/barrel_shifter/barrel_shifter/schematic/sheet1" 14 mgc_sheet 4744a1bd824c.03.7f.00.00.01.00.21.32 47447c12856b.03.7f.00.00.01.00.1e.5b
+O 14
+R cspuv 0 "/home/mentor/barrel_shifter/barrel_shifter/schematic/sheet1" 13 mgc_sheet 47449986b337.03.7f.00.00.01.00.21.32 47447c12856b.03.7f.00.00.01.00.1e.5b
+O 13
+R cspuv 0 "/home/mentor/barrel_shifter/barrel_shifter/schematic/sheet1" 12 mgc_sheet 4744904e6b6d.03.7f.00.00.01.00.21.32 47447c12856b.03.7f.00.00.01.00.1e.5b
