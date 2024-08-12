@@ -1,0 +1,6 @@
+A 5 u Eddm_part 474dc823b44b.03.7f.00.00.01.00.3e.49 1 2 1 0
+V v 1 1 474dc823b44c.03.7f.00.00.01.00.3e.49
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49

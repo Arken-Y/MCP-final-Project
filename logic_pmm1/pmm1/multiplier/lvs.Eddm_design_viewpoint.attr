@@ -1,0 +1,21 @@
+A 5 u Eddm_design_viewpoint 474df0d40f47.03.7f.00.00.01.00.41.b3 2 2 2 0
+V v 1 4 474df0d40f48.03.7f.00.00.01.00.41.b3
+F f 1 "lvs.dvpt_1"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 2 4 474e0ff4c63b.03.7f.00.00.01.00.45.c0
+F f 2 "lvs.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/part" 1 Eddm_part 474dc823b44c.03.7f.00.00.01.00.3e.49 474dc823b44b.03.7f.00.00.01.00.3e.49
+R cspuv 1 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49
+P "eddm__refer_state" "eddm__refer_floating"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/part" 1 Eddm_part 474dc823b44c.03.7f.00.00.01.00.3e.49 474dc823b44b.03.7f.00.00.01.00.3e.49
+R cspuv 1 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49
+P "eddm__refer_state" "eddm__refer_floating"
