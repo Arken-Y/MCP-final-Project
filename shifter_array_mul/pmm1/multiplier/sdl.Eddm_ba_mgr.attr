@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 474df0d409fe.03.7f.00.00.01.00.41.b3 1 2 1 0
+V v 1 1 474df0d409fe.03.7f.00.00.01.01.41.b3
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/accusim" 1 Eddm_design_viewpoint 474df0d405ef.03.7f.00.00.01.01.41.b3 474df0d405ef.03.7f.00.00.01.00.41.b3
