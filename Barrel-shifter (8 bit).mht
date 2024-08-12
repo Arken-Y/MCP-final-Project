@@ -1,0 +1,1065 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: Barrel-shifter (8 bit)
+Date: Wed, 17 Oct 2007 11:33:54 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C810B1.994F3560"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/10-gates/60-barrel/shifter8.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><TITLE>Barrel-shifter (8 bit)</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1"><LINK=20
+href=3D"../../images/favicon.ico" rel=3D"website icon"><LINK=20
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+hades.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<META content=3D"MSHTML 6.00.6000.16441" name=3DGENERATOR></HEAD>
+<BODY bgColor=3D#ffffff>
+<TABLE cellSpacing=3D0 cellPadding=3D3 border=3D0>
+  <TBODY>
+  <TR vAlign=3Dtop>
+    <TD class=3DlBanner><IMG alt=3D"Hades logo"=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/hades-130x50-lightgray.gif"></TD>
+    <TD class=3DsBanner></TD>
+    <TD class=3DmBanner><IMG alt=3D"Hades applet banner"=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/1=
+0-gates/60-barrel/shifter8-banner.gif"></TD>
+    <TD class=3DsBanner></TD>
+    <TD class=3DrBanner></TD></TR>
+  <TR>
+    <TD class=3DlNavbar></TD>
+    <TD class=3DsNavbar></TD>
+    <TD class=3DmNavbar><A=20
+      =
+href=3D"http://tams-www.informatik.uni-hamburg.de/index.html">TAMS</A> / =
+<A=20
+      =
+href=3D"http://tams-www.informatik.uni-hamburg.de/applets/index.html">Jav=
+a</A>=20
+      / <A=20
+      =
+href=3D"http://tams-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+index.html">Hades</A>=20
+      / <B>applets:</B> <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+toc.html">contents</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/50-hamming/hamming.html">previous</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+12-gatedelay/10-delaydemo/gate-vs-wire-delay.html">next</A></TD>
+    <TD class=3DsNavbar></TD>
+    <TD class=3DrNavbar></TD></TR>
+  <TR>
+    <TD class=3DlEmpty></TD>
+    <TD class=3DsEmpty></TD>
+    <TD class=3DmEmpty></TD>
+    <TD class=3DsEmpty></TD>
+    <TD class=3DrEmpty></TD></TR>
+  <TR>
+    <TD class=3DlText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD class=3DlMenu><A=20
+      =
+href=3D"http://tams-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+index.html">Hades</A><BR><A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+toc.html">Applets</A><BR><A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+toc.html">contents</A><BR><A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+visual-index.html">visual&nbsp;index</A><BR>&nbsp;<BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+00-intro/00-welcome/chapter.html">introduction</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+00-intro/03-stdlogic/chapter.html">std_logic_1164</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-fill.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/chapter.html">gatelevel&nbsp;circuits</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/basic.html">basic&nbsp;gates</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/and.html">AND&nbsp;gates</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/or.html">OR&nbsp;gates</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/xor.html">XOR&nbsp;and&nbsp;XNOR</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/de-morgan.html">De&nbsp;Morgan</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/complex.html">complex&nbsp;gates</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/00-gates/andbig.html">AND12&nbsp;gate</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/10-wuerfel/wuerfel.html">simple&nbsp;decoder</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/11-xor/xor-variants.html">XOR&nbsp;variants</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/12-parity/parity4.html">4-bit&nbsp;parity...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/12-parity/parity8.html">8-bit&nbsp;parity...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/13-mult2x2/mult2x2.html">2x2&nbsp;bit&nbsp;mult...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/15-graycode/dual2gray.html">Gray-code&nbsp;</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/17-ttl/7400-7486.html">7400&nbsp;and&nbsp;7486</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/20-sevensegment/sevensegment.html">seven-segmen...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/20-sevensegment/SN7449-demo.html">7449&nbsp;seven-s...</A><BR><I=
+MG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/30-sevensegment-ascii/sevensegment-ascii.html">Ascii&nbsp;decode=
+r</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/40-mux-demux/mux-demux.html">multiplexer&nbsp;...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/40-mux-demux/mux21-mux41.html">multiplexer&nbsp;...</A><BR><IMG =
+
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/40-mux-demux/SN74151.html">74151&nbsp;multip...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/40-mux-demux/SN74154.html">74154&nbsp;decode...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/40-mux-demux/demo74154.html">74154&nbsp;decode...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/45-priority/priority42.html">priority&nbsp;enc...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/45-priority/priority83.html">priority&nbsp;enc...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/50-hamming/hamming.html">Hamming&nbsp;code</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-none.png">&nbsp;<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-fill.png">&nbsp;<FONT=20
+      color=3D#800000>barrel-shifter</FONT><BR><IMG alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+12-gatedelay/10-delaydemo/chapter.html">delay&nbsp;models</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+16-flipflops/10-srff/chapter.html">flipflops</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+20-arithmetic/10-adders/chapter.html">adders&nbsp;and&nbsp;arithm...</A><=
+BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+30-counters/20-async/chapter.html">counters</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+35-selftest/30-lfsr/chapter.html">LFSR&nbsp;and&nbsp;selftest</A><BR><IMG=
+=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+40-memories/20-rom/chapter.html">memories</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+42-programmable/10-pla/chapter.html">programmable&nbsp;logic</A><BR><IMG =
+
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+45-misc/05-fsm-editor/chapter.html">state-machine&nbsp;editor</A><BR><IMG=
+=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+45-misc/20-laufschrift/chapter.html">misc.&nbsp;demos</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+45-misc/50-displays/chapter.html">I/O&nbsp;and&nbsp;displays</A><BR><IMG =
+
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+45-misc/80-dcf77/chapter.html">DCF-77&nbsp;clock</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+05-switched/10-iswitch/chapter.html">relays&nbsp;(switch-le...</A><BR><IM=
+G=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+05-switched/40-cmos/chapter.html">CMOS&nbsp;circuits&nbsp;(sw...</A><BR><=
+IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+50-rtlib/00-intro/chapter.html">RTLIB&nbsp;logic</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+50-rtlib/20-registers/chapter.html">RTLIB&nbsp;registers</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+50-rtlib/90-prima/chapter.html">Prima&nbsp;processor</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+60-dcore/t3/chapter.html">D*CORE</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+65-microjava/10-microjava/chapter.html">MicroJava</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+72-pic/05-walk/chapter.html">Pic16&nbsp;cosimulation</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+76-mips/01-intro/chapter.html">Mips&nbsp;R3000&nbsp;cosimu...</A><BR><IMG=
+=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+80-mcs4/intro/chapter.html">Intel&nbsp;MCS4&nbsp;(i4004)</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+00-intro/02-imageprocessing/chapter.html">image&nbsp;processing&nbsp;...<=
+/A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+90-tionline/04-codeumsetzer/chapter.html">[Sch04]&nbsp;Codeumsetzer</A><B=
+R><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+90-tionline/04-addierer/chapter.html">[Sch04]&nbsp;Addierer</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+90-tionline/05-flipflop/chapter.html">[Sch04]&nbsp;Flipflops</A><BR><IMG =
+
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+90-tionline/06-schaltwerke/chapter.html">[Sch04]&nbsp;Schaltwerke</A><BR>=
+<IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+90-tionline/06-ralu/chapter.html">[Sch04]&nbsp;RALU,&nbsp;Min...</A><BR><=
+IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+95-dpi/farmroad/chapter.html">[Fer05]&nbsp;State-Mac...</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+95-dpi/pic16f84-lcd-character/chapter.html">[Fer05]&nbsp;PIC16F84/...</A>=
+<BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+95-dpi/float-multiplier/chapter.html">[Fer05]&nbsp;Miscellan...</A><BR><I=
+MG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+96-femtojava/adder/chapter.html">[Fer05]&nbsp;Femtojava</A><BR><IMG=20
+      alt=3Dspacer=20
+      =
+src=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/i=
+mages/circle-open.png">&nbsp;<A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+00-intro/15-freetts/chapter.html">FreeTTS</A><BR>&nbsp;
+      <P></P></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText><B>Barrel-shifter (8 bit)</B>
+      <P>
+      <P><APPLET codeBase=3D. height=3D500=20
+      alt=3D"Please enable Java to run this applet."=20
+      archive=3D../../classes/hades-applet.jar width=3D690=20
+      code=3Dhades.gui.EditorInApplet.class><PARAM =
+NAME=3D"Hades.UseSwingGUI" VALUE=3D"true"><PARAM =
+NAME=3D"Hades.Editor.AutoStartSimulation" VALUE=3D"true"><PARAM =
+NAME=3D"Hades.Editor.ViewMode" VALUE=3D"true"><PARAM =
+NAME=3D"Hades.Editor.ZoomFit" VALUE=3D"true"><PARAM NAME=3D"debug" =
+VALUE=3D"true"><PARAM NAME=3D"directory" =
+VALUE=3D"10-gates/60-barrel"><PARAM NAME=3D"Hades.Applet.ExternalWindow" =
+VALUE=3D"false"><PARAM NAME=3D"Hades.Applet.Design" =
+VALUE=3D"shifter8.hds"><PARAM NAME=3D"Hades.Applet.AltImage" =
+VALUE=3D"shifter8.gif">
+      <img src=3D"shifter8.gif" alt=3D"applet icon" /><p /><font=20
+      color=3D"#C00000"><b>The image above shows a thumbnail of =
+theinteractive=20
+      Java applet embedded into this page.Unfortunately, your browser is =
+not=20
+      Java-aware or Java is disabled in the browser preferences.To start =
+the=20
+      applet, please enable Java and reload this page.(You might have to =
+restart=20
+      the browser.)</b></font> </APPLET>=20
+      <P>
+      <P><B>Circuit Description</B>=20
+      <P>This applet demonstrates a multiplexer-based <B>8-bit=20
+      barrel-shifter</B>. The circuit allows shifting the input data =
+word left,=20
+      where the amount of shifting is selected via the control inputs. =
+Several=20
+      microprocessors include barrel-shifters as part of their ALUs to =
+provide=20
+      fast shift (and rotate) operations.=20
+      <P>The circuit shown in the applet consists of three stages of 2:1 =
+
+      multiplexers, with one multiplexer per bit of the input data (here =
+8).=20
+      When all multiplexer select inputs are inactive (low), the input =
+data=20
+      passes straight through the cascade of the multiplexers and the =
+output=20
+      data (Q7..Q0) is equal to the input data (D7..D0). When enabled =
+via the=20
+      <EM>SHL_1</EM> input, the first stage of multiplexers performs a=20
+      <B>shift-left by one bit</B> operation, due the their =
+interconnection to=20
+      the next-lower input. A low input value (0) is used for the least=20
+      significant bit, so that the shifter output becomes (Q6..Q1 0).=20
+      <P>Similarly, the second stage of multiplexers performs a =
+<B>shift-left by=20
+      two bits</B> when enabled via the <EM>SHL_2</EM> control signal. =
+Note that=20
+      the corresponding multiplexer inputs are connected to their second =
+
+      next-lower input, and two zeroes are required for the lowest bits. =
+
+      Finally, the third stage of multiplexers performs a <B>shift-left =
+by four=20
+      bits</B>, with four zero bits filled into the lowest bits.=20
+      <P>Due to the cascade of three stages, all three shift operations =
+(by one=20
+      bit, by two bits, and by four bits) can be activated independently =
+from=20
+      each other. For example, when both <EM>SHL_1</EM> and =
+<EM>SHL_4</EM> are=20
+      activated, the shifter performs a shift-left by five bits. The=20
+      generalization to higher word-width (e.g. 64 bits) and higher =
+number of=20
+      stages (e.g. 8) should be obvious, as should the construction of=20
+      shift-right or rotate operators.=20
+      <P>
+      <P></P></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR>
+    <TD class=3DlText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR>
+    <TD class=3DlText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText><A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/60-barrel/shifter8_print.html">Print=20
+      version</A> | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+10-gates/60-barrel/shifter8.jnlp">Run=20
+      this demo</A> in the Hades editor (via Java WebStart)</TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR>
+    <TD class=3DlText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD class=3DlText></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DmText><A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+usage.html">Usage</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+FAQ.html">FAQ</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+about.html">About</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+license.html">License</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+feedback.html">Feedback</A>=20
+      | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+docs/tutorial.pdf">Tutorial=20
+      (PDF)</A> | <A=20
+      =
+href=3D"http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+docs/referenzkarte.pdf">Referenzkarte=20
+      (PDF, in German)</A></TD>
+    <TD class=3DsText></TD>
+    <TD class=3DrText></TD></TR>
+  <TR>
+    <TD class=3DlEmpty></TD>
+    <TD class=3DsEmpty></TD>
+    <TD class=3DmEmpty></TD>
+    <TD class=3DsEmpty></TD>
+    <TD class=3DrEmpty></TD></TR>
+  <TR vAlign=3Dtop>
+    <TD class=3DlFoot><SMALL><A=20
+      =
+href=3D"http://tams-www.informatik.uni-hamburg.de/applets/hades/webdemos/=
+impressum.html">Impressum</A></SMALL></TD>
+    <TD class=3DsFoot></TD>
+    <TD=20
+      =
+class=3DmFoot><SMALL>http://tams-www.informatik.uni-hamburg.de/applets/ha=
+des/webdemos/10-gates/60-barrel/shifter8.html</SMALL>=20
+    </TD>
+    <TD class=3DsFoot></TD>
+    <TD class=3DrFoot></TD></TR></TBODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/images/hades-130x50-lightgray.gif
+
+R0lGODdhggAyAPYAAP///9zc3Ly8vMHBwfPz87q6utDQ0MzMzL+/v+Xl5eLi4uzs7Pv7+/7+/v39
+/bu7u729vcXFxcnJycvLy8TExL6+vsPDw9HR0cDAwN3d3ff399XV1eTk5Ofn5+rq6vj4+M3NzdPT
+0/z8/N/f3+jo6PX19fHx8ebm5s/Pz/T09MjIyOHh4cfHx87OztTU1O3t7dnZ2dLS0t7e3u/v79jY
+2Pn5+evr68bGxtra2u7u7unp6dvb2/r6+sLCwvb29tbW1uPj4+Dg4MrKyvLy8tfX1wAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwA
+AAAAggAyAAAH/oAAgoOEhYaHiImKi4yNjo+QkZKTlJWWl5iZmpucnZ6foKGio6SlpqeoqaqrrK2u
+r7CxsrO0tba3uLm6u7y9hAkCDxAHC76+HAXJBQPGAAoCAgMXGosj0BErph3KBULNC9wbiyTKD6Y6
+3C3NDNwZix/KAqY23BfNDdwciw7xpjXcLpoBeKCsAyNlFUyJ4DZCoABlHg4mQ2AKnzJ9zR4m+yCx
+AIZT3Aw2g6CsQUcWpzQW0MErAIFBCJQ1UgbiFMlkQ3g9PJDAQQRlDoKKYMCgxAIPJDqc2JaspqkK
+ykTwGsCtqtUCDypMQBFCmbpEHwIcqCAAwg0cDnTsUETghwSy/mV7qDRpqEYGFAMgQIPA4kUiD0Ra
+WND7IJoBE5cIGECgsqmBECM4kDAhlZAyA4kCQHhAo0aDBQYK3Hhg7xCDrhaANGhgIogEboeCQLUg
+g5qMZBNiU71BooEDDxugFoiwycHrAhAYWSxQuhCDCR5nFEKR7GshDRQKHKhMCFkyQ0SSGXAwyGLC
+QjCUcSTEAAiNiJugFziviF+y5oOMJ/Nb6ESyG4bwYEEBPTCAiEyEKJCMCoVYJE8hKvE3SnYFULTI
+QsmEYEgMGR4CD3KGUFdAQ4fYVwB7MRVgAwANDHECDK/1gMJLhPyEEAgXbKAACetxkuJHi7DTISEv
+KCNhIUAR/uKBMj4gIuSJg2SgDAoRVABCCAq8QN4hPARxAQgUkFVVBCRwIhwzQSqjISEtlGSakYSA
+gOAhGswJwHEFkFBDJQ680FUy9GVyJiMpKBMQITcVQBd7B1yEqJuHJGCnSilgshyQmtyU2yLgJHPo
+IIlmQ4gNFoQ2pCAqYUQIASEQlMyWACQaAyIvrCBDkwAwYAAKMFRKiA/KyMCJRpsqsqSn6CkDgQwN
+lLCCBBBkkIMyDA7S5kQKrDZDBipYIAQ33G3AjQQ6mPRBBxv0sMwP1ADwYTISZICYCa8hIOomrhab
+CAMqlFVmfygwVoAAFqAwgoENqLSWIDVscMNmWalwgQIvVh2bjIGCNJBBCxhsNjAEEbQQAhA5FcIB
+tMEMXIEKBnAA6ybK6PvJCC6McCQjDAx4sUABSGCBO7iYQEJvAhVt9NFIJ6300kw37fTTUEct9dRU
+V20104EAADs=
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/10-gates/60-barrel/shifter8-banner.gif
+
+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
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/images/circle-open.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJAQMAAADaX5RTAAAABGdBTUEAALGPC/xhBQAAAAZQTFRF
+7u7uAAAAKG2MiAAAADh0RVh0U29mdHdhcmUAWFYgVmVyc2lvbiAzLjEwYSAgUmV2OiAxMi8yOS85
+NCAoUE5HIHBhdGNoIDEuMindFS5JAAAAGUlEQVR4nGNgYGCQYWBQYmBwhCElsAgDAwARjQFA82ew
+3AAAAAd0SU1FB9UFEQsfCo+4kNcAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/images/circle-fill.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJAQMAAADaX5RTAAAABGdBTUEAALGPC/xhBQAAAAZQTFRF
+7u7uAAAAKG2MiAAAADh0RVh0U29mdHdhcmUAWFYgVmVyc2lvbiAzLjEwYSAgUmV2OiAxMi8yOS85
+NCAoUE5HIHBhdGNoIDEuMindFS5JAAAAGUlEQVR4nGNgYGCQYWCwY2CohyE7sAgDAwAeyQIyKOzf
+fgAAAAd0SU1FB9UFEQseNrnM3REAAAAASUVORK5CYII=
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/images/circle-none.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJAQMAAADaX5RTAAAABGdBTUEAALGPC/xhBQAAAANQTFRF
+7u7ug0nRbQAAADh0RVh0U29mdHdhcmUAWFYgVmVyc2lvbiAzLjEwYSAgUmV2OiAxMi8yOS85NCAo
+UE5HIHBhdGNoIDEuMindFS5JAAAAC0lEQVR4nGNgwAkAABsAAco8Sg0AAAAHdElNRQfVBRELHh6M
+eXXrAAAAAElFTkSuQmCC
+
+------=_NextPart_000_0000_01C810B1.994F3560
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://tech-www.informatik.uni-hamburg.de/applets/hades/webdemos/hades.css
+
+BODY {
+	BACKGROUND: #ffffff; MARGIN: 0px; COLOR: #000000
+}
+:link {
+	COLOR: #000094; TEXT-DECORATION: none
+}
+:visited {
+	COLOR: #000094; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+IMG.blueborder {
+	BORDER-RIGHT: #000094 1px solid; BORDER-TOP: #000094 1px solid; =
+BORDER-LEFT: #000094 1px solid; BORDER-BOTTOM: #000094 1px solid
+}
+A:link {
+	COLOR: #000094; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #af0000; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #af0000; TEXT-DECORATION: underline
+}
+XXa:visited {
+	COLOR: #0000aa; TEXT-DECORATION: none
+}
+A.menulink:link {
+	COLOR: #0000cc; TEXT-DECORATION: none
+}
+A.menulink:visited {
+	COLOR: #9900cc; TEXT-DECORATION: none
+}
+A.menulink:hover {
+	COLOR: #990000; TEXT-DECORATION: underline
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; =
+BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; =
+PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px; border-spacing: 0px
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TD.lBanner {
+	BACKGROUND: #ffffff; WIDTH: 150px; TEXT-ALIGN: center
+}
+TD.sBanner {
+	BACKGROUND: #ffffff; WIDTH: 6px
+}
+TD.mBanner {
+	BACKGROUND: #ffffff; WIDTH: 700px
+}
+TD.rBanner {
+	BACKGROUND: #ffffff; WIDTH: 30px
+}
+TD.lEmpty {
+	BACKGROUND: #ffffff; WIDTH: 150px; HEIGHT: 8px; TEXT-ALIGN: right
+}
+TD.sEmpty {
+	BACKGROUND: #ffffff; WIDTH: 6px; HEIGHT: 8px
+}
+TD.mEmpty {
+	BACKGROUND: #ffffff; WIDTH: 700px; HEIGHT: 8px
+}
+TD.rEmpty {
+	BACKGROUND: #ffffff; WIDTH: 30px; HEIGHT: 8px
+}
+TD.lNavbar {
+	BACKGROUND: #eeeeee; WIDTH: 150px; TEXT-ALIGN: right
+}
+TD.sNavbar {
+	BACKGROUND: #eeeeee; WIDTH: 6px
+}
+TD.mNavbar {
+	BACKGROUND: #eeeeee; WIDTH: 700px
+}
+TD.rNavbar {
+	BACKGROUND: #eeeeee; WIDTH: 30px
+}
+TD.lText {
+	BACKGROUND: #eeeeee; WIDTH: 150px; TEXT-ALIGN: right
+}
+TD.lTextBf {
+	FONT-WEIGHT: bold; BACKGROUND: #eeeeee; WIDTH: 150px; TEXT-ALIGN: right
+}
+TD.lMenu {
+	FONT-SIZE: 9pt; BACKGROUND: #eeeeee; WIDTH: 150px; FONT-FAMILY: arial; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+TD.lMenu2 {
+	FONT-SIZE: 9pt; BACKGROUND: #eeeeee; WIDTH: 150px; FONT-FAMILY: arial; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+TD.lMenu3 {
+	FONT-SIZE: 9pt; BACKGROUND: #fafaff; WIDTH: 150px; FONT-FAMILY: arial; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+TD.lMenu4 {
+	FONT-SIZE: 9pt; BACKGROUND: #f3f3f3; WIDTH: 150px; FONT-FAMILY: arial; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+TD.lMenu5 {
+	FONT-SIZE: 9pt; BACKGROUND: #f8f8f8; WIDTH: 150px; FONT-FAMILY: arial; =
+WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+TD.sText {
+	BACKGROUND: #ffffff; WIDTH: 6px
+}
+TD.mText {
+	BACKGROUND: #ffffff; WIDTH: 700px
+}
+TD.rText {
+	BACKGROUND: #eeeeee; WIDTH: 30px
+}
+TD.lFoot {
+	FONT-SIZE: 8pt; BACKGROUND: #f7b618; WIDTH: 150px; FONT-FAMILY: arial; =
+TEXT-ALIGN: right
+}
+TD.sFoot {
+	BACKGROUND: #eeeeee; WIDTH: 6px
+}
+TD.mFoot {
+	FONT-SIZE: 8pt; BACKGROUND: #eeeeee; WIDTH: 700px; FONT-FAMILY: arial
+}
+TD.rFoot {
+	BACKGROUND: #eeeeee; WIDTH: 30px
+}
+.smalltt {
+	FONT-SIZE: smaller; FONT-FAMILY: monospace
+}
+HR {
+	BACKGROUND: #808080; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; HEIGHT: 2px; BORDER-BOTTOM-STYLE: none
+}
+
+------=_NextPart_000_0000_01C810B1.994F3560--
