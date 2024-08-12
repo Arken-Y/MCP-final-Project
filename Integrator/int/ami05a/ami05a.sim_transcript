@@ -1,0 +1,159 @@
+
+Running eldo on oxford
+
+with Eldo libraries :
+/usr/local/mentor/ams2007_1/ixl/lib/libeldoudm.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomos1.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldoekv.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomosp9.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldocsem.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomos2.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomos3.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldobip.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldodio.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldojfet.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldosoi.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomos4.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldoasitft.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldohisim.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldospmod.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldopsp.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldomoto.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldost.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldobnr.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldorockw.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldopubhicum.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldotftsh.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldobta.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldofas.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldofascm.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldova.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldovafnc.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldosdsim.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldoudrm.so
+/usr/local/mentor/ams2007_1/ixl/lib/libeldowire.so
+
+
+
+              Software under License 
+       Copyright Mentor Graphics Corporation
+
+
+
+
+***** ANALYSIS ....
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 117:  NODE "VDD": Not connected to any power supply.
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION...
+
+
+Memory space allocated (bytes): 3526795
+15 elements
+10 nodes 
+1 input signals
+Warning 118:  NODE "VO": No DC path to ground.
+
+Eldo VERSION : ELDO v6.9_1.1 Production Wed Jun 13 08:32:36 GMT 2007
+
+*** DATE:  3-Nov-2007 17:27:58
+
+*** TITLE: * Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+
+TEMPERATURE : 27.000000 degrees C
+
+
+Performing DC analysis...
+
+--> Partitioning circuit...
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:20 iterations FOR DC analysis
+N$204        -89.1607P   
+N$2050       -89.1607P   
+N$206        -80.3327M   
+N$207        -69.7825M   
+N$208        -49.6477M   
+N$416        -0.0000A    
+V1            0.0000     
+VDD          -78.0127M   
+VO           -0.0000A    
+VSS          -89.1607P   
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=7.500000e-04
+
+Connecting to JWDB server, please wait...
+connected to wdb server : -jwdbhost oxford -jwdbport 32877
+
+Compute from 0.000000 Nano to 100.000000 Nano
+................................................
+Simulation progress           : 10%
+Elapsed CPU time              : 0h 0mn 0s 0
+................................................
+Simulation progress           : 20%
+Elapsed CPU time              : 0h 0mn 0s 10
+................................................
+Simulation progress           : 30%
+Elapsed CPU time              : 0h 0mn 0s 10
+................................................
+Simulation progress           : 40%
+Elapsed CPU time              : 0h 0mn 0s 20
+................................................
+Simulation progress           : 50%
+Elapsed CPU time              : 0h 0mn 0s 20
+................................................
+Simulation progress           : 60%
+Elapsed CPU time              : 0h 0mn 0s 30
+................................................
+Simulation progress           : 70%
+Elapsed CPU time              : 0h 0mn 0s 30
+................................................
+Simulation progress           : 80%
+Elapsed CPU time              : 0h 0mn 0s 40
+................................................
+Simulation progress           : 90%
+Elapsed CPU time              : 0h 0mn 0s 50
+................................................
+Simulation progress           : 100%
+Elapsed CPU time              : 0h 0mn 0s 50
+
+
+***>Current simulation completed
+
+
+
+
+SIMULATION INFORMATION 
+memory size allocated in bytes 3919015
+Latency: 0.000000%
+average number of newton iterations: 2.000000
+nb of components: 15
+nb of nodes: 10
+nb of MOS or BIP calls: 4802
+Number of steps computed: 243
+
+***>CPU TIME 0s 050ms <***
+
+
+***>GLOBAL CPU TIME 0s 080ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+

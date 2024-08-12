@@ -1,0 +1,13 @@
+* Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+.INCLUDE int_ami05a.spi
+.LIB $ADK/technology/accusim/ami05.mod
+.INCLUDE $ADK/technology/accusim/ami05.mod
+.PLOT TRAN  V(VO) 
+
+.OPTION NOASCII
+.OPTION MODWL
+.OPTION ENGNOT
+.OPTION AEX
+.OPTION LIMPROBE = 10000
+.TRAN  0 100N 0N 
+.INCLUDE /home/mentor/Integrator/int/ami05a/sim.force

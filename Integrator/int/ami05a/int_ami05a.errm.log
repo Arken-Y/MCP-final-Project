@@ -1,0 +1,33 @@
+START report: Sat Nov  3 17:27:04 2007 
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 23:
++   OBJECT "MN5": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 23:
++   OBJECT "MN5": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 24:
++   OBJECT "MP3": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 24:
++   OBJECT "MP3": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 25:
++   OBJECT "MN4": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 25:
++   OBJECT "MN4": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 26:
++   OBJECT "MN3": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 26:
++   OBJECT "MN3": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 27:
++   OBJECT "MN2": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 27:
++   OBJECT "MN2": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 28:
++   OBJECT "MP2": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 29:
++   OBJECT "MP1": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 29:
++   OBJECT "MP1": Model P not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 30:
++   OBJECT "MN1": Model N not yet defined.
+Error: (eldo - 1577)  In file "./int/ami05a/int_ami05a.spi" line 30:
++   OBJECT "MN1": Model N not yet defined.

@@ -1,0 +1,43 @@
+A 5 u Eddm_design_viewpoint 472cd2090a47.03.7f.00.00.01.00.1e.93 11 2 80 0
+V v 9 4 472ce8b648d7.03.7f.00.00.01.00.28.29
+F f 9 "ami05a.dvpt_9"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 10 4 472ce8cdb992.03.7f.00.00.01.00.28.29
+F f 10 "ami05a.dvpt_10"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 11 4 472ce8d22a13.03.7f.00.00.01.00.28.29
+F f 11 "ami05a.dvpt_11"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 11
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Integrator/int/part" 1 Eddm_part 472cc53ca1d2.03.7f.00.00.01.01.1c.58 472cc53ca1d2.03.7f.00.00.01.00.1c.58
+R cspuv 1 "/home/mentor/Integrator/int/schematic" 39 mgc_schematic 472ce6d77b89.03.7f.00.00.01.00.28.29 472cc4578b97.03.7f.00.00.01.00.1c.58
+R cspuv 2 "/home/mentor/Integrator/int/ami05a" 1 Eddm_ba_mgr 472cd2090ca6.03.7f.00.00.01.01.1e.93 472cd2090ca6.03.7f.00.00.01.00.1e.93
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 5 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R cspuv 7 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa
+O 10
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Integrator/int/part" 1 Eddm_part 472cc53ca1d2.03.7f.00.00.01.01.1c.58 472cc53ca1d2.03.7f.00.00.01.00.1c.58
+R cspuv 1 "/home/mentor/Integrator/int/schematic" 39 mgc_schematic 472ce6d77b89.03.7f.00.00.01.00.28.29 472cc4578b97.03.7f.00.00.01.00.1c.58
+R cspuv 2 "/home/mentor/Integrator/int/ami05a" 1 Eddm_ba_mgr 472cd2090ca6.03.7f.00.00.01.01.1e.93 472cd2090ca6.03.7f.00.00.01.00.1e.93
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 5 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R cspuv 7 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa
+O 9
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Integrator/int/part" 1 Eddm_part 472cc53ca1d2.03.7f.00.00.01.01.1c.58 472cc53ca1d2.03.7f.00.00.01.00.1c.58
+R cspuv 1 "/home/mentor/Integrator/int/schematic" 39 mgc_schematic 472ce6d77b89.03.7f.00.00.01.00.28.29 472cc4578b97.03.7f.00.00.01.00.1c.58
+R cspuv 2 "/home/mentor/Integrator/int/ami05a" 1 Eddm_ba_mgr 472cd2090ca6.03.7f.00.00.01.01.1e.93 472cd2090ca6.03.7f.00.00.01.00.1e.93
+R cspuv 3 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 5 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R cspuv 7 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa

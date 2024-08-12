@@ -1,0 +1,26 @@
+* ELDO netlist generated with ICnet by 'mentor' on Sat Nov  3 2007 at 17:31:58
+
+*
+* Globals.
+*
+.global vdd vss
+
+*
+* MAIN CELL: Component pathname : /home/mentor/Integrator/int
+*
+        c1 n$416 vo notchedrow 15f
+        r3 n$416 vo hr 10k
+        r1 vss n$204 hr 175k
+        r5 n$2050 vss hr 1k
+        r4 vo vss hr 10k
+        r2 v1 n$416 hr 1k
+        mn5 vo n$204 vss vss n L=2u W=6u
+        mp3 vo n$207 vdd vdd p L=2u W=6u
+        mn4 n$208 n$204 vss vss n L=2u W=6u
+        mn3 n$207 n$2050 n$208 vss n L=2u W=6u
+        mn2 n$206 n$416 n$208 vss n L=2u W=6u
+        mp2 n$207 n$206 vdd vdd p L=2u W=6u
+        mp1 n$206 n$206 vdd vdd p L=2u W=6u
+        mn1 n$204 n$204 vss vss n L=2u W=6u
+*
+.end

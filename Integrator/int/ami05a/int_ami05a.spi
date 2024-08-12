@@ -1,0 +1,32 @@
+*
+* .CONNECT statements
+*
+.CONNECT GND 0
+
+
+* ELDO netlist generated with ICnet by 'mentor' on Sat Nov  3 2007 at 17:27:57
+
+*
+* Globals.
+*
+.global VDD VSS
+
+*
+* MAIN CELL: Component pathname : /home/mentor/Integrator/int
+*
+        C1 N$416 VO notchedrow 15f
+        R3 N$416 VO hr 10k
+        R1 VSS N$204 hr 175k
+        R5 N$2050 VSS hr 1k
+        R4 VO VSS hr 10k
+        R2 V1 N$416 hr 1k
+        MN5 VO N$204 VSS VSS n L=2u W=6u
+        MP3 VO N$207 VDD VDD p L=2u W=6u
+        MN4 N$208 N$204 VSS VSS n L=2u W=6u
+        MN3 N$207 N$2050 N$208 VSS n L=2u W=6u
+        MN2 N$206 N$416 N$208 VSS n L=2u W=6u
+        MP2 N$207 N$206 VDD VDD p L=2u W=6u
+        MP1 N$206 N$206 VDD VDD p L=2u W=6u
+        MN1 N$204 N$204 VSS VSS n L=2u W=6u
+*
+.end

@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 472cc4578b97.03.7f.00.00.01.00.1c.58 297 2 1 0
+V v 295 1 473b79a27c85.03.7f.00.00.01.00.1d.92
+F o 0 ""
+V v 296 1 473b79a2b90d.03.7f.00.00.01.00.1d.92
+F o 0 ""
+V v 297 1 473b8448a349.03.7f.00.00.01.00.1d.92
+F o 0 ""
+O 297
+R cspuv 0 "/home/mentor/Integrator/int/schematic/sheet1" 296 mgc_sheet 473b8448a32a.03.7f.00.00.01.00.1d.92 472cc4578c20.03.7f.00.00.01.00.1c.58
+O 296
+R cspuv 0 "/home/mentor/Integrator/int/schematic/sheet1" 295 mgc_sheet 473b79a2b8ed.03.7f.00.00.01.00.1d.92 472cc4578c20.03.7f.00.00.01.00.1c.58
+O 295
+R cspuv 0 "/home/mentor/Integrator/int/schematic/sheet1" 294 mgc_sheet 473b79a27c65.03.7f.00.00.01.00.1d.92 472cc4578c20.03.7f.00.00.01.00.1c.58

@@ -1,0 +1,654 @@
+  Run on oxford (Linux 2.6.9-55.0.12.ELsmp)
+
+/usr/local/mentor/ams2007_1/ixl/bin/eldo.exe -i /home/mentor/Integrator/int/ami05a/int_ami05a.cir -o /home/mentor/Integrator/int/ami05a/int_ami05a.chi -gwl jwdb -nocou -wdb_folder 
+
+1******* 3-Nov-07 *******  ELDO v6.9_1.1 Production  (v6.9_1.1)  *******17:27:58******
+
+0* Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+
+0****     INPUT LISTING                                               
+
+0***********************************************************************
+    2  ** including /home/mentor/Integrator/int/ami05a/int_ami05a.spi
+    1  *
+    2  * .CONNECT statements
+    3  *
+    4  .CONNECT GND 0
+    5  
+    6  
+    7  * ELDO netlist generated with ICnet by 'mentor' on Sat Nov  3 2007 at 17:27:57
+    8  
+    9  *
+   10  * Globals.
+   11  *
+   12  .GLOBAL VDD VSS
+   13  
+   14  *
+   15  * MAIN CELL: Component pathname : /home/mentor/Integrator/int
+   16  *
+   17          C1 N$416 VO NOTCHEDROW 15F
+   18          R3 N$416 VO HR 10K
+   19          R1 VSS N$204 HR 175K
+   20          R5 N$2050 VSS HR 1K
+   21          R4 VO VSS HR 10K
+   22          R2 V1 N$416 HR 1K
+   23          MN5 VO N$204 VSS VSS N L=2U W=6U
+   24          MP3 VO N$207 VDD VDD P L=2U W=6U
+   25          MN4 N$208 N$204 VSS VSS N L=2U W=6U
+   26          MN3 N$207 N$2050 N$208 VSS N L=2U W=6U
+   27          MN2 N$206 N$416 N$208 VSS N L=2U W=6U
+   28          MP2 N$207 N$206 VDD VDD P L=2U W=6U
+   29          MP1 N$206 N$206 VDD VDD P L=2U W=6U
+   30          MN1 N$204 N$204 VSS VSS N L=2U W=6U
+   31  *
+   32  *end
+    2  
+    3  .LIB $ADK/technology/accusim/ami05.mod
+    4  ** INCLUDING LIBRARY /usr/local/mentor/shared/external/adk3_1/technology/accusim/ami05.mod
+    1  * DATE: Jan 25/99
+    2  * LOT: n8bn                  WAF: 03
+    3  * Temperature_parameters=Default
+    4  * ***temp fix*** .lib NOM
+    5  .MODEL NOTCHEDROW C
+    6  .MODEL HR R
+    7  .MODEL N NMOS (                                LEVEL   = 53
+    8  +VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
+    9  +XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = 0.7086
+   10  +K1      = 0.8354582      K2      = -0.088431      K3      = 41.4403818
+   11  +K3B     = -14            W0      = 6.480766E-7    NLX     = 1E-10
+   12  +DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
+   13  +DVT0    = 3.6139113      DVT1    = 0.3795745      DVT2    = -0.1399976
+   14  +U0      = 533.6953445    UA      = 7.558023E-10   UB      = 1.181167E-18
+   15  +UC      = 2.582756E-11   VSAT    = 1.300981E5     A0      = 0.5292985
+   16  +AGS     = 0.1463715      B0      = 1.283336E-6    B1      = 1.408099E-6
+   17  +KETA    = -0.0173166     A1      = 0              A2      = 1
+   18  +RDSW    = 2.268366E3     PRWG    = -1E-3          PRWB    = 6.320549E-5
+   19  +WR      = 1              WINT    = 2.043512E-7    LINT    = 3.034496E-8
+   20  +XL      = 0              XW      = 0              DWG     = -1.446149E-8
+   21  +DWB     = 2.077539E-8    VOFF    = -0.1137226     NFACTOR = 1.2880596
+   22  +CIT     = 0              CDSC    = 1.506004E-4    CDSCD   = 0
+   23  +CDSCB   = 0              ETA0    = 3.815372E-4    ETAB    = -1.029178E-3
+   24  +DSUB    = 2.173055E-4    PCLM    = 0.6171774      PDIBLC1 = 0.185986
+   25  +PDIBLC2 = 3.473187E-3    PDIBLCB = -1E-3          DROUT   = 0.4037723
+   26  +PSCBE1  = 5.998012E9     PSCBE2  = 3.788068E-8    PVAG    = 0.012927
+   27  +DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
+   28  +UTE     = -1.5           KT1     = -0.11          KT1L    = 0
+   29  +KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
+   30  +UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
+   31  +WLN     = 1              WW      = 0              WWN     = 1
+   32  +WWL     = 0              LL      = 0              LLN     = 1
+   33  +LW      = 0              LWN     = 1              LWL     = 0
+   34  +CAPMOD  = 2              XPART   = 0.4            CGDO    = 1.99E-10
+   35  +CGSO    = 1.99E-10       CGBO    = 0              CJ      = 4.233802E-4
+   36  +PB      = 0.9899238      MJ      = 0.4495859      CJSW    = 3.825632E-10
+   37  +PBSW    = 0.1082556      MJSW    = 0.1083618      PVTH0   = 0.0212852
+   38  +PRDSW   = -16.1546703    PK2     = 0.0253069      WKETA   = 0.0188633
+   39  +LKETA   = 0.0204965       )
+   40  *
+   41  .MODEL P PMOS (                                LEVEL   = 53
+   42  +VERSION = 3.1            TNOM    = 27             TOX     = 1.41E-8
+   43  +XJ      = 1.5E-7         NCH     = 1.7E17         VTH0    = -0.9179952
+   44  +K1      = 0.5575604      K2      = 0.010265       K3      = 14.0655075
+   45  +K3B     = -2.3032921     W0      = 1.147829E-6    NLX     = 1.114768E-10
+   46  +DVT0W   = 0              DVT1W   = 5.3E6          DVT2W   = -0.032
+   47  +DVT0    = 2.2896412      DVT1    = 0.5213085      DVT2    = -0.1337987
+   48  +U0      = 202.4540953    UA      = 2.290194E-9    UB      = 9.779742E-19
+   49  +UC      = -3.69771E-11   VSAT    = 1.307891E5     A0      = 0.8356881
+   50  +AGS     = 0.1568774      B0      = 2.365956E-6    B1      = 5E-6
+   51  +KETA    = -5.769328E-3   A1      = 0              A2      = 1
+   52  +RDSW    = 2.746814E3     PRWG    = 2.34865E-3     PRWB    = 0.0172298
+   53  +WR      = 1              WINT    = 2.586255E-7    LINT    = 7.205014E-8
+   54  +XL      = 0              XW      = 0              DWG     = -2.133054E-8
+   55  +DWB     = 9.857534E-9    VOFF    = -0.0837499     NFACTOR = 1.2415529
+   56  +CIT     = 0              CDSC    = 4.363744E-4    CDSCD   = 0
+   57  +CDSCB   = 0              ETA0    = 0.11276        ETAB    = -2.9484E-3
+   58  +DSUB    = 0.3389402      PCLM    = 4.9847806      PDIBLC1 = 2.481735E-5
+   59  +PDIBLC2 = 0.01           PDIBLCB = 0              DROUT   = 0.9975107
+   60  +PSCBE1  = 3.497872E9     PSCBE2  = 4.974352E-9    PVAG    = 10.9914549
+   61  +DELTA   = 0.01           MOBMOD  = 1              PRT     = 0
+   62  +UTE     = -1.5           KT1     = -0.11          KT1L    = 0
+   63  +KT2     = 0.022          UA1     = 4.31E-9        UB1     = -7.61E-18
+   64  +UC1     = -5.6E-11       AT      = 3.3E4          WL      = 0
+   65  +WLN     = 1              WW      = 0              WWN     = 1
+   66  +WWL     = 0              LL      = 0              LLN     = 1
+   67  +LW      = 0              LWN     = 1              LWL     = 0
+   68  +CAPMOD  = 2              XPART   = 0.4            CGDO    = 2.4E-10
+   69  +CGSO    = 2.4E-10        CGBO    = 0              CJ      = 7.273568E-4
+   70  +PB      = 0.9665597      MJ      = 0.4959837      CJSW    = 3.114708E-10
+   71  +PBSW    = 0.99           MJSW    = 0.2653654      PVTH0   = 9.420541E-3
+   72  +PRDSW   = -231.2571566   PK2     = 1.396684E-3    WKETA   = 1.862966E-3
+   73  +LKETA   = 5.728589E-3     )
+   74  * ***temp fix*** .ENDL
+   75  *END
+    4  ** END OF LIBRARY /usr/local/mentor/shared/external/adk3_1/technology/accusim/ami05.mod
+    4  ** /usr/local/mentor/shared/external/adk3_1/technology/accusim/ami05.mod was already included
+    4  
+    5  .PLOT TRAN  V(VO) 
+    6  
+    7  .OPTION NOASCII
+    8  .OPTION MODWL
+    9  .OPTION ENGNOT
+   10  .OPTION AEX
+   11  .OPTION LIMPROBE = 10000
+   12  .TRAN  0 100N 0N 
+   13  ** including /home/mentor/Integrator/int/ami05a/sim.force
+    1  ** This file was generated by  DA-IC. Please, DO NOT MODIFY.
+    2  * Vforce_FORCE__V1,/V1/M$1,-2.2109,3.7424,1,1,void,void,void
+    3  VFORCE__V1 V1 GND sin( 0 5 100000000 0 0 0)
+   13  
+   14  .END
+
+End of file 
+
+
+***** 0  error(s). 
+***** 0  warning(s). 
+
+
+
+***** GENERATION ...
+
+Warning 117:  NODE "VDD": Not connected to any power supply.
+
+***** 0  error(s). 
+***** 1  warning(s). 
+
+
+INFORMATION ABOUT COMPILATION 
+
+
+Memory space allocated (bytes): 3526795
+15 elements
+10 nodes 
+1 input signals
+Detail about objects and nodes found in the design...
+Number of nodes                     10
+Number of intrinsic nodes           0
+Number of input signals             1
+Number of resistors                 5
+Number of floating capacitors       1
+Number of grounded capacitors       0
+Number of inductors                 0
+Number of voltage sources           1
+Number of current sources           0
+Number of dependent sources         0
+Number of diodes                    0
+Number of BJT                       0
+Number of JFET                      0
+Number of MOS                       8
+Number of SWITCHES                  0
+Number of transmission lines        0
+Total number of elements            15
+Warning 118:  NODE "VO": No DC path to ground.
+
+Eldo VERSION : ELDO v6.9_1.1 Production Wed Jun 13 08:32:36 GMT 2007
+
+*** DATE:  3-Nov-2007 17:27:58
+
+*** TITLE: * Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+
+TEMPERATURE : 27.000000 degrees C
+
+1*************** 3-Nov-2007 ***********************  ELDO v6.9_1.1 Production  (v6.9_1.1)  ***********************17:27:58*****************
+
+0* Component: /home/mentor/Integrator/int
+0****                 MODELS PARAMETERS                                    TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+ DEVICE          MOS
+ MODEL: N
+ TYPE            N
+ LEVEL 53 : Bsim3v3 version 3.1
+
+  names    values    units     names    values    units     names    values    units   
+  -----    ------    -----     -----    ------    -----     -----    ------    -----   
+VER     = 3.1000E+00 -       MOBMOD  = 1          -       CAPMOD  = 2          -      
+VFBFLAG = 0          -       NQSMOD  = 0          -       NOIMOD  = 1          -      
+DERIV   = 1          -       BINFLAG = 0          -       PARAMCHK= 0          -      
+IIMOD   = 0          -       FNLEV   = 0          -       
+
+ * Threshold voltage related model parameters *
+   ------------------------------------------  
+VTH0    = 7.0860E-01 V       DELVTO  = 0.0        V       K1      = 8.3546E-01 V^1/2  
+K2      =-8.8431E-02 -       NCH     = 1.7000E+17 At/cm^3 K3      = 4.1440E+01 -      
+K3B     =-1.4000E+01 1/V     DVT0    = 3.6139E+00 -       DVT1    = 3.7957E-01 -      
+DVT2    =-1.4000E-01 1/V     DVT0W   = 0.0        -       DVT1W   = 5.3000E+06 1/m    
+DVT2W   =-3.2000E-02 1/V     DSUB    = 2.1731E-04 -       ETA0    = 3.8154E-04 -      
+ETAB    =-1.0292E-03 1/V     
+
+ * Subthreshold related parameters *
+   -------------------------------  
+NFACTOR = 1.2881E+00 -       CDSC    = 1.5060E-04 F/m^2   CDSCB   = 0.0        F/Vm^2 
+CDSCD   = 0.0        F/Vm^2  VOFF    =-1.1372E-01 V       CIT     = 0.0        F/m^2  
+
+ * Mobility related model parameters *
+   ---------------------------------  
+UA      = 7.5580E-10 m/V     UB      = 1.1812E-18 (m/V)^2 UC      = 2.5828E-11 m/V^2  
+U0      = 5.3370E-02 unit1   
+
+ * Saturation related parameters *
+   -----------------------------  
+PCLM    = 6.1718E-01 -       KETA    =-1.7317E-02 1/V     DELTA   = 1.0000E-02 V      
+A0      = 5.2930E-01 -       A1      = 0.0        1/V     A2      = 1.0000E+00 -      
+B0      = 1.2833E-06 m       B1      = 1.4081E-06 m       PVAG    = 1.2927E-02 -      
+PDIBLC1 = 1.8599E-01 -       PDIBLC2 = 3.4732E-03 -       PDIBLCB =-1.0000E-03 1/V    
+DROUT   = 4.0377E-01 -       VSAT    = 1.3010E+05 m/s     PSCBE1  = 5.9980E+09 V/m    
+PSCBE2  = 3.7881E-08 m/V     PRWB    = 6.3205E-05 V^-1/2  PRWG    =-1.0000E-03 1/V    
+RDSW    = 2.2684E+03 Ohm.um  AGS     = 1.4637E-01 1/V     
+
+ * Geometry modulation related parameters *
+   --------------------------------------  
+LREF    = 0.0        m       WREF    = 0.0        m       LINT    = 3.0345E-08 m      
+DLC     = 3.0345E-08 m       LL      = 0.0        m       LW      = 0.0        m      
+LWL     = 0.0        m       LLN     = 1.0000E+00 -       LWN     = 1.0000E+00 -      
+WINT    = 2.0435E-07 m       DWC     = 2.0435E-07 m       WL      = 0.0        m      
+WW      = 0.0        m       WWL     = 0.0        m       WLN     = 1.0000E+00 -      
+WWN     = 1.0000E+00 -       WR      = 1.0000E+00 -       W0      = 6.4808E-07 m      
+DWG     =-1.4461E-08 m/V     DWB     = 2.0775E-08 m/V^1/2 
+
+ * Temperature effect parameters *
+   -----------------------------  
+UPDATEPHI= 0          -       AT      = 3.3000E+04 m/sec   UTE     =-1.5000E+00 -      
+KT1     =-1.1000E-01 V       KT2     = 2.2000E-02 -       KT1L    = 0.0        mV     
+UA1     = 4.3100E-09 m/V     UB1     =-7.6100E-18 (m/V)^2 UC1     =-5.6000E-11 m/V^2  
+PRT     = 0.0        Ohm.um  RDSWTPOS= 1          -       
+
+ * Overlap capacitance related and dynamic model parameters *
+   --------------------------------------------------------  
+XPART   = 4.0000E-01 -       CLC     = 1.0000E-07 m       CLE     = 6.0000E-01 -      
+CGDO    = 1.9900E-10 F/m     CGDL    = 0.0        F/m     CGSO    = 1.9900E-10 F/m    
+CGSL    = 0.0        F/m     CGBO    = 0.0        F/m     CKAPPA  = 6.0000E-01 V      
+CF      = 7.4302E-11 F/m     ELM     = 5.0000E+00 -       VFBCV   =-1.0000E+00 -      
+
+ * Substrate current related model parameters *
+   ----------------------------------------------
+ALPHA0  = 0.0        m/V     BETA0   = 3.0000E+01 V       
+
+ * Process and parameters extraction related model parameters *
+   ----------------------------------------------------------  
+TOX     = 1.4100E-08 m       DTOXCV  = 0.0        m       NGATE   = 0.0        At/cm^3
+NLX     = 1.0000E-10 m       XL      = 0.0        m       XW      = 0.0        m      
+ND      = 1.0000E+20 At/cm^3 
+
+ * Noise effect related model parameters *
+   -------------------------------------  
+THMLEV  = 0          -       FLKLEV  = 0          -       AF      = 1.0000E+00 -      
+KF      = 0.0        -       EF      = 1.0000E+00 -       NSTAR   = 2.0000E+14 -      
+FLKFLAG = 0.0        -       NOIFLAG = 0.0        -       NOIA    = 1.0000E+20 unit2  
+NOIB    = 5.0000E+04 1/V     NOIC    =-1.4000E-12 unit3   EM      = 4.1000E+07 V/m    
+
+ * Sidewall parasitic capacitances at gate side *
+   --------------------------------------------  
+MJSWG   = 1.0836E-01 -       PBSWG   = 1.0826E-01 V       CJSWG   = 3.8256E-10 F/m    
+WPEMOD  = 0.0        -       SCREF   = 1.0000E-06 m       KVTH0WE = 0.0        V      
+K2WE    = 0.0        -       KU0WE   = 0.0        -       WEB     = 0.0        -      
+WEC     = 0.0        -       
+
+ * Binning Parameters *
+   -------------------  
+BINUNIT = 1.0000E+00 -       
+* Display only non null Binning Parameters *
+PK2     = 2.5307E-02 -       LKETA   = 2.0497E-02 -       WKETA   = 1.8863E-02 -      
+PRDSW   =-1.6155E+01 -       PVTH0   = 2.1285E-02 -       
+   ------------------------------------------------------------------------  
+
+ *** Common extrinsic model parameters ***
+OPTACM  = 0          -       ALEV    = 0          -       RLEV    = 4          -      
+ * Access resistances related parameters *
+RD      = 0.0        Ohm     RS      = 0.0        Ohm     RSH     = 0.0        Ohm/Sq.
+RDC     = 0.0        Ohm     RSC     = 0.0        Ohm     
+ * Geometry related parameters *
+LD      = 3.0345E-08 m       WD      = 2.0435E-07 m       DL      = 0.0        m      
+DW      = 0.0        m       LDIF    = 0.0        m       HDIF    = 0.0        m      
+WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
+XJ      = 1.5000E-07 m       
+ * Static bulk-diode related parameters *
+DIOLEV  = 6          -       JS      = 1.0000E-04 A/m^2   JSW     = 0.0        A/m    
+IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
+ * Dynamic bulk-diode related parameters *
+DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
+CBS     = 0.0        F       CJ      = 4.2338E-04 F/m^2   CJSW    = 3.8256E-10 F/m    
+FC      = 0.0        -       MJ      = 4.4959E-01 -       MJSW    = 1.0836E-01 -      
+TT      = 0.0        s       PB      = 9.8992E-01 V       PBSW    = 1.0826E-01 V      
+ * Temperature related Parameters 
+EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
+TNOM    = 2.7000E+01 degC    TLEV    = 0          -       TLEVC   = 0          -      
+TLEVI   = 3          -       XTI     = 3.0000E+00 -       
+ * Temperature Access Resistance related parameters * TLEVR = 1 
+TRD1    = 0.0        1/degK  TRS1    = 0.0        1/degK  TRSH1   = 0.0        1/degK 
+TRD2    = 0.0        unit4   TRS2    = 0.0        unit4   TRSH2   = 0.0        unit4  
+
+unit1 represents m^2/V/sec
+unit2 represents V^-1.m^-2
+unit3 represents V^-1.m^2
+unit4 represents 1/degK^2
+
+ DEVICE          MOS
+ MODEL: P
+ TYPE            P
+ LEVEL 53 : Bsim3v3 version 3.1
+
+  names    values    units     names    values    units     names    values    units   
+  -----    ------    -----     -----    ------    -----     -----    ------    -----   
+VER     = 3.1000E+00 -       MOBMOD  = 1          -       CAPMOD  = 2          -      
+VFBFLAG = 0          -       NQSMOD  = 0          -       NOIMOD  = 1          -      
+DERIV   = 1          -       BINFLAG = 0          -       PARAMCHK= 0          -      
+IIMOD   = 0          -       FNLEV   = 0          -       
+
+ * Threshold voltage related model parameters *
+   ------------------------------------------  
+VTH0    =-9.1800E-01 V       DELVTO  = 0.0        V       K1      = 5.5756E-01 V^1/2  
+K2      = 1.0265E-02 -       NCH     = 1.7000E+17 At/cm^3 K3      = 1.4066E+01 -      
+K3B     =-2.3033E+00 1/V     DVT0    = 2.2896E+00 -       DVT1    = 5.2131E-01 -      
+DVT2    =-1.3380E-01 1/V     DVT0W   = 0.0        -       DVT1W   = 5.3000E+06 1/m    
+DVT2W   =-3.2000E-02 1/V     DSUB    = 3.3894E-01 -       ETA0    = 1.1276E-01 -      
+ETAB    =-2.9484E-03 1/V     
+
+ * Subthreshold related parameters *
+   -------------------------------  
+NFACTOR = 1.2416E+00 -       CDSC    = 4.3637E-04 F/m^2   CDSCB   = 0.0        F/Vm^2 
+CDSCD   = 0.0        F/Vm^2  VOFF    =-8.3750E-02 V       CIT     = 0.0        F/m^2  
+
+ * Mobility related model parameters *
+   ---------------------------------  
+UA      = 2.2902E-09 m/V     UB      = 9.7797E-19 (m/V)^2 UC      =-3.6977E-11 m/V^2  
+U0      = 2.0245E-02 unit1   
+
+ * Saturation related parameters *
+   -----------------------------  
+PCLM    = 4.9848E+00 -       KETA    =-5.7693E-03 1/V     DELTA   = 1.0000E-02 V      
+A0      = 8.3569E-01 -       A1      = 0.0        1/V     A2      = 1.0000E+00 -      
+B0      = 2.3660E-06 m       B1      = 5.0000E-06 m       PVAG    = 1.0991E+01 -      
+PDIBLC1 = 2.4817E-05 -       PDIBLC2 = 1.0000E-02 -       PDIBLCB = 0.0        1/V    
+DROUT   = 9.9751E-01 -       VSAT    = 1.3079E+05 m/s     PSCBE1  = 3.4979E+09 V/m    
+PSCBE2  = 4.9744E-09 m/V     PRWB    = 1.7230E-02 V^-1/2  PRWG    = 2.3486E-03 1/V    
+RDSW    = 2.7468E+03 Ohm.um  AGS     = 1.5688E-01 1/V     
+
+ * Geometry modulation related parameters *
+   --------------------------------------  
+LREF    = 0.0        m       WREF    = 0.0        m       LINT    = 7.2050E-08 m      
+DLC     = 7.2050E-08 m       LL      = 0.0        m       LW      = 0.0        m      
+LWL     = 0.0        m       LLN     = 1.0000E+00 -       LWN     = 1.0000E+00 -      
+WINT    = 2.5863E-07 m       DWC     = 2.5863E-07 m       WL      = 0.0        m      
+WW      = 0.0        m       WWL     = 0.0        m       WLN     = 1.0000E+00 -      
+WWN     = 1.0000E+00 -       WR      = 1.0000E+00 -       W0      = 1.1478E-06 m      
+DWG     =-2.1331E-08 m/V     DWB     = 9.8575E-09 m/V^1/2 
+
+ * Temperature effect parameters *
+   -----------------------------  
+UPDATEPHI= 0          -       AT      = 3.3000E+04 m/sec   UTE     =-1.5000E+00 -      
+KT1     =-1.1000E-01 V       KT2     = 2.2000E-02 -       KT1L    = 0.0        mV     
+UA1     = 4.3100E-09 m/V     UB1     =-7.6100E-18 (m/V)^2 UC1     =-5.6000E-11 m/V^2  
+PRT     = 0.0        Ohm.um  RDSWTPOS= 1          -       
+
+ * Overlap capacitance related and dynamic model parameters *
+   --------------------------------------------------------  
+XPART   = 4.0000E-01 -       CLC     = 1.0000E-07 m       CLE     = 6.0000E-01 -      
+CGDO    = 2.4000E-10 F/m     CGDL    = 0.0        F/m     CGSO    = 2.4000E-10 F/m    
+CGSL    = 0.0        F/m     CGBO    = 0.0        F/m     CKAPPA  = 6.0000E-01 V      
+CF      = 7.4302E-11 F/m     ELM     = 5.0000E+00 -       VFBCV   =-1.0000E+00 -      
+
+ * Substrate current related model parameters *
+   ----------------------------------------------
+ALPHA0  = 0.0        m/V     BETA0   = 3.0000E+01 V       
+
+ * Process and parameters extraction related model parameters *
+   ----------------------------------------------------------  
+TOX     = 1.4100E-08 m       DTOXCV  = 0.0        m       NGATE   = 0.0        At/cm^3
+NLX     = 1.1148E-10 m       XL      = 0.0        m       XW      = 0.0        m      
+ND      = 1.0000E+20 At/cm^3 
+
+ * Noise effect related model parameters *
+   -------------------------------------  
+THMLEV  = 0          -       FLKLEV  = 0          -       AF      = 1.0000E+00 -      
+KF      = 0.0        -       EF      = 1.0000E+00 -       NSTAR   = 2.0000E+14 -      
+FLKFLAG = 0.0        -       NOIFLAG = 0.0        -       NOIA    = 9.9000E+18 unit2  
+NOIB    = 2.4000E+03 1/V     NOIC    = 1.4000E-12 unit3   EM      = 4.1000E+07 V/m    
+
+ * Sidewall parasitic capacitances at gate side *
+   --------------------------------------------  
+MJSWG   = 2.6537E-01 -       PBSWG   = 9.9000E-01 V       CJSWG   = 3.1147E-10 F/m    
+WPEMOD  = 0.0        -       SCREF   = 1.0000E-06 m       KVTH0WE = 0.0        V      
+K2WE    = 0.0        -       KU0WE   = 0.0        -       WEB     = 0.0        -      
+WEC     = 0.0        -       
+
+ * Binning Parameters *
+   -------------------  
+BINUNIT = 1.0000E+00 -       
+* Display only non null Binning Parameters *
+PK2     = 1.3967E-03 -       LKETA   = 5.7286E-03 -       WKETA   = 1.8630E-03 -      
+PRDSW   =-2.3126E+02 -       PVTH0   = 9.4205E-03 -       
+   ------------------------------------------------------------------------  
+
+ *** Common extrinsic model parameters ***
+OPTACM  = 0          -       ALEV    = 0          -       RLEV    = 4          -      
+ * Access resistances related parameters *
+RD      = 0.0        Ohm     RS      = 0.0        Ohm     RSH     = 0.0        Ohm/Sq.
+RDC     = 0.0        Ohm     RSC     = 0.0        Ohm     
+ * Geometry related parameters *
+LD      = 7.2050E-08 m       WD      = 2.5863E-07 m       DL      = 0.0        m      
+DW      = 0.0        m       LDIF    = 0.0        m       HDIF    = 0.0        m      
+WMLT    = 1.0000E+00 -       LMLT    = 1.0000E+00 -       DEL     = 0.0        m      
+XJ      = 1.5000E-07 m       
+ * Static bulk-diode related parameters *
+DIOLEV  = 6          -       JS      = 1.0000E-04 A/m^2   JSW     = 0.0        A/m    
+IS      = 1.0000E-14 A       NJ      = 1.0000E+00 -       NDS     = 1.0000E+00 -      
+VNDS    =-1.0000E+00 V       VDLIN   = 5.0000E-01 -       
+ * Dynamic bulk-diode related parameters *
+DCAPLEV = 4          -       CJGATE  = 0.0                CBD     = 0.0        F      
+CBS     = 0.0        F       CJ      = 7.2736E-04 F/m^2   CJSW    = 3.1147E-10 F/m    
+FC      = 0.0        -       MJ      = 4.9598E-01 -       MJSW    = 2.6537E-01 -      
+TT      = 0.0        s       PB      = 9.6656E-01 V       PBSW    = 9.9000E-01 V      
+ * Temperature related Parameters 
+EG      = 1.1100E+00 eV      GAP1    = 7.0200E-04 eV/degK GAP2    = 1.1080E+03 degK   
+TNOM    = 2.7000E+01 degC    TLEV    = 0          -       TLEVC   = 0          -      
+TLEVI   = 3          -       XTI     = 3.0000E+00 -       
+ * Temperature Access Resistance related parameters * TLEVR = 1 
+TRD1    = 0.0        1/degK  TRS1    = 0.0        1/degK  TRSH1   = 0.0        1/degK 
+TRD2    = 0.0        unit4   TRS2    = 0.0        unit4   TRSH2   = 0.0        unit4  
+
+unit1 represents m^2/V/sec
+unit2 represents V^-1.m^-2
+unit3 represents V^-1.m^2
+unit4 represents 1/degK^2
+
+
+
+
+
+1*************** 3-Nov-2007 ***********************  ELDO v6.9_1.1 Production  (v6.9_1.1)  ***********************17:27:58*****************
+
+0* Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+0****                 OPTION SUMMARY                                        TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+
+
+*** DC Control Options : 
+
+GMIN           = 1.00e-12 NMAXSIZE       = 60000    ITL1           = 100      
+GRAMP          = 0        NETSIZE        = 100      VMIN           = UNDEF    
+VMAX           = UNDEF    
+
+*** Initial Accuracy Control Options (May be adjusted during simulation): 
+
+ITOL           = 1.00e-06 EPS            = 5.00e-03 VNTOL          = 1.00e-06 
+RELTOL         = 1.00e-03 RELERR         = 5.00e-02 PIVREL         = 1.00e-03 
+PIVTOL         = 1.00e-16 ABSTOL         = 1.00e-12 FLXTOL         = 1.00e-11 
+MAXORD         = 2.00e+00 
+
+*** Time-step Control Options : 
+
+ZOOMTIME       = 1.00e+00 STEP           = 0.00e+00 STARTSMP       = 0.00e+00 
+FREQSMP        = 0.00e+00 COURESOL       = 0.00e+00 TRTOL          = 7.00e+00 
+HMIN           = 1.00e-12 ITL3           = 3        ITL4           = 13       
+FT             = 1.25e-01 DCLOG          = 1.00e+00 LVLTIM         = 2        
+LVLCNV         = 2        DVDT           = -1       RELVAR         = 1.50e-01 
+ABSVAR         = 2.00e-01 SAMPLE         = 0.00e+00 HMAX           = UNDEF    
+
+
+*** MosFet default Options : 
+
+SCALE          = 1.00e+00 SCALM          = 1.00e+00 SCALEBSIM      = 1.00e+00 
+DEFAD          = UNDEF    DEFAS          = UNDEF    DEFPD          = UNDEF    
+DEFPS          = UNDEF    DEFW           = 1.00e-04 DEFL           = 1.00e-04 
+DEFNRD         = UNDEF    DEFNRS         = UNDEF    XA             = 6.00e-06 
+LIMRMOS        = UNDEF    SHRINK         = 1.00e+00 
+
+*** General Information Options : 
+
+SDA            = 0        CPTIME         = UNDEF    STAT           = 0        
+TIMEDIV        = 0        SIMUDIV        = 10       SAVETIME       = 0        
+MAXTRAN        = 1000     MAXNODES       = 10000    MAXV           = 1.00e+13 
+LIMPROBE       = 10000    FLICKER_NOISE  = 0        THERMAL_NOISE  = 0        
+TNOM           = 2.70e+01 TMAX           = UNDEF    
+SPICDC         = 0        SPIOUT         = 0        NEWTON         = 1        
+OSR            = 0        TRAP           = 1        GEAR           = 0        
+BE             = 0        PROBEOP        = 0        NOLAT          = 0        
+NWLAT          = 0        ANALOG         = 0        BBDEBUG        = 0        
+NOSIZECHK      = 0        QTRUNC         = 0        UNBOUND        = 0        
+LCAPOP         = 0        NOAEX          = 1        AEX            = 1        
+AEX            = 1        STVER          = 0        MOTOROLA       = 0        
+AMS            = 0        ASPEC          = 0        INPUT          = 0        
+NOINIT         = 0        PSF            = 0        WSF            = 0        
+WSFASCII       = 0        NOBIN          = 0        NOCOU          = 1        
+WL             = 0        NODE           = 0        LIST           = 0        
+SPI3BIN        = 0        SPI3ASC        = 0        NOMOD          = 0        
+WSF            = 0        WSFASCII       = 0        NOBIN          = 0        
+NOCOU          = 1        WL             = 0        NODE           = 0        
+LIST           = 0        SPI3BIN        = 0        SPI3ASC        = 0        
+NOMOD          = 0        RMOS           = 0        NWRMOS         = 1        
+NONWRMOS       = 0        USEDEFAP       = 0        NOASCII        = 1        
+ASCII          = 0        MIXED          = 0        SWITCH         = 0        
+USERSWITCH     = 0        TIMING         = 0        MODWL          = 1        
+ULOGIC         = 0        
+
+
+
+***> DC CPU TIME 0s 000ms <***
+
+DC:20 iterations FOR DC analysis
+
+
+
+
+1*************** 3-Nov-2007 ***********************  ELDO v6.9_1.1 Production  (v6.9_1.1)  ***********************17:27:58*****************
+
+0* Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+0****                 INITIAL TRANSIENT SOLUTION                           TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+  NODE         VOLTAGE      NODE         VOLTAGE      NODE         VOLTAGE    
+N$204        -89.1607P    N$2050       -89.1607P    N$206        -80.3327M    
+N$207        -69.7825M    N$208        -49.6477M    N$416        -0.0000A     
+V1            0.0000      VDD          -78.0127M    VO           -0.0000A     
+VSS          -89.1607P    
+
+
+   VOLTAGE SOURCE CURRENT
+
+NAME      CURRENT      VOLTAGE      POWER        
+VFORCE__V1  -0.0000A      0.0000       0.0000      
+
+   TOTAL POWER DISSIPATION:  0.0000      WATTS
+
+
+
+
+
+Eldo NEWTON: VNTOL=1.000000e-06 RELTOL=7.500000e-04
+
+................................................
+Simulation progress           : 10%
+Elapsed CPU time              : 0h 0mn 0s 0
+................................................
+Simulation progress           : 20%
+Elapsed CPU time              : 0h 0mn 0s 10
+................................................
+Simulation progress           : 30%
+Elapsed CPU time              : 0h 0mn 0s 10
+................................................
+Simulation progress           : 40%
+Elapsed CPU time              : 0h 0mn 0s 20
+................................................
+Simulation progress           : 50%
+Elapsed CPU time              : 0h 0mn 0s 20
+................................................
+Simulation progress           : 60%
+Elapsed CPU time              : 0h 0mn 0s 30
+................................................
+Simulation progress           : 70%
+Elapsed CPU time              : 0h 0mn 0s 30
+................................................
+Simulation progress           : 80%
+Elapsed CPU time              : 0h 0mn 0s 40
+................................................
+Simulation progress           : 90%
+Elapsed CPU time              : 0h 0mn 0s 50
+................................................
+Simulation progress           : 100%
+Elapsed CPU time              : 0h 0mn 0s 50
+
+
+
+1*************** 3-Nov-2007 ***********************  ELDO v6.9_1.1 Production  (v6.9_1.1)  ***********************17:27:58*****************
+
+0* Component: /home/mentor/Integrator/int  Viewpoint: ami05a
+0****                 ACCOUNTING INFORMATION                                TEMPERATURE =   27.000 DEG C
+
+0*************************************************************************************************************************
+
+
+
+
+
+    NUNODS NCNODS NUMNOD   NUMEL   DIODES    BJT  JFET  MOSFET
+
+        10     10     10      15        0      0     0       8
+
+
+    NSTOP    NTERM    PERSPA  
+
+        9       55 3.210e+01
+
+    NUMTTP  NUMRTP  LTERTP  LTERTPNW NWNOCON
+
+       243       0       0       0       0
+
+  DIGITAL  INWCALL    ITERNW   MEMSIZE
+
+        0      506 2.000e+00   3919015
+
+    NDEVCALL       NKIRCH  NMAXCALL      ITERM     LATENCY
+
+        4802            0         2   7.84e-01   0.000e+00%
+
+
+  TRANSIENT JOB TIME                 0
+
+
+
+
+***>CPU TIME 0s 050ms <***
+
+
+***>GLOBAL CPU TIME 0s 080ms <***
+
+
+***>GLOBAL ELAPSED TIME 1s <***
+
+
+  Job started at  3-Nov-2007 17:27:58
+  Job end at      3-Nov-2007 17:27:59
+
+  Run on oxford (Linux 2.6.9-55.0.12.ELsmp)
+

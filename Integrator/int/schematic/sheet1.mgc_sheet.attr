@@ -1,0 +1,73 @@
+A 5 u mgc_sheet 472cc4578c20.03.7f.00.00.01.00.1c.58 296 2 37 0
+V v 294 2 473b79a27c65.03.7f.00.00.01.00.1d.92
+F f 294 "sheet1.ssht_294"
+F f 294 "sheet1.sgfx_294"
+V v 295 2 473b79a2b8ed.03.7f.00.00.01.00.1d.92
+F f 295 "sheet1.ssht_295"
+F f 295 "sheet1.sgfx_295"
+V v 296 2 473b8448a32a.03.7f.00.00.01.00.1d.92
+F f 296 "sheet1.ssht_296"
+F f 296 "sheet1.sgfx_296"
+O 296
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/Integrator/int/schematic" 1 mgc_schematic 472cc4578b97.03.7f.00.00.01.01.1c.58 472cc4578b97.03.7f.00.00.01.00.1c.58
+R csduv 1 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R csduv 2 "$ADK/technology/ic/symbols/nmos4/nmos3" 1 mgc_symbol 40edb84b1ae0.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.02.02.fa
+R csduv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R csduv 4 "$ADK/technology/ic/symbols/pmos4/pmos3" 1 mgc_symbol 40edb88c705a.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.06.02.fa
+R csduv 7 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 8 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 15 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R csduv 16 "$ADK/technology/ic/symbols/res/res" 1 mgc_symbol 40edb910ea78.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.02.02.fa
+R csduv 17 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa
+R csduv 18 "$ADK/technology/ic/symbols/cap/cap" 1 mgc_symbol 40eee2a16166.03.93.22.46.d8.00.4d.b9 43349f1b0df8.03.93.22.46.d8.00.02.fa
+R csduv 21 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R csduv 22 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
+R csduv 31 "$ADK/technology/ic/symbols/vdd/part" 1 Eddm_part 41477fd3a3a1.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.04.02.fa
+R csduv 32 "$ADK/technology/ic/symbols/vdd/vdd" 1 mgc_symbol 41477fd3a361.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.03.02.fa
+R csduv 33 "$ADK/technology/ic/symbols/gnd/part" 1 Eddm_part 41477fef2e46.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.01.02.fa
+R csduv 34 "$ADK/technology/ic/symbols/gnd/gnd" 1 mgc_symbol 41477fef2e0e.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.02.02.fa
+R csduv 35 "$ADK/technology/ic/symbols/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.00.02.fa
+R csduv 36 "$ADK/technology/ic/symbols/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.01.02.fa
+O 295
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/Integrator/int/schematic" 1 mgc_schematic 472cc4578b97.03.7f.00.00.01.01.1c.58 472cc4578b97.03.7f.00.00.01.00.1c.58
+R csduv 1 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R csduv 2 "$ADK/technology/ic/symbols/nmos4/nmos3" 1 mgc_symbol 40edb84b1ae0.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.02.02.fa
+R csduv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R csduv 4 "$ADK/technology/ic/symbols/pmos4/pmos3" 1 mgc_symbol 40edb88c705a.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.06.02.fa
+R csduv 7 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 8 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 15 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R csduv 16 "$ADK/technology/ic/symbols/res/res" 1 mgc_symbol 40edb910ea78.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.02.02.fa
+R csduv 17 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa
+R csduv 18 "$ADK/technology/ic/symbols/cap/cap" 1 mgc_symbol 40eee2a16166.03.93.22.46.d8.00.4d.b9 43349f1b0df8.03.93.22.46.d8.00.02.fa
+R csduv 21 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R csduv 22 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
+R csduv 31 "$ADK/technology/ic/symbols/vdd/part" 1 Eddm_part 41477fd3a3a1.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.04.02.fa
+R csduv 32 "$ADK/technology/ic/symbols/vdd/vdd" 1 mgc_symbol 41477fd3a361.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.03.02.fa
+R csduv 33 "$ADK/technology/ic/symbols/gnd/part" 1 Eddm_part 41477fef2e46.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.01.02.fa
+R csduv 34 "$ADK/technology/ic/symbols/gnd/gnd" 1 mgc_symbol 41477fef2e0e.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.02.02.fa
+R csduv 35 "$ADK/technology/ic/symbols/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.00.02.fa
+R csduv 36 "$ADK/technology/ic/symbols/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.01.02.fa
+O 294
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/Integrator/int/schematic" 1 mgc_schematic 472cc4578b97.03.7f.00.00.01.01.1c.58 472cc4578b97.03.7f.00.00.01.00.1c.58
+R csduv 1 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+R csduv 2 "$ADK/technology/ic/symbols/nmos4/nmos3" 1 mgc_symbol 40edb84b1ae0.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.02.02.fa
+R csduv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R csduv 4 "$ADK/technology/ic/symbols/pmos4/pmos3" 1 mgc_symbol 40edb88c705a.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.06.02.fa
+R csduv 7 "$ADK/technology/ic/symbols/portin/part" 1 Eddm_part 35773eaadc18.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.05.02.fa
+R csduv 8 "$ADK/technology/ic/symbols/portin/portin" 1 mgc_symbol 35773d18855d.03.86.56.31.87.00.0e.9f 43349f1b0e01.03.93.22.46.d8.06.02.fa
+R csduv 15 "$ADK/technology/ic/symbols/res/part" 1 Eddm_part 40edb910eab7.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.03.02.fa
+R csduv 16 "$ADK/technology/ic/symbols/res/res" 1 mgc_symbol 40edb910ea78.03.93.22.46.d8.00.35.07 43349f1b0e04.03.93.22.46.d8.02.02.fa
+R csduv 17 "$ADK/technology/ic/symbols/cap/part" 1 Eddm_part 40eee2a161af.03.93.22.46.d8.00.4d.b9 43349f1b0df7.03.93.22.46.d8.06.02.fa
+R csduv 18 "$ADK/technology/ic/symbols/cap/cap" 1 mgc_symbol 40eee2a16166.03.93.22.46.d8.00.4d.b9 43349f1b0df8.03.93.22.46.d8.00.02.fa
+R csduv 21 "$ADK/technology/ic/symbols/portout/part" 1 Eddm_part 35785fdc394b.03.86.56.31.87.00.12.30 43349f1b0e02.03.93.22.46.d8.00.02.fa
+R csduv 22 "$ADK/technology/ic/symbols/portout/portout" 1 mgc_symbol 357ed6243e32.03.86.56.31.87.00.28.94 43349f1b0e02.03.93.22.46.d8.01.02.fa
+R csduv 31 "$ADK/technology/ic/symbols/vdd/part" 1 Eddm_part 41477fd3a3a1.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.04.02.fa
+R csduv 32 "$ADK/technology/ic/symbols/vdd/vdd" 1 mgc_symbol 41477fd3a361.03.93.22.46.d8.00.7d.a8 43349f1b0e0b.03.93.22.46.d8.03.02.fa
+R csduv 33 "$ADK/technology/ic/symbols/gnd/part" 1 Eddm_part 41477fef2e46.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.01.02.fa
+R csduv 34 "$ADK/technology/ic/symbols/gnd/gnd" 1 mgc_symbol 41477fef2e0e.03.93.22.46.d8.00.7d.a8 43349f1b0dfc.03.93.22.46.d8.02.02.fa
+R csduv 35 "$ADK/technology/ic/symbols/dc_v_source/part" 1 Eddm_part 3890a89d50f5.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.00.02.fa
+R csduv 36 "$ADK/technology/ic/symbols/dc_v_source/dc_v_source" 1 mgc_symbol 3890a89d50ce.03.86.56.31.70.00.34.2e 43349f1b0dfb.03.93.22.46.d8.01.02.fa

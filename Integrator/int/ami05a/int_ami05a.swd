@@ -1,0 +1,22 @@
+//###########################################################
+//# ELDO v6.9_1.1 Production - Saved Window File
+//# Released Wed Jun 13 08:32:36 GMT 2007
+//#
+//# Note: This is an auto-generated file.
+//#
+//# Any edits that you make may cause the restore of
+//# this window to fail - EDIT AT YOUR OWN RISK
+//###########################################################
+
+
+// ===== Open new window =====
+OPEn WIndow -POSition 0 0 -MAXimized
+
+// ===== Create row #1 =====
+ADD WAveform  <int_ami05a/TRAN>V(VO) 
+
+// ===== Set axis zero levels  =====
+SET AXis Properties -Axis Y1 -Row 1 -zerolevel on
+
+// ===== Format rows =====
+SET ROw Height -All -MAX

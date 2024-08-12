@@ -1,0 +1,6 @@
+A 5 u Eddm_part 472cc53ca1d2.03.7f.00.00.01.00.1c.58 1 2 1 0
+V v 1 1 472cc53ca1d2.03.7f.00.00.01.01.1c.58
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/Integrator/int/schematic" 1 mgc_schematic 472cc4578b97.03.7f.00.00.01.01.1c.58 472cc4578b97.03.7f.00.00.01.00.1c.58
