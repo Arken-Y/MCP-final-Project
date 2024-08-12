@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 474dc7cf6737.03.7f.00.00.01.00.3e.49 18 2 1 0
+V v 16 1 480be313843b.03.7f.00.00.01.00.27.d4
+F o 0 ""
+V v 17 1 480be313b8f4.03.7f.00.00.01.00.27.d4
+F o 0 ""
+V v 18 1 480be313e7f6.03.7f.00.00.01.00.27.d4
+F o 0 ""
+O 18
+R cspuv 0 "/home/mentor/pmm1/multiplier/schematic/sheet1" 17 mgc_sheet 480be313e7d7.03.7f.00.00.01.00.27.d4 474dc7cf67c9.03.7f.00.00.01.00.3e.49
+O 17
+R cspuv 0 "/home/mentor/pmm1/multiplier/schematic/sheet1" 16 mgc_sheet 480be313b8d6.03.7f.00.00.01.00.27.d4 474dc7cf67c9.03.7f.00.00.01.00.3e.49
+O 16
+R cspuv 0 "/home/mentor/pmm1/multiplier/schematic/sheet1" 15 mgc_sheet 480be313841d.03.7f.00.00.01.00.27.d4 474dc7cf67c9.03.7f.00.00.01.00.3e.49

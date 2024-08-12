@@ -1,0 +1,19 @@
+* source NAND
+M_M1         N00246 N01000 OUTPUT N00246 MbreakP-X  
++ L=2e-6  
++ W=6e-6         
+M_M2         N00246 N01161 OUTPUT N00246 MbreakP  
++ L=2e-6  
++ W=6e-6         
+M_M3         OUTPUT N01000 N00449 N00588 MbreakN-X  
++ L=2e-6  
++ W=6e-6         
+M_M4         N00449 N01161 N00588 N00588 MbreakN  
++ L=2e-6  
++ W=6e-6         
+V_V1         N00246 0 8.5Vdc
+V_V2         0 N00588 8.5Vdc
+V_V3         N01000 0  
++PWL 0ns -5v 10ns -5v 10.1ns -5v 20ns -5v 20.1ns 5v 30ns 5v 30.1ns 5v 40ns 5v 
+V_V4         N01161 0  
++PWL 0ns -5v 10ns -5v 10.1ns 5v 20ns 5v 20.1ns -5v 30ns -5v 30.1ns 5v 40ns 5v 

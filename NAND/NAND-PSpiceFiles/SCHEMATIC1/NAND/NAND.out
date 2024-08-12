@@ -1,0 +1,163 @@
+
+**** 11/30/07 20:38:19 ******* PSpice 15.7.0 (July 2006) ****** ID# 36633016 *
+
+ ** Profile: "SCHEMATIC1-NAND"  [ C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\NAND-PSpiceFiles\SCHEMATIC1\NAND.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "NAND.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../nand-pspicefiles/nand.lib" 
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_15.7\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ns 0 0.01ns 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NAND
+M_M1         N00246 N01000 OUTPUT N00246 MbreakP-X  
++ L=2e-6  
++ W=6e-6         
+M_M2         N00246 N01161 OUTPUT N00246 MbreakP  
++ L=2e-6  
++ W=6e-6         
+M_M3         OUTPUT N01000 N00449 N00588 MbreakN-X  
++ L=2e-6  
++ W=6e-6         
+M_M4         N00449 N01161 N00588 N00588 MbreakN  
++ L=2e-6  
++ W=6e-6         
+V_V1         N00246 0 8.5Vdc
+V_V2         0 N00588 8.5Vdc
+V_V3         N01000 0  
++PWL 0ns -5v 10ns -5v 10.1ns -5v 20ns -5v 20.1ns 5v 30ns 5v 30.1ns 5v 40ns 5v 
+V_V4         N01161 0  
++PWL 0ns -5v 10ns -5v 10.1ns 5v 20ns 5v 20.1ns -5v 30ns -5v 30.1ns 5v 40ns 5v 
+
+**** RESUMING NAND.cir ****
+.END
+
+**** 11/30/07 20:38:19 ******* PSpice 15.7.0 (July 2006) ****** ID# 36633016 *
+
+ ** Profile: "SCHEMATIC1-NAND"  [ C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\NAND-PSpiceFiles\SCHEMATIC1\NAND.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               MbreakP-X       MbreakN-X       MbreakP         MbreakN         
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    3               3               1               1            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+          LD   80.000000E-09   80.000000E-09                                 
+         VTO    -.7              .7             0               0            
+          KP   31.653820E-06   95.920660E-06   20.000000E-06   20.000000E-06 
+       GAMMA     .75             .5             0               0            
+         PHI     .8              .6              .6              .6          
+      LAMBDA    0               0               0               0            
+          RD    1.200000E+03  600                                            
+          RS    1.200000E+03  600                                            
+          IS  100.000000E-18  100.000000E-18   10.000000E-15   10.000000E-15 
+          JS  100.000000E-06  100.000000E-06    0               0            
+          PB     .8              .9              .8              .8          
+        PBSW     .8              .9              .8              .8          
+          CJ  370.000000E-06  250.000000E-06    0               0            
+        CJSW  340.000000E-12  250.000000E-12    0               0            
+        CGSO  250.000000E-12  250.000000E-12    0               0            
+        CGDO  250.000000E-12  250.000000E-12    0               0            
+        CGBO  275.000000E-12  250.000000E-12    0               0            
+        NSUB   55.000000E+15   25.000000E+15                                 
+         NFS  760.000000E+09  820.000000E+09                                 
+         TOX   18.000000E-09   18.000000E-09    0               0            
+          XJ    0             270.000000E-09    0               0            
+          UO  165             500                                            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+        VMAX  270.000000E+03  200.000000E+03                                 
+       DELTA                     .7                                          
+       THETA                     .06                                         
+         ETA                     .05                                         
+       KAPPA                    7.000000E-03                                 
+          KF  400.000000E-27  600.000000E-27                                 
+          AF                     .8                                          
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    0               0               0               0            
+       XPART    0               0               0               0            
+
+
+**** 11/30/07 20:38:19 ******* PSpice 15.7.0 (July 2006) ****** ID# 36633016 *
+
+ ** Profile: "SCHEMATIC1-NAND"  [ C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\NAND-PSpiceFiles\SCHEMATIC1\NAND.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00246)    8.5000 (N00449)   -7.3212 (N00588)   -8.5000 (N01000)   -5.0000     
+
+(N01161)   -5.0000 (OUTPUT)    8.3163 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.059E-04
+    V_V2        -2.059E-04
+    V_V3         0.000E+00
+    V_V4         0.000E+00
+
+    TOTAL POWER DISSIPATION   3.50E-03  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/30/07 20:38:19 ******* PSpice 15.7.0 (July 2006) ****** ID# 36633016 *
+
+ ** Profile: "SCHEMATIC1-NAND"  [ C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\NAND-PSpiceFiles\SCHEMATIC1\NAND.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .36
+

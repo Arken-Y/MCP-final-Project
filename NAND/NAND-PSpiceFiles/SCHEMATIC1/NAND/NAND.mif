@@ -1,0 +1,4 @@
+ lib="C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\nand-pspicefiles\nand.lib", offset=397, size=295
+ lib="C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\nand-pspicefiles\nand.lib", offset=42, size=354
+ lib=C:\OrCAD\OrCAD_15.7\tools\PSpice\Library\breakout.lib, offset=652, size=24
+ lib=C:\OrCAD\OrCAD_15.7\tools\PSpice\Library\breakout.lib, offset=627, size=24

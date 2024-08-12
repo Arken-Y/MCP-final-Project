@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-NAND"  [ C:\DOCUMENTS AND SETTINGS\meghap\My Documents\NAND\NAND-PSpiceFiles\SCHEMATIC1\NAND.sim ] 
+
+** Creating circuit file "NAND.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../nand-pspicefiles/nand.lib" 
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_15.7\tools\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40ns 0 0.01ns 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
