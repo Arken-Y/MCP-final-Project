@@ -1,0 +1,14 @@
+A 5 u mgc_schematic 47fab80996c2.03.7f.00.00.01.00.16.30 3 2 1 0
+V v 1 1 47fab80996c2.03.7f.00.00.01.01.16.30
+F o 0 ""
+V v 2 1 47fab8202572.03.7f.00.00.01.00.16.30
+F o 0 ""
+V v 3 1 47fab87d5a56.03.7f.00.00.01.00.16.30
+F o 0 ""
+O 3
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 2 mgc_sheet 47fab87d5a3a.03.7f.00.00.01.00.16.30 47fab8099727.03.7f.00.00.01.00.16.30
+O 2
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 1 mgc_sheet 47fab8099728.03.7f.00.00.01.00.16.30 47fab8099727.03.7f.00.00.01.00.16.30
+O 1
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 1 mgc_sheet 47fab8099728.03.7f.00.00.01.00.16.30 47fab8099727.03.7f.00.00.01.00.16.30
+P "eddm__refer_state" "eddm__refer_floating"
