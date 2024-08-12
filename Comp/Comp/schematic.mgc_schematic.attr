@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 47deabebc588.03.7f.00.00.01.00.35.75 6 2 1 0
+V v 4 1 47deb40863bc.03.7f.00.00.01.00.38.2e
+F o 0 ""
+V v 5 1 47deb8fa7ffc.03.7f.00.00.01.00.38.2e
+F o 0 ""
+V v 6 1 47debe398712.03.7f.00.00.01.00.38.2e
+F o 0 ""
+O 6
+R cspuv 0 "/home/mentor/Comp/Comp/schematic/sheet1" 5 mgc_sheet 47debe3986f3.03.7f.00.00.01.00.38.2e 47deabebc612.03.7f.00.00.01.00.35.75
+O 5
+R cspuv 0 "/home/mentor/Comp/Comp/schematic/sheet1" 4 mgc_sheet 47deb8fa7fde.03.7f.00.00.01.00.38.2e 47deabebc612.03.7f.00.00.01.00.35.75
+O 4
+R cspuv 0 "/home/mentor/Comp/Comp/schematic/sheet1" 3 mgc_sheet 47deb408639c.03.7f.00.00.01.00.38.2e 47deabebc612.03.7f.00.00.01.00.35.75

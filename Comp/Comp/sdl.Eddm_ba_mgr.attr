@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47deada7b9e4.03.7f.00.00.01.00.35.cb 1 2 1 0
+V v 1 1 47deada7b9e5.03.7f.00.00.01.00.35.cb
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Comp/Comp/accusim" 1 Eddm_design_viewpoint 47deada7b1f5.03.7f.00.00.01.00.35.cb 47deada7b1f4.03.7f.00.00.01.00.35.cb

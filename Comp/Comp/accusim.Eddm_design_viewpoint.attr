@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 47deada7b1f4.03.7f.00.00.01.00.35.cb 1 2 3 0
+V v 1 4 47deada7b1f5.03.7f.00.00.01.00.35.cb
+F f 1 "accusim.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Comp/Comp/part" 1 Eddm_part 47deacdd4a0f.03.7f.00.00.01.01.35.75 47deacdd4a0f.03.7f.00.00.01.00.35.75
+R cspuv 1 "/home/mentor/Comp/Comp/schematic" 1 mgc_schematic 47deabebc588.03.7f.00.00.01.01.35.75 47deabebc588.03.7f.00.00.01.00.35.75
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/Comp/Comp/sdl" 1 Eddm_ba_mgr 47deada7b9e5.03.7f.00.00.01.00.35.cb 47deada7b9e4.03.7f.00.00.01.00.35.cb
