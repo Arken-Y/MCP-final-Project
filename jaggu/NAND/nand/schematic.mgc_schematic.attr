@@ -1,0 +1,10 @@
+A 5 u mgc_schematic 47d945ad0fce.03.7f.00.00.01.00.15.83 2 2 1 0
+V v 1 1 47d945ad0fcf.03.7f.00.00.01.00.15.83
+F o 0 ""
+V v 2 1 47d9467fbb3f.03.7f.00.00.01.00.15.83
+F o 0 ""
+O 2
+R cspuv 0 "/home/mentor/NAND/nand/schematic/sheet1" 1 mgc_sheet 47d945ad1059.03.7f.00.00.01.01.15.83 47d945ad1059.03.7f.00.00.01.00.15.83
+O 1
+R cspuv 0 "/home/mentor/NAND/nand/schematic/sheet1" 1 mgc_sheet 47d945ad1059.03.7f.00.00.01.01.15.83 47d945ad1059.03.7f.00.00.01.00.15.83
+P "eddm__refer_state" "eddm__refer_floating"

@@ -1,0 +1,37 @@
+A 5 u Eddm_design_viewpoint 47d947a729cc.03.7f.00.00.01.00.17.be 5 2 29 0
+V v 3 4 47d947b18e2d.03.7f.00.00.01.00.17.be
+F f 3 "ami05a.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 4 4 47dab78bb336.03.7f.00.00.01.00.17.20
+F f 4 "ami05a.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 5 4 47dab7eaa9d5.03.7f.00.00.01.00.17.20
+F f 5 "ami05a.dvpt_5"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 5
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/part" 1 Eddm_part 47d9467fb722.03.7f.00.00.01.00.15.83 47d9467fb721.03.7f.00.00.01.00.15.83
+R cspuv 1 "/home/mentor/NAND/nand/schematic" 2 mgc_schematic 47d9467fbb3f.03.7f.00.00.01.00.15.83 47d945ad0fce.03.7f.00.00.01.00.15.83
+R cspuv 2 "/home/mentor/NAND/nand/ami05a" 1 Eddm_ba_mgr 47d947a72d18.03.7f.00.00.01.00.17.be 47d947a72d17.03.7f.00.00.01.00.17.be
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/part" 1 Eddm_part 47d9467fb722.03.7f.00.00.01.00.15.83 47d9467fb721.03.7f.00.00.01.00.15.83
+R cspuv 1 "/home/mentor/NAND/nand/schematic" 2 mgc_schematic 47d9467fbb3f.03.7f.00.00.01.00.15.83 47d945ad0fce.03.7f.00.00.01.00.15.83
+R cspuv 2 "/home/mentor/NAND/nand/ami05a" 1 Eddm_ba_mgr 47d947a72d18.03.7f.00.00.01.00.17.be 47d947a72d17.03.7f.00.00.01.00.17.be
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/part" 1 Eddm_part 47d9467fb722.03.7f.00.00.01.00.15.83 47d9467fb721.03.7f.00.00.01.00.15.83
+R cspuv 1 "/home/mentor/NAND/nand/schematic" 2 mgc_schematic 47d9467fbb3f.03.7f.00.00.01.00.15.83 47d945ad0fce.03.7f.00.00.01.00.15.83
+R cspuv 2 "/home/mentor/NAND/nand/ami05a" 1 Eddm_ba_mgr 47d947a72d18.03.7f.00.00.01.00.17.be 47d947a72d17.03.7f.00.00.01.00.17.be
+R cspuv 3 "$ADK/technology/ic/symbols/pmos4/part" 1 Eddm_part 40edb88c70ab.03.93.22.46.d8.00.35.07 43349f1b0e00.03.93.22.46.d8.05.02.fa
+R cspuv 4 "$ADK/technology/ic/symbols/nmos4/part" 1 Eddm_part 40edb84b1b42.03.93.22.46.d8.00.35.07 43349f1b0dfe.03.93.22.46.d8.01.02.fa

@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47d947a72d17.03.7f.00.00.01.00.17.be 1 2 1 0
+V v 1 1 47d947a72d18.03.7f.00.00.01.00.17.be
+F f 1 "ami05a.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/ami05a" 1 Eddm_design_viewpoint 47d947a729cd.03.7f.00.00.01.00.17.be 47d947a729cc.03.7f.00.00.01.00.17.be

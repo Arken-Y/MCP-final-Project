@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 47d94696859d.03.7f.00.00.01.00.15.da 1 2 1 0
+V v 1 1 47d94696859d.03.7f.00.00.01.01.15.da
+F f 1 "sdl.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/accusim" 1 Eddm_design_viewpoint 47d94696800b.03.7f.00.00.01.01.15.da 47d94696800b.03.7f.00.00.01.00.15.da

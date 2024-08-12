@@ -1,0 +1,73 @@
+Design:  /home/mentor/NAND/nand
+* LIBRARY FILES.
+.lib /usr/local/mentor/shared/external/adk3_1/technology/accusim/ami05.mod 
+* end of LIBRARY FILES listing.
+*
+.options  tnom=27
+.temp 27
+V_Dcinit___VDD VDD 0 DC 5
+V_vforce_0 A 0 PWL 0 0 2e-08 0 2.01e-08 5 4e-08 5 4.01e-08 0 6e-08 0 6.01e-08 0 8e-08 0 8.01e-08 0 1e-07 0
+V_vforce_1 B 0 PWL 0 0 2e-08 0 2.01e-08 5 4e-08 5 4.01e-08 0 6e-08 0 6.01e-08 5 8e-08 5 8.01e-08 0 1e-07 0
+M_MN2 N$6 B 0 0 n l=2e-06 w=6e-06
+M_MN1 OUT A N$6 0 n l=2e-06 w=6e-06
+M_MP2 OUT B VDD VDD p l=2e-06 w=6e-06
+M_MP1 OUT A VDD VDD p l=2e-06 w=6e-06
+.tran 1e-09 1e-07 0 
+.op  NO_SMALL_SIGNAL
+*
+* Beginning of translation table for device INSTANCE names
+*  Netlist Name       Schematic Name
+*
+*  V_Dcinit___VDD     Dcinit_//VDD
+*  V_vforce_0         vforce_0
+*  V_vforce_1         vforce_1
+*  M_MN1              /MN1
+*  M_MN2              /MN2
+*  M_MP1              /MP1
+*  M_MP2              /MP2
+* End of translation table for device INSTANCE names
+*
+* Beginning of translation table for device MODEL names
+*  Netlist Name       Schematic Name
+*
+*  n                  n
+*  p                  p
+* End of translation table for device MODEL names
+*
+* Beginning of translation table for NODE names
+*  Netlist Name       Schematic Name
+*
+*  0                  //GND
+*  B                  /B
+*  OUT                /OUT
+*  A                  /A
+*  N$6                /N$6
+*  VDD                //VDD
+* End of translation table for NODE names
+* >KEEP
+.VIEW ALL
+.VIEW W
+.VIEW V(VDD)
+.VIEW V(B)
+.VIEW V(OUT)
+.VIEW V(N$6)
+.VIEW V(0)
+.VIEW V(A)
+.VIEW I(M_MN2/S)
+.VIEW I(M_MP2/S)
+.VIEW I(M_MN1/G)
+.VIEW I(M_MP1/G)
+.VIEW I(M_MN1/B)
+.VIEW I(M_MP1/B)
+.VIEW I(M_MN2/G)
+.VIEW I(M_MP2/G)
+.VIEW I(M_MN2/B)
+.VIEW I(M_MP2/B)
+.VIEW I(M_MN1/D)
+.VIEW I(M_MP1/D)
+.VIEW I(M_MN2/D)
+.VIEW I(M_MN1/S)
+.VIEW I(M_MP2/D)
+.VIEW I(M_MP1/S)
+* >ENDKEEP
+.END

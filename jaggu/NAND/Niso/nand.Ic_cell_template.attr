@@ -1,0 +1,16 @@
+A 5 u Ic_cell_template 47dac532de94.03.7f.00.00.01.00.18.78 3 4 3 0
+V v 1 1 47dac5bbdec3.03.7f.00.00.01.00.18.78
+F f 1 "nand.iccel_1"
+V v 2 1 47dac7248bc3.03.7f.00.00.01.00.18.78
+F f 2 "nand.iccel_2"
+V v 3 1 47dac76bf3cb.03.7f.00.00.01.00.18.78
+F f 3 "nand.iccel_3"
+O 3
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa
+O 2
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa
+O 1
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa

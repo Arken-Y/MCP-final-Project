@@ -1,0 +1,11 @@
+A 5 u Ic_cell_template 47dabac1e19e.03.7f.00.00.01.00.17.da 2 4 3 0
+V v 1 1 47dabba7b838.03.7f.00.00.01.00.17.da
+F f 1 "nand.iccel_1"
+V v 2 1 47dac0923d40.03.7f.00.00.01.00.17.da
+F f 2 "nand.iccel_2"
+O 2
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa
+O 1
+R csduv 1 "$ADK/technology/ic/process/ami05" 1 Ic_persist_process 42c32d9c7103.03.93.22.46.d8.00.33.73 43349f1b0f94.03.93.22.46.d8.05.02.fa
+R csdui 2 "$ADK/technology/ic/process/ami05.rules" 0 Mgc_file 43349f1b0f97.03.93.22.46.d8.06.02.fa

@@ -1,0 +1,12 @@
+A 5 u Eddm_design_viewpoint 47d94696800b.03.7f.00.00.01.00.15.da 1 2 3 0
+V v 1 4 47d94696800b.03.7f.00.00.01.01.15.da
+F f 1 "accusim.dvpt_1"
+F o 0 
+F o 0 
+F o 0 
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/NAND/nand/part" 1 Eddm_part 47d9467fb722.03.7f.00.00.01.00.15.83 47d9467fb721.03.7f.00.00.01.00.15.83
+R cspuv 1 "/home/mentor/NAND/nand/schematic" 1 mgc_schematic 47d945ad0fcf.03.7f.00.00.01.00.15.83 47d945ad0fce.03.7f.00.00.01.00.15.83
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/NAND/nand/sdl" 1 Eddm_ba_mgr 47d94696859d.03.7f.00.00.01.01.15.da 47d94696859d.03.7f.00.00.01.00.15.da
