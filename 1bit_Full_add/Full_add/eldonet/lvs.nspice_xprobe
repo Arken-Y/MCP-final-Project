@@ -1,0 +1,73 @@
+# This file provides name mapping information for all objects
+# on the schematic design.  It provides a mapping for each
+# object between its name on the schematic and its name in the netlist.
+version 1.0
+
+Cell pmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell nmos4
+   Pin D d
+   Pin G g
+   Pin S s
+   Pin B b
+End Cell
+
+Cell #top#
+   Net N$245 N$245
+   Net N$221 N$221
+   Net N$213 N$213
+   Net N$242 N$242
+   Net N$209 N$209
+   Net N$212 N$212
+   Net N$246 N$246
+   Net N$3 N$3
+   Net N$6 N$6
+   Net N$244 N$244
+   Net N$243 N$243
+   Net N$5 N$5
+   Net N$241 N$241
+   Net N$239 N$239
+   Net N$238 N$238
+   Net N$236 N$236
+   Net N$234 N$234
+   Net N$232 N$232
+   Net N$231 N$231
+   Net N$228 N$228
+   Net N$226 N$226
+   Net N$222 N$222
+   Net N$218 N$218
+   Inst MP2 MP2 pmos4
+   Inst MP1 MP1 pmos4
+   Inst MN8 MN8 nmos4
+   Inst MN7 MN7 nmos4
+   Inst MP13 MP13 pmos4
+   Inst MP12 MP12 pmos4
+   Inst MP11 MP11 pmos4
+   Inst MP10 MP10 pmos4
+   Inst MP9 MP9 pmos4
+   Inst MP8 MP8 pmos4
+   Inst MP7 MP7 pmos4
+   Inst MN13 MN13 nmos4
+   Inst MN5 MN5 nmos4
+   Inst MN4 MN4 nmos4
+   Inst MN3 MN3 nmos4
+   Inst MN2 MN2 nmos4
+   Inst MN12 MN12 nmos4
+   Inst MN6 MN6 nmos4
+   Inst MN9 MN9 nmos4
+   Inst MN10 MN10 nmos4
+   Inst MN11 MN11 nmos4
+   Inst MN1 MN1 nmos4
+   Inst MP6 MP6 pmos4
+   Inst MN14 MN14 nmos4
+   Inst MP14 MP14 pmos4
+   Inst MP5 MP5 pmos4
+   Inst MP4 MP4 pmos4
+   Inst MP3 MP3 pmos4
+End Cell
+

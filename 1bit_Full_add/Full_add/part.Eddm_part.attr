@@ -1,0 +1,7 @@
+A 5 u Eddm_part 473b954a4a62.03.7f.00.00.01.00.22.7b 1 2 1 0
+V v 1 1 473b954a4a62.03.7f.00.00.01.01.22.7b
+F f 1 "part.part_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R csduv 0 "/home/mentor/Full_add/Full_add/schematic" 1 mgc_schematic 473b8892df4b.03.7f.00.00.01.01.22.7b 473b8892df4b.03.7f.00.00.01.00.22.7b
+P "eddm__refer_state" "eddm__refer_floating"

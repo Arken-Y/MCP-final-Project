@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 473b8892df4b.03.7f.00.00.01.00.22.7b 49 2 1 0
+V v 47 1 474262739aa2.03.7f.00.00.01.00.16.a9
+F o 0 ""
+V v 48 1 474263eb7337.03.7f.00.00.01.00.16.a9
+F o 0 ""
+V v 49 1 474264a56f25.03.7f.00.00.01.00.16.a9
+F o 0 ""
+O 49
+R cspuv 0 "/home/mentor/Full_add/Full_add/schematic/sheet1" 48 mgc_sheet 474264a56f0e.03.7f.00.00.01.00.16.a9 473b8892dfd9.03.7f.00.00.01.00.22.7b
+O 48
+R cspuv 0 "/home/mentor/Full_add/Full_add/schematic/sheet1" 47 mgc_sheet 474263eb731f.03.7f.00.00.01.00.16.a9 473b8892dfd9.03.7f.00.00.01.00.22.7b
+O 47
+R cspuv 0 "/home/mentor/Full_add/Full_add/schematic/sheet1" 46 mgc_sheet 474262739a8a.03.7f.00.00.01.00.16.a9 473b8892dfd9.03.7f.00.00.01.00.22.7b

@@ -1,0 +1,6 @@
+A 5 u Eddm_ba_mgr 473ceb458ddb.03.7f.00.00.01.00.38.95 1 2 1 0
+V v 1 1 473ceb458ddb.03.7f.00.00.01.01.38.95
+F f 1 "default.ba_1"
+O 1
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/Full_add/Full_add/default" 2 Eddm_design_viewpoint 473cffd55c92.03.7f.00.00.01.00.38.95 473ce57fce54.03.7f.00.00.01.00.36.2a
