@@ -1,0 +1,34 @@
+A 5 u Eddm_design_viewpoint 474df0d405ef.03.7f.00.00.01.00.41.b3 4 2 3 0
+V v 2 4 474e0ff4b23b.03.7f.00.00.01.00.45.c0
+F f 2 "accusim.dvpt_2"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 3 4 480bcc6834e1.03.7f.00.00.01.00.23.6d
+F f 3 "accusim.dvpt_3"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+V v 4 4 480cda814f21.03.7f.00.00.01.00.17.5d
+F f 4 "accusim.dvpt_4"
+F o 0 ""
+F o 0 ""
+F o 0 ""
+O 4
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/part" 1 Eddm_part 474dc823b44c.03.7f.00.00.01.00.3e.49 474dc823b44b.03.7f.00.00.01.00.3e.49
+R cspuv 1 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/pmm1/multiplier/sdl" 1 Eddm_ba_mgr 474df0d409fe.03.7f.00.00.01.01.41.b3 474df0d409fe.03.7f.00.00.01.00.41.b3
+O 3
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/part" 1 Eddm_part 474dc823b44c.03.7f.00.00.01.00.3e.49 474dc823b44b.03.7f.00.00.01.00.3e.49
+R cspuv 1 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/pmm1/multiplier/sdl" 1 Eddm_ba_mgr 474df0d409fe.03.7f.00.00.01.01.41.b3 474df0d409fe.03.7f.00.00.01.00.41.b3
+O 2
+P "eddm__stream_to_use" "eddm__propl_dstream"
+R cspuv 0 "/home/mentor/pmm1/multiplier/part" 1 Eddm_part 474dc823b44c.03.7f.00.00.01.00.3e.49 474dc823b44b.03.7f.00.00.01.00.3e.49
+R cspuv 1 "/home/mentor/pmm1/multiplier/schematic" 1 mgc_schematic 474dc7cf6737.03.7f.00.00.01.01.3e.49 474dc7cf6737.03.7f.00.00.01.00.3e.49
+P "eddm__refer_state" "eddm__refer_floating"
+R cspuv 2 "/home/mentor/pmm1/multiplier/sdl" 1 Eddm_ba_mgr 474df0d409fe.03.7f.00.00.01.01.41.b3 474df0d409fe.03.7f.00.00.01.00.41.b3

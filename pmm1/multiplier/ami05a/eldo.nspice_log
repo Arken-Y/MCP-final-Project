@@ -1,0 +1,39 @@
+//  ICnet  v2007.1_2.1 (v2007.1p)  Mon Aug 27 15:59:56 PDT 2007
+//  Falcon Framework IC  v2007.1_2.1 Mon Aug 27 16:24:42 PDT 2007
+//
+//             Copyright Mentor Graphics Corporation 2006
+//
+//                      All Rights Reserved.
+//
+//    THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR
+//           ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  Mentor Graphics software executing under x86 Linux.
+//
+
+
+//  Invocation args:  -eldo -o /home/mentor/pmm1/multiplier/ami05a/multiplier_ami05a.spi -check -upper -dmsfile /home/mentor/pmm1/multiplier/ami05a/design.dms /home/mentor/pmm1/multiplier/ami05a
+
+// **** Reading </home/mentor/pmm1/multiplier/ami05a> for ELDO netlist ****
+
+// Checking 1 sheet(s) for out of date references to symbols and interfaces...
+// Done.
+// Parsing file '/usr/local/mentor/shared/external/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' succeeded.
+// Parsing file '/usr/local/mentor/2007.1p_rhelx86linux/icflow_home/mgc_icstd_lib/global.ncf' succeeded.
+// Parsing file '/usr/local/mentor/shared/external/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' succeeded.
+// NOTE: There is no part interface for the top level schematic.  The external nets in the schematic
+//       are being scanned to create the pin names for the top level subckt.
+Processing [/home/mentor/pmm1/multiplier] [multiplier/multiplier] [schematic] (NCF entry line:17 file:$NCF_GLOBAL)
+Primitive [$ADK/technology/ic/symbols/pmos4] [MG_STD/pmos3] [SPICE=PRIM] (NCF entry line:8 file:$ADK/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf)
+Primitive [$ADK/technology/ic/symbols/nmos4] [MG_STD/nmos3] [SPICE=PRIM] (NCF entry line:8 file:$ADK/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf)
+
+**** Writing </home/mentor/pmm1/multiplier/ami05a> netlist for ELDO ****
+
+Number of cells: 3
+Number of primitive instances: 576
+
+Done...
+// Registration file '/usr/local/mentor/shared/external/adk3_1/technology/ic/symbols/nmos4/@ncf.dir/nmos4.ncf' closed.
+// Registration file '/usr/local/mentor/2007.1p_rhelx86linux/icflow_home/mgc_icstd_lib/global.ncf' closed.
+// Registration file '/usr/local/mentor/shared/external/adk3_1/technology/ic/symbols/pmos4/@ncf.dir/pmos4.ncf' closed.
