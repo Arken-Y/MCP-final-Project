@@ -1,0 +1,13 @@
+A 5 u mgc_schematic 47fab80996c2.03.7f.00.00.01.00.16.30 75 2 1 0
+V v 73 1 48150a8d4d72.03.7f.00.00.01.00.1a.66
+F o 0 ""
+V v 74 1 48150e45700f.03.7f.00.00.01.00.1a.66
+F o 0 ""
+V v 75 1 481511dd2202.03.7f.00.00.01.00.1a.66
+F o 0 ""
+O 75
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 74 mgc_sheet 481511dd21e2.03.7f.00.00.01.00.1a.66 47fab8099727.03.7f.00.00.01.00.16.30
+O 74
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 73 mgc_sheet 48150e456fee.03.7f.00.00.01.00.1a.66 47fab8099727.03.7f.00.00.01.00.16.30
+O 73
+R cspuv 0 "/home/mentor/jack/jaggu/schematic/sheet1" 72 mgc_sheet 48150a8d4d52.03.7f.00.00.01.00.1a.66 47fab8099727.03.7f.00.00.01.00.16.30
